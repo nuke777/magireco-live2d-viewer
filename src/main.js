@@ -48,6 +48,7 @@ function initModelSelection()
         opt.value = LAppDefine.CHAR_MODEL[key];
         document.getElementById("select_model").appendChild(opt);
     }
+    document.getElementById("select_model").value = 100100;
 }
 
 function chg_model()
