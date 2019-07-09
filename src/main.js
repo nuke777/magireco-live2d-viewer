@@ -30,6 +30,8 @@ function main()
     this.lastMouseY = 0;
     
     this.isModelShown = false;
+
+    this.hold = false;
     
     initModelSelection();
     initL2dCanvas("glcanvas");
@@ -269,12 +271,41 @@ function modelTurnHead(event)
     thisRef.live2DMgr.tapEvent(vx, vy);
 }
 
+function setHold(event)
+{
+    thisRef.hold = true;
+    
+    var rect = event.target.getBoundingClientRect();
+    
+    var sx = transformScreenX(event.clientX - rect.left);
+    var sy = transformScreenY(event.clientY - rect.top);
+    
+    thisRef.lastMouseX = sx;
+    thisRef.lastMouseY = sy;
+}
+
+function dragPosition(event)
+{
+    var rect = event.target.getBoundingClientRect();
+    
+    var sx = transformScreenX(event.clientX - rect.left);
+    var sy = transformScreenY(event.clientY - rect.top);
+
+
+    if (thisRef.hold){
+        thisRef.modelMatrix.setPosition((sx - thisRef.lastMouseX) + thisRef.modelMatrix.tr[12], (sy - thisRef.lastMouseY) + thisRef.modelMatrix.tr[13]);
+
+        thisRef.lastMouseX = sx;
+        thisRef.lastMouseY = sy;
+    }
+}
+
 
 
 function followPointer(event)
 {    
     var rect = event.target.getBoundingClientRect();
-    
+
     var sx = transformScreenX(event.clientX - rect.left);
     var sy = transformScreenY(event.clientY - rect.top);
     var vx = transformViewX(event.clientX - rect.left);
@@ -316,39 +347,35 @@ function mouseEvent(e)
         {
             return;
         }
-
-        var rect = e.target.getBoundingClientRect();
-    
-        var sx = transformScreenX(e.clientX - rect.left);
-        var sy = transformScreenY(e.clientY - rect.top);
-        var vx = transformViewX(e.clientX - rect.left);
-        var vy = transformViewY(e.clientY - rect.top);
         
-        if (LAppDefine.DEBUG_LOG)
-            l2dLog("Scale Center : screen ( x:" + e.clientX + " y:" + e.clientY + " ) view( x:" + vx + " y:" + vy + ")");
-
-        thisRef.lastMouseX = sx;
-        thisRef.lastMouseY = sy;
-        
-        if (e.wheelDelta > 0) modelScaling(1.1, vx, vx); 
-        else modelScaling(0.9, vx, vy); 
+        if (e.wheelDelta > 0) modelScaling(1.1, 0, 0); 
+        else modelScaling(0.9, 0, 0); 
 
         
     } else if (e.type == "mousedown") {
 
         
-        if("button" in e && e.button != 0) return;
+        if("button" in e && e.button == 2){
+            setHold(e);
+            return;
+        }
         
         modelTurnHead(e);
         
     } else if (e.type == "mousemove") {
         
+        dragPosition(e);
+
         followPointer(e);
         
     } else if (e.type == "mouseup") {
         
         
-        if("button" in e && e.button != 0) return;
+        if("button" in e && e.button == 2){
+            if (thisRef.hold)
+                thisRef.hold = false;
+            return;
+        }
         
         lookFront();
         
@@ -358,7 +385,7 @@ function mouseEvent(e)
         
     } else if (e.type == "contextmenu") {
         
-        changeModel();
+        //changeModel();
     }
 
 }
