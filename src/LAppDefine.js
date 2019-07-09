@@ -53,7 +53,7 @@ var LAppDefine = {
         "Tamaki Iroha (Winter)" : "100151",
         "Tamaki Iroha (Maid)" : "100152",
         "Tamaki Iroha (MagiRepo)" : "100188",
-        "Tamaki Iroha (? [100190])" : "100190",
+        "Tamaki Iroha (? [100190])" : "100190"
     }
     
 };
