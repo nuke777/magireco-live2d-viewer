@@ -90,7 +90,7 @@
 
     <body onload="main()">
         
-		<div>
+		<div align="center">
         <!--<p style="display:inline-block">
             <button id="btnChange" class="active" style="display:none">Change Model</button>
         </p>-->
@@ -100,15 +100,18 @@
 		<select style="display:inline-block" id="select_expression" onchange="chg_expr()"> </select>
 		<p  style="display:inline-block"> Motion: </p>
 		<select style="display:inline-block" id="select_motion"> </select>
-		</div>
+		<p style="display:inline-block">
+            <button id="btnReset" class="active" style="cursor:pointer">Reset Position</button>
+        </p>
+        </div>
         
-        <div>
+        <div align="center">
             <canvas id="glcanvas" width="680" height="940" 
                 style="border:dashed 1px #CCC">
             </canvas>
         </div>
         
-        <div id="myconsole" style="color:#000">---- Log ----</div>
+        <div id="myconsole" style="color:#000;display:none">---- Log ----</div>
 
         <!-- Live2D Library -->
         <script src="js/live2d.min.js"></script>

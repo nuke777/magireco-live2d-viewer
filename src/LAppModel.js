@@ -109,6 +109,7 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
                         
                         
                         
+                        
                         if (thisRef.modelSetting.getLayout() != null)
                         {
                             var layout = thisRef.modelSetting.getLayout();
@@ -133,6 +134,7 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
                                 thisRef.modelMatrix.left(layout["left"]);
                             if (layout["right"] != null)
                                 thisRef.modelMatrix.right(layout["right"]);
+
                         }
                         
                         for (var j = 0; j < thisRef.modelSetting.getInitParamNum(); j++)

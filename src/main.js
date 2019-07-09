@@ -21,6 +21,7 @@ function main()
     this.viewMatrix = null; /*new L2DViewMatrix();*/
     this.projMatrix = null; /*new L2DMatrix44()*/
     this.deviceToScreen = null; /*new L2DMatrix44();*/
+    this.modelMatrix = null;
     
     this.drag = false; 
     this.oldLen = 0;    
@@ -76,7 +77,9 @@ function initL2dCanvas(canvasId)
         
     }
 
-
+    document.getElementById("btnReset").addEventListener("click", function(e) {
+        init();
+    }, false);
        
 }
 
@@ -112,6 +115,9 @@ function init()
 
     this.projMatrix = new L2DMatrix44();
     this.projMatrix.multScale(1, (width / height));
+
+    this.modelMatrix = new L2DModelMatrix();
+    this.modelMatrix.setPosition(LAppDefine.MODEL_POSITION_X, LAppDefine.MODEL_POSITION_Y);
 
     
     this.deviceToScreen = new L2DMatrix44();
@@ -171,6 +177,7 @@ function draw()
     
     MatrixStack.multMatrix(projMatrix.getArray());
     MatrixStack.multMatrix(viewMatrix.getArray());
+    MatrixStack.multMatrix(modelMatrix.getArray());
     MatrixStack.push();
     
     for (var i = 0; i < this.live2DMgr.numModels(); i++)
@@ -212,12 +219,12 @@ function changeModel()
 
 
 
-function modelScaling(scale)
+function modelScaling(scale, x, y)
 {   
     var isMaxScale = thisRef.viewMatrix.isMaxScale();
     var isMinScale = thisRef.viewMatrix.isMinScale();
     
-    thisRef.viewMatrix.adjustScale(0, 0, scale);
+    thisRef.viewMatrix.adjustScale(x, y, scale);
 
     
     if (!isMaxScale)
@@ -309,9 +316,22 @@ function mouseEvent(e)
         {
             return;
         }
+
+        var rect = e.target.getBoundingClientRect();
+    
+        var sx = transformScreenX(e.clientX - rect.left);
+        var sy = transformScreenY(e.clientY - rect.top);
+        var vx = transformViewX(e.clientX - rect.left);
+        var vy = transformViewY(e.clientY - rect.top);
         
-        if (e.wheelDelta > 0) modelScaling(1.1); 
-        else modelScaling(0.9); 
+        if (LAppDefine.DEBUG_LOG)
+            l2dLog("Scale Center : screen ( x:" + e.clientX + " y:" + e.clientY + " ) view( x:" + vx + " y:" + vy + ")");
+
+        thisRef.lastMouseX = sx;
+        thisRef.lastMouseY = sy;
+        
+        if (e.wheelDelta > 0) modelScaling(1.1, vx, vx); 
+        else modelScaling(0.9, vx, vy); 
 
         
     } else if (e.type == "mousedown") {
@@ -362,8 +382,8 @@ function touchEvent(e)
             var touch2 = e.touches[1];
             
             var len = Math.pow(touch1.pageX - touch2.pageX, 2) + Math.pow(touch1.pageY - touch2.pageY, 2);
-            if (thisRef.oldLen - len < 0) modelScaling(1.025); 
-            else modelScaling(0.975); 
+            if (thisRef.oldLen - len < 0) modelScaling(1.025, 0, 0); 
+            else modelScaling(0.975, 0, 0); 
             
             thisRef.oldLen = len;
         }

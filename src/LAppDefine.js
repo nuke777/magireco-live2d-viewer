@@ -1,7 +1,7 @@
 var LAppDefine = {
     
     
-    DEBUG_LOG : true,
+    DEBUG_LOG : false,
     DEBUG_MOUSE_LOG : false, 
     // DEBUG_DRAW_HIT_AREA : false, 
     // DEBUG_DRAW_ALPHA_MODEL : false, 
@@ -25,6 +25,9 @@ var LAppDefine = {
     PRIORITY_IDLE : 1,
     PRIORITY_NORMAL : 2,
     PRIORITY_FORCE : 3,
+
+    MODEL_POSITION_X : 0,
+    MODEL_POSITION_Y : -0.125,
     
     
     BACK_IMAGE_NAME : "assets/image/back_class_normal.png",
@@ -54,12 +57,12 @@ var LAppDefine = {
         "Tamaki Iroha (Maid)" : "100152",
         "Tamaki Iroha (MagiRepo)" : "100188",
         "Tamaki Iroha (? [100190])" : "100190",
-        "Nanami Yachiyo" : "100200",
-        "Nanami Yachiyo (Casual)" : "100201",
-        "Nanami Yachiyo (Loungewear)" : "100202",
-        "Nanami Yachiyo (Shadow)" : "100203",
-        "Nanami Yachiyo (Haregi)" : "100250",
-        "Nanami Yachiyo (MagiRepo)" : "100288",
+        "Yachiyo Nanami" : "100200",
+        "Yachiyo Nanami (Casual)" : "100201",
+        "Yachiyo Nanami (Loungewear)" : "100202",
+        "Yachiyo Nanami (Shadow)" : "100203",
+        "Yachiyo Nanami (Haregi)" : "100250",
+        "Yachiyo Nanami (MagiRepo)" : "100288",
     }
     
 };
