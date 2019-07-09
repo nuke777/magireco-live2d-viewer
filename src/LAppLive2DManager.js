@@ -25,7 +25,7 @@ LAppLive2DManager.prototype.createModel = function()
 }
 
 
-LAppLive2DManager.prototype.changeModel = function(gl)
+LAppLive2DManager.prototype.changeModel = function(gl, key)
 {
     // console.log("--> LAppLive2DManager.update(gl)");
     
@@ -33,21 +33,13 @@ LAppLive2DManager.prototype.changeModel = function(gl)
     {
         
         this.reloadFlg = false;
-        var no = parseInt(this.count % 5);
 
         var thisRef = this;
-        switch (no)
-        {
-            case 0: 
-                this.releaseModel(1, gl);
-                this.releaseModel(0, gl);
-                
-                this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_IROHA);
-                break;
-            default:
-                break;
-        }
+        this.releaseModel(1, gl);
+        this.releaseModel(0, gl);
+        
+        this.createModel();
+        this.models[0].load(gl, "assets/live2d/"+key+"/model.json");
     }
 };
 

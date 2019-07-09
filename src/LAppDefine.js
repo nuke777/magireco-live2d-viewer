@@ -41,6 +41,19 @@ var LAppDefine = {
 
     
     HIT_AREA_HEAD : "head",
-    HIT_AREA_BODY : "body"
+    HIT_AREA_BODY : "body",
+
+    CHAR_MODEL : {
+        "Tamaki Iroha" : "100100",
+        "Tamaki Iroha (School)" : "100101",
+        "Tamaki Iroha (School [Former])" : "100102",
+        "Tamaki Iroha (Swimsuit)" : "100103",
+        "Tamaki Iroha (Loungewear)" : "100104",
+        "Tamaki Iroha (Christmas)" : "100150",
+        "Tamaki Iroha (Winter)" : "100151",
+        "Tamaki Iroha (Maid)" : "100152",
+        "Tamaki Iroha (MagiRepo)" : "100188",
+        "Tamaki Iroha (? [100190])" : "100190",
+    }
     
 };

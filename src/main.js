@@ -6,7 +6,7 @@ window.onerror = function(msg, url, line, col, error) {
     l2dError(errmsg);
 }
 
-function sampleApp1()
+function main()
 {
     this.platform = window.navigator.platform.toLowerCase();
     
@@ -30,13 +30,27 @@ function sampleApp1()
     
     this.isModelShown = false;
     
-    
+    initModelSelection();
     initL2dCanvas("glcanvas");
     
     
     init();
 }
 
+function initModelSelection()
+{
+    for (var key in LAppDefine.CHAR_MODEL){
+        var opt = document.createElement("option");
+        opt.text = key;
+        opt.value = LAppDefine.CHAR_MODEL[key];
+        document.getElementById("select_model").appendChild(opt);
+    }
+}
+
+function chg_model()
+{
+    changeModel();
+}
 
 function initL2dCanvas(canvasId)
 {
@@ -61,11 +75,9 @@ function initL2dCanvas(canvasId)
         this.canvas.addEventListener("touchmove", touchEvent, false);
         
     }
-    
-    btnChangeModel = document.getElementById("btnChange");
-    btnChangeModel.addEventListener("click", function(e) {
-        changeModel();
-    });
+
+
+       
 }
 
 
@@ -174,10 +186,7 @@ function draw()
             
             if (!this.isModelShown && i == this.live2DMgr.numModels()-1) {
                 this.isModelShown = !this.isModelShown;
-                var btnChange = document.getElementById("btnChange");
-                btnChange.textContent = "Change Model";
-                btnChange.removeAttribute("disabled");
-                btnChange.setAttribute("class", "active");
+                document.getElementById("select_model").removeAttribute("disabled");
             }
         }
     }
@@ -191,16 +200,13 @@ function chg_expr() {
 
 function changeModel()
 {
-    var btnChange = document.getElementById("btnChange");
-    btnChange.setAttribute("disabled","disabled");
-    btnChange.setAttribute("class", "inactive");
-    btnChange.textContent = "Now Loading...";
+    document.getElementById("select_model").setAttribute("disabled","disabled");
     this.isModelShown = false;
     
     this.live2DMgr.reloadFlg = true;
     this.live2DMgr.count++;
 
-    this.live2DMgr.changeModel(this.gl);
+    this.live2DMgr.changeModel(this.gl, document.getElementById("select_model").value);
 }
 
 

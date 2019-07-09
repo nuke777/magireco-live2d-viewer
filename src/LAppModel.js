@@ -46,6 +46,9 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
                         {
                             
                             thisRef.expressions = {};
+                            while (document.getElementById("select_expression").firstChild) {
+                                document.getElementById("select_expression").removeChild(document.getElementById("select_expression").firstChild);
+                            }
                             
                             for (var j = 0; j < thisRef.modelSetting.getExpressionNum(); j++)
                             {
@@ -54,6 +57,7 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
                                     thisRef.modelSetting.getExpressionFile(j);
                                 
                                 thisRef.loadExpression(expName, expFilePath);
+
 								
 								var opt = document.createElement("option");
 								opt.text = j;
@@ -185,6 +189,10 @@ LAppModel.prototype.release = function(gl)
 LAppModel.prototype.preloadMotionGroup = function(name)
 {
     var thisRef = this;
+
+    while (document.getElementById("select_motion").firstChild) {
+        document.getElementById("select_motion").removeChild(document.getElementById("select_motion").firstChild);
+    }
     
     for (var i = 0; i < this.modelSetting.getMotionNum(name); i++)
     {

@@ -88,12 +88,14 @@
 
     </head>
 
-    <body onload="sampleApp1()">
+    <body onload="main()">
         
 		<div>
-        <p style="display:inline-block">
+        <!--<p style="display:inline-block">
             <button id="btnChange" class="active" style="display:none">Change Model</button>
-        </p>
+        </p>-->
+        <p  style="display:inline-block"> Model: </p>
+        <select style="display:inline-block" id="select_model" onchange="chg_model()"> </select>
 		<p  style="display:inline-block"> Expression: </p>
 		<select style="display:inline-block" id="select_expression" onchange="chg_expr()"> </select>
 		<p  style="display:inline-block"> Motion: </p>
@@ -121,7 +123,7 @@
         <script src="src/LAppDefine.js"></script>
         <script src="src/LAppModel.js"></script>
         <script src="src/LAppLive2DManager.js"></script>
-        <script src="src/SampleApp1.js"></script>
+        <script src="src/main.js"></script>
 
     </body>
 </html>
