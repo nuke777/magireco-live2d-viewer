@@ -53,7 +53,13 @@ var LAppDefine = {
         "Tamaki Iroha (Winter)" : "100151",
         "Tamaki Iroha (Maid)" : "100152",
         "Tamaki Iroha (MagiRepo)" : "100188",
-        "Tamaki Iroha (? [100190])" : "100190"
+        "Tamaki Iroha (? [100190])" : "100190",
+        "Nanami Yachiyo" : "100200",
+        "Nanami Yachiyo (Casual)" : "100201",
+        "Nanami Yachiyo (Loungewear)" : "100202",
+        "Nanami Yachiyo (Shadow)" : "100203",
+        "Nanami Yachiyo (Haregi)" : "100250",
+        "Nanami Yachiyo (MagiRepo)" : "100288",
     }
     
 };
