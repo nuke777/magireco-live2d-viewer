@@ -130,6 +130,7 @@ var LAppDefine = {
         "Chun Meiyun (School)" : "301201",
         "Chun Meiyun (MagiRepo)" : "301288",
         "Corbeau" : "402500",
+        "Corbeau (Casual)" : "402501",
         "Elisa Celjska" : "402600",
         "Elisa Celjska (Casual)" : "402601",
         "Eri Aimi" : "302300",
@@ -516,6 +517,9 @@ var LAppDefine = {
         "-830900" : "830900",
         "-831000" : "831000",
         "-831100" : "831100",
+        "-831200" : "831200",
+        "-831300" : "831300",
+        "-831301" : "831301",
     }
     
 };
