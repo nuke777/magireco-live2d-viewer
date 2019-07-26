@@ -1,10 +1,6 @@
 {
     "expressions": [
         {
-            "file": "exp/mtn_ex_000.exp.json", 
-            "name": "mtn_ex_000.exp.json"
-        }, 
-        {
             "file": "exp/mtn_ex_010.exp.json", 
             "name": "mtn_ex_010.exp.json"
         }, 
@@ -13,20 +9,28 @@
             "name": "mtn_ex_011.exp.json"
         }, 
         {
-            "file": "exp/mtn_ex_020.exp.json", 
-            "name": "mtn_ex_020.exp.json"
-        }, 
-        {
             "file": "exp/mtn_ex_021.exp.json", 
             "name": "mtn_ex_021.exp.json"
+        }, 
+        {
+            "file": "exp/mtn_ex_022.exp.json", 
+            "name": "mtn_ex_022.exp.json"
         }, 
         {
             "file": "exp/mtn_ex_030.exp.json", 
             "name": "mtn_ex_030.exp.json"
         }, 
         {
-            "file": "exp/mtn_ex_051.exp.json", 
-            "name": "mtn_ex_051.exp.json"
+            "file": "exp/mtn_ex_040.exp.json", 
+            "name": "mtn_ex_040.exp.json"
+        }, 
+        {
+            "file": "exp/mtn_ex_050.exp.json", 
+            "name": "mtn_ex_050.exp.json"
+        }, 
+        {
+            "file": "exp/mtn_ex_052.exp.json", 
+            "name": "mtn_ex_052.exp.json"
         }, 
         {
             "file": "exp/mtn_ex_060.exp.json", 
@@ -36,7 +40,6 @@
     "model": "model.moc", 
     "motions": {
         "motion": [
-
             {
                 "file": "mtn/motion_000.mtn", 
                 "name": "motion_000"
@@ -63,14 +66,12 @@
             }
         ]
     }, 
-    "name": "", 
     "physics": "physics.json", 
     "pose": "pose.json", 
- 	"textures": [
-		"model.1024/texture_00.png",
+    "textures": [
+        "model.1024/texture_00.png",
 		"model.1024/texture_01.png",
-		"model.1024/texture_02.png",
-		"model.1024/texture_03.png"
-	],
+		"model.1024/texture_02.png"
+    ], 
     "version": "Sample 1.0.0"
 }

@@ -4,17 +4,11 @@
 		{
 			"label":"hair_front",
 			"setup":{
-				"length":0.3,
-				"regist":0.5,
-				"mass":0.2
+				"length":0.32,
+				"regist":0.65,
+				"mass":0.5
 			},
 			"src":[
-				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
 				{
 					"id":"PARAM_ANGLE_X",
 					"ptype":"x",
@@ -26,12 +20,6 @@
 					"ptype":"x",
 					"scale":0.015,
 					"weight":1
-				},
-				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
 				},
 				{
 					"id":"PARAM_ANGLE_Z",
@@ -50,7 +38,7 @@
 				{
 					"id":"PARAM_HAIR_FRONT",
 					"ptype":"angle",
-					"scale":0.044,
+					"scale":0.022,
 					"weight":1
 				}
 			]
@@ -59,16 +47,10 @@
 			"label":"hair_side",
 			"setup":{
 				"length":0.3,
-				"regist":0.5,
-				"mass":0.2
+				"regist":0.8,
+				"mass":0.5
 			},
 			"src":[
-				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
 				{
 					"id":"PARAM_ANGLE_X",
 					"ptype":"x",
@@ -80,12 +62,6 @@
 					"ptype":"x",
 					"scale":0.015,
 					"weight":1
-				},
-				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
 				},
 				{
 					"id":"PARAM_ANGLE_Z",
@@ -104,7 +80,7 @@
 				{
 					"id":"PARAM_HAIR_SIDE",
 					"ptype":"angle",
-					"scale":0.044,
+					"scale":0.022,
 					"weight":1
 				}
 			]
@@ -112,17 +88,11 @@
 		{
 			"label":"hair_back",
 			"setup":{
-				"length":0.5,
-				"regist":0.6,
-				"mass":0.3
+				"length":0.3,
+				"regist":0.8,
+				"mass":0.45
 			},
 			"src":[
-				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
 				{
 					"id":"PARAM_ANGLE_X",
 					"ptype":"x",
@@ -134,12 +104,6 @@
 					"ptype":"x",
 					"scale":0.015,
 					"weight":1
-				},
-				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
 				},
 				{
 					"id":"PARAM_ANGLE_Z",
@@ -158,137 +122,23 @@
 				{
 					"id":"PARAM_HAIR_BACK",
 					"ptype":"angle",
-					"scale":0.044,
+					"scale":0.022,
 					"weight":1
 				}
 			]
 		},
 		{
-			"label":"ribon",
+			"label":"skirt",
 			"setup":{
-				"length":0.4,
-				"regist":0.7,
-				"mass":0.3
-			},
-			"src":[
-				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_X",
-					"ptype":"x",
-					"scale":0.005,
-					"weight":0.5
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_X",
-					"ptype":"x",
-					"scale":0.015,
-					"weight":1
-				},
-				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_Z",
-					"ptype":"angle",
-					"scale":0.8,
-					"weight":0.5
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_Z",
-					"ptype":"angle",
-					"scale":2.4,
-					"weight":1
-				}
-			],
-			"targets":[
-				{
-					"id":"PARAM_RIBON",
-					"ptype":"angle",
-					"scale":0.044,
-					"weight":1
-				}
-			]
-		},
-		{
-			"label":"pareo",
-			"setup":{
-				"length":0.6,
-				"regist":0.45,
-				"mass":0.3
-			},
-			"src":[
-				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_X",
-					"ptype":"x",
-					"scale":0.005,
-					"weight":0.5
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_X",
-					"ptype":"x",
-					"scale":0.012,
-					"weight":1
-				},
-				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_Z",
-					"ptype":"angle",
-					"scale":0.7,
-					"weight":0.5
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_Z",
-					"ptype":"angle",
-					"scale":2.4,
-					"weight":1
-				}
-			],
-			"targets":[
-				{
-					"id":"PARAM_PAREO",
-					"ptype":"angle",
-					"scale":0.04,
-					"weight":0.8
-				}
-			]
-		},
-		{
-			"label":"pareo_ribbon",
-			"setup":{
-				"length":0.3,
+				"length":0.34,
 				"regist":0.5,
-				"mass":0.3
+				"mass":0.32
 			},
 			"src":[
 				{
 					"id":"PARAM_MOVE_LR_ALL",
 					"ptype":"x",
 					"scale":0.08,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_X",
-					"ptype":"x",
-					"scale":0.005,
 					"weight":0.5
 				},
 				{
@@ -300,8 +150,212 @@
 				{
 					"id":"PARAM_ANGLE_Z_ALL",
 					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
+					"scale":0.4,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Z",
+					"ptype":"angle",
+					"scale":2.4,
+					"weight":1
+				}
+			],
+			"targets":[
+				{
+					"id":"PARAM_SKIRT",
+					"ptype":"angle",
+					"scale":0.022,
+					"weight":1
+				}
+			]
+		},
+		{
+			"label":"hood_ribbon",
+			"setup":{
+				"length":0.35,
+				"regist":0.75,
+				"mass":0.35
+			},
+			"src":[
+				{
+					"id":"PARAM_MOVE_LR_ALL",
+					"ptype":"x",
+					"scale":0.08,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_X",
+					"ptype":"x",
+					"scale":0.015,
+					"weight":1
+				},
+				{
+					"id":"PARAM_ANGLE_Z_ALL",
+					"ptype":"angle",
+					"scale":0.4,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Z",
+					"ptype":"angle",
+					"scale":2.4,
+					"weight":1
+				}
+			],
+			"targets":[
+				{
+					"id":"PARAM_ARMRIBBON",
+					"ptype":"angle",
+					"scale":0.033,
+					"weight":1
+				}
+			]
+		},
+		{
+			"label":"zip_flower",
+			"setup":{
+				"length":0.12,
+				"regist":0.6,
+				"mass":0.18
+			},
+			"src":[
+				{
+					"id":"PARAM_MOVE_LR_ALL",
+					"ptype":"x",
+					"scale":0.08,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_X",
+					"ptype":"x",
+					"scale":0.015,
+					"weight":1
+				},
+				{
+					"id":"PARAM_ANGLE_Z_ALL",
+					"ptype":"angle",
+					"scale":0.4,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Z",
+					"ptype":"angle",
+					"scale":2.4,
+					"weight":1
+				}
+			],
+			"targets":[
+				{
+					"id":"PARAM_ZIPPER",
+					"ptype":"angle",
+					"scale":0.022,
+					"weight":1
+				}
+			]
+		},
+		{
+			"label":"furil_1",
+			"setup":{
+				"length":0.34,
+				"regist":0.6,
+				"mass":0.32
+			},
+			"src":[
+				{
+					"id":"PARAM_MOVE_LR_ALL",
+					"ptype":"x",
+					"scale":0.08,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_X",
+					"ptype":"x",
+					"scale":0.015,
+					"weight":1
+				},
+				{
+					"id":"PARAM_ANGLE_Z_ALL",
+					"ptype":"angle",
+					"scale":0.4,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Z",
+					"ptype":"angle",
+					"scale":2.4,
+					"weight":1
+				}
+			],
+			"targets":[
+				{
+					"id":"PARAM_FURIL_1",
+					"ptype":"angle",
+					"scale":0.033,
+					"weight":1
+				}
+			]
+		},
+		{
+			"label":"furil_2",
+			"setup":{
+				"length":0.34,
+				"regist":0.6,
+				"mass":0.32
+			},
+			"src":[
+				{
+					"id":"PARAM_MOVE_LR_ALL",
+					"ptype":"x",
+					"scale":0.08,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_X",
+					"ptype":"x",
+					"scale":0.015,
+					"weight":1
+				},
+				{
+					"id":"PARAM_ANGLE_Z_ALL",
+					"ptype":"angle",
+					"scale":0.4,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Z",
+					"ptype":"angle",
+					"scale":2.4,
+					"weight":1
+				}
+			],
+			"targets":[
+				{
+					"id":"PARAM_FURIL_2",
+					"ptype":"angle",
+					"scale":0.033,
+					"weight":1
+				}
+			]
+		},
+		{
+			"label":"hair_ribbon",
+			"setup":{
+				"length":0.32,
+				"regist":0.5,
+				"mass":0.35
+			},
+			"src":[
+				{
+					"id":"PARAM_ANGLE_X",
+					"ptype":"x",
+					"scale":0.009,
+					"weight":0.5
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_X",
+					"ptype":"x",
+					"scale":0.015,
+					"weight":1
 				},
 				{
 					"id":"PARAM_ANGLE_Z",
@@ -318,31 +372,25 @@
 			],
 			"targets":[
 				{
-					"id":"PARAM_PAREO_RIBBON",
+					"id":"PARAM_HAIR_RIBBON",
 					"ptype":"angle",
-					"scale":0.013,
+					"scale":0.022,
 					"weight":1
 				}
 			]
 		},
 		{
-			"label":"bust_furil",
+			"label":"hair_fiower",
 			"setup":{
-				"length":0.4,
-				"regist":0.4,
-				"mass":0.3
+				"length":0.32,
+				"regist":0.5,
+				"mass":0.35
 			},
 			"src":[
 				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
-				{
 					"id":"PARAM_ANGLE_X",
 					"ptype":"x",
-					"scale":0.005,
+					"scale":0.007,
 					"weight":0.5
 				},
 				{
@@ -352,70 +400,10 @@
 					"weight":1
 				},
 				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
-				},
-				{
 					"id":"PARAM_ANGLE_Z",
 					"ptype":"angle",
 					"scale":0.8,
 					"weight":0.5
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_Z",
-					"ptype":"angle",
-					"scale":2.4,
-					"weight":1
-				}
-			],
-			"targets":[
-				{
-					"id":"PARAM_FRILL",
-					"ptype":"angle",
-					"scale":0.027,
-					"weight":1
-				}
-			]
-		},
-		{
-			"label":"HAIR_ACC",
-			"setup":{
-				"length":0.2,
-				"regist":0.2,
-				"mass":0.1
-			},
-			"src":[
-				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_X",
-					"ptype":"x",
-					"scale":0.017,
-					"weight":1
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_X",
-					"ptype":"x",
-					"scale":0.015,
-					"weight":1
-				},
-				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_Z",
-					"ptype":"angle",
-					"scale":0.8,
-					"weight":0.7
 				},
 				{
 					"id":"PARAM_BODY_ANGLE_Z",
@@ -428,48 +416,36 @@
 				{
 					"id":"PARAM_HAIR_ACC",
 					"ptype":"angle",
-					"scale":0.01,
+					"scale":0.022,
 					"weight":1
 				}
 			]
 		},
 		{
-			"label":"HAIR_FLOWER_1",
+			"label":"neck_ribbon",
 			"setup":{
-				"length":0.5,
-				"regist":0.6,
-				"mass":0.2
+				"length":0.35,
+				"regist":0.75,
+				"mass":0.35
 			},
 			"src":[
 				{
 					"id":"PARAM_MOVE_LR_ALL",
 					"ptype":"x",
 					"scale":0.08,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_X",
-					"ptype":"x",
-					"scale":0.02,
-					"weight":1
+					"weight":0.5
 				},
 				{
 					"id":"PARAM_BODY_ANGLE_X",
 					"ptype":"x",
-					"scale":0.017,
+					"scale":0.015,
 					"weight":1
 				},
 				{
 					"id":"PARAM_ANGLE_Z_ALL",
 					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_Z",
-					"ptype":"angle",
-					"scale":0.9,
-					"weight":0.9
+					"scale":0.4,
+					"weight":0.5
 				},
 				{
 					"id":"PARAM_BODY_ANGLE_Z",
@@ -480,63 +456,9 @@
 			],
 			"targets":[
 				{
-					"id":"PARAM_HAIR_FLOWER",
+					"id":"PARAM_NECK_RIBBON",
 					"ptype":"angle",
-					"scale":0.04,
-					"weight":1
-				}
-			]
-		},
-		{
-			"label":"HAIR_FLOWER_2",
-			"setup":{
-				"length":0.4,
-				"regist":0.6,
-				"mass":0.2
-			},
-			"src":[
-				{
-					"id":"PARAM_MOVE_LR_ALL",
-					"ptype":"x",
-					"scale":0.08,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_X",
-					"ptype":"x",
-					"scale":0.02,
-					"weight":1
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_X",
-					"ptype":"x",
-					"scale":0.017,
-					"weight":1
-				},
-				{
-					"id":"PARAM_ANGLE_Z_ALL",
-					"ptype":"angle",
-					"scale":20,
-					"weight":0.333
-				},
-				{
-					"id":"PARAM_ANGLE_Z",
-					"ptype":"angle",
-					"scale":0.9,
-					"weight":0.9
-				},
-				{
-					"id":"PARAM_BODY_ANGLE_Z",
-					"ptype":"angle",
-					"scale":2.4,
-					"weight":1
-				}
-			],
-			"targets":[
-				{
-					"id":"PARAM_HAIR_LEAF",
-					"ptype":"angle",
-					"scale":0.044,
+					"scale":0.033,
 					"weight":1
 				}
 			]
