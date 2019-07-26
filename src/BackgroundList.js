@@ -2,7 +2,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11011.jpg"
+        "FILE" : "bg_stc_11011.jpg"
 
 },
 
@@ -10,7 +10,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11012.jpg"
+        "FILE" : "bg_stc_11012.jpg"
 
 },
 
@@ -18,7 +18,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11013.jpg"
+        "FILE" : "bg_stc_11013.jpg"
 
 },
 
@@ -26,7 +26,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11021.jpg"
+        "FILE" : "bg_stc_11021.jpg"
 
 },
 
@@ -34,7 +34,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11022.jpg"
+        "FILE" : "bg_stc_11022.jpg"
 
 },
 
@@ -42,7 +42,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11023.jpg"
+        "FILE" : "bg_stc_11023.jpg"
 
 },
 
@@ -50,7 +50,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11024.jpg"
+        "FILE" : "bg_stc_11024.jpg"
 
 },
 
@@ -58,7 +58,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11041.jpg"
+        "FILE" : "bg_stc_11041.jpg"
 
 },
 
@@ -66,7 +66,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11042.jpg"
+        "FILE" : "bg_stc_11042.jpg"
 
 },
 
@@ -74,7 +74,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11043.jpg"
+        "FILE" : "bg_stc_11043.jpg"
 
 },
 
@@ -82,7 +82,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11044.jpg"
+        "FILE" : "bg_stc_11044.jpg"
 
 },
 
@@ -90,7 +90,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11051.jpg"
+        "FILE" : "bg_stc_11051.jpg"
 
 },
 
@@ -98,7 +98,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11061.jpg"
+        "FILE" : "bg_stc_11061.jpg"
 
 },
 
@@ -106,7 +106,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11062.jpg"
+        "FILE" : "bg_stc_11062.jpg"
 
 },
 
@@ -114,7 +114,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11063.jpg"
+        "FILE" : "bg_stc_11063.jpg"
 
 },
 
@@ -122,7 +122,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11071.jpg"
+        "FILE" : "bg_stc_11071.jpg"
 
 },
 
@@ -130,7 +130,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11072.jpg"
+        "FILE" : "bg_stc_11072.jpg"
 
 },
 
@@ -138,7 +138,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11073.jpg"
+        "FILE" : "bg_stc_11073.jpg"
 
 },
 
@@ -146,7 +146,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11081.jpg"
+        "FILE" : "bg_stc_11081.jpg"
 
 },
 
@@ -154,7 +154,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11082.jpg"
+        "FILE" : "bg_stc_11082.jpg"
 
 },
 
@@ -162,7 +162,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11083.jpg"
+        "FILE" : "bg_stc_11083.jpg"
 
 },
 
@@ -170,7 +170,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11091.jpg"
+        "FILE" : "bg_stc_11091.jpg"
 
 },
 
@@ -178,7 +178,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11092.jpg"
+        "FILE" : "bg_stc_11092.jpg"
 
 },
 
@@ -186,7 +186,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11093.jpg"
+        "FILE" : "bg_stc_11093.jpg"
 
 },
 
@@ -194,7 +194,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_11094.jpg"
+        "FILE" : "bg_stc_11094.jpg"
 
 },
 
@@ -202,7 +202,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12011.jpg"
+        "FILE" : "bg_stc_12011.jpg"
 
 },
 
@@ -210,7 +210,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12012.jpg"
+        "FILE" : "bg_stc_12012.jpg"
 
 },
 
@@ -218,7 +218,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12013.jpg"
+        "FILE" : "bg_stc_12013.jpg"
 
 },
 
@@ -226,7 +226,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12021.jpg"
+        "FILE" : "bg_stc_12021.jpg"
 
 },
 
@@ -234,7 +234,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12022.jpg"
+        "FILE" : "bg_stc_12022.jpg"
 
 },
 
@@ -242,7 +242,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12023.jpg"
+        "FILE" : "bg_stc_12023.jpg"
 
 },
 
@@ -250,7 +250,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12024.jpg"
+        "FILE" : "bg_stc_12024.jpg"
 
 },
 
@@ -258,7 +258,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12041.jpg"
+        "FILE" : "bg_stc_12041.jpg"
 
 },
 
@@ -266,7 +266,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12042.jpg"
+        "FILE" : "bg_stc_12042.jpg"
 
 },
 
@@ -274,7 +274,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12043.jpg"
+        "FILE" : "bg_stc_12043.jpg"
 
 },
 
@@ -282,7 +282,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12051.jpg"
+        "FILE" : "bg_stc_12051.jpg"
 
 },
 
@@ -290,7 +290,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12052.jpg"
+        "FILE" : "bg_stc_12052.jpg"
 
 },
 
@@ -298,7 +298,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12061.jpg"
+        "FILE" : "bg_stc_12061.jpg"
 
 },
 
@@ -306,7 +306,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12062.jpg"
+        "FILE" : "bg_stc_12062.jpg"
 
 },
 
@@ -314,7 +314,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12063.jpg"
+        "FILE" : "bg_stc_12063.jpg"
 
 },
 
@@ -322,7 +322,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12064.jpg"
+        "FILE" : "bg_stc_12064.jpg"
 
 },
 
@@ -330,7 +330,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12065.jpg"
+        "FILE" : "bg_stc_12065.jpg"
 
 },
 
@@ -338,7 +338,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12066.jpg"
+        "FILE" : "bg_stc_12066.jpg"
 
 },
 
@@ -346,7 +346,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12071.jpg"
+        "FILE" : "bg_stc_12071.jpg"
 
 },
 
@@ -354,7 +354,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12072.jpg"
+        "FILE" : "bg_stc_12072.jpg"
 
 },
 
@@ -362,7 +362,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12073.jpg"
+        "FILE" : "bg_stc_12073.jpg"
 
 },
 
@@ -370,7 +370,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12081.jpg"
+        "FILE" : "bg_stc_12081.jpg"
 
 },
 
@@ -378,7 +378,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12082.jpg"
+        "FILE" : "bg_stc_12082.jpg"
 
 },
 
@@ -386,7 +386,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12083.jpg"
+        "FILE" : "bg_stc_12083.jpg"
 
 },
 
@@ -394,7 +394,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_12091.jpg"
+        "FILE" : "bg_stc_12091.jpg"
 
 },
 
@@ -402,7 +402,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13011.jpg"
+        "FILE" : "bg_stc_13011.jpg"
 
 },
 
@@ -410,7 +410,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13012.jpg"
+        "FILE" : "bg_stc_13012.jpg"
 
 },
 
@@ -418,7 +418,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13013.jpg"
+        "FILE" : "bg_stc_13013.jpg"
 
 },
 
@@ -426,7 +426,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13014.jpg"
+        "FILE" : "bg_stc_13014.jpg"
 
 },
 
@@ -434,7 +434,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13021.jpg"
+        "FILE" : "bg_stc_13021.jpg"
 
 },
 
@@ -442,7 +442,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13022.jpg"
+        "FILE" : "bg_stc_13022.jpg"
 
 },
 
@@ -450,7 +450,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13023.jpg"
+        "FILE" : "bg_stc_13023.jpg"
 
 },
 
@@ -458,7 +458,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13024.jpg"
+        "FILE" : "bg_stc_13024.jpg"
 
 },
 
@@ -466,7 +466,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13041.jpg"
+        "FILE" : "bg_stc_13041.jpg"
 
 },
 
@@ -474,7 +474,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13042.jpg"
+        "FILE" : "bg_stc_13042.jpg"
 
 },
 
@@ -482,7 +482,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13043.jpg"
+        "FILE" : "bg_stc_13043.jpg"
 
 },
 
@@ -490,7 +490,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13051.jpg"
+        "FILE" : "bg_stc_13051.jpg"
 
 },
 
@@ -498,7 +498,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13052.jpg"
+        "FILE" : "bg_stc_13052.jpg"
 
 },
 
@@ -506,7 +506,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13053.jpg"
+        "FILE" : "bg_stc_13053.jpg"
 
 },
 
@@ -514,7 +514,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13061.jpg"
+        "FILE" : "bg_stc_13061.jpg"
 
 },
 
@@ -522,7 +522,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13062.jpg"
+        "FILE" : "bg_stc_13062.jpg"
 
 },
 
@@ -530,7 +530,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13063.jpg"
+        "FILE" : "bg_stc_13063.jpg"
 
 },
 
@@ -538,7 +538,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13071.jpg"
+        "FILE" : "bg_stc_13071.jpg"
 
 },
 
@@ -546,7 +546,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13072.jpg"
+        "FILE" : "bg_stc_13072.jpg"
 
 },
 
@@ -554,7 +554,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13081.jpg"
+        "FILE" : "bg_stc_13081.jpg"
 
 },
 
@@ -562,7 +562,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13082.jpg"
+        "FILE" : "bg_stc_13082.jpg"
 
 },
 
@@ -570,7 +570,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_13091.jpg"
+        "FILE" : "bg_stc_13091.jpg"
 
 },
 
@@ -578,7 +578,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14011.jpg"
+        "FILE" : "bg_stc_14011.jpg"
 
 },
 
@@ -586,7 +586,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14012.jpg"
+        "FILE" : "bg_stc_14012.jpg"
 
 },
 
@@ -594,7 +594,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14013.jpg"
+        "FILE" : "bg_stc_14013.jpg"
 
 },
 
@@ -602,7 +602,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14021.jpg"
+        "FILE" : "bg_stc_14021.jpg"
 
 },
 
@@ -610,7 +610,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14022.jpg"
+        "FILE" : "bg_stc_14022.jpg"
 
 },
 
@@ -618,7 +618,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14023.jpg"
+        "FILE" : "bg_stc_14023.jpg"
 
 },
 
@@ -626,7 +626,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14024.jpg"
+        "FILE" : "bg_stc_14024.jpg"
 
 },
 
@@ -634,7 +634,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14025.jpg"
+        "FILE" : "bg_stc_14025.jpg"
 
 },
 
@@ -642,7 +642,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14026.jpg"
+        "FILE" : "bg_stc_14026.jpg"
 
 },
 
@@ -650,7 +650,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14028.jpg"
+        "FILE" : "bg_stc_14028.jpg"
 
 },
 
@@ -658,7 +658,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14041.jpg"
+        "FILE" : "bg_stc_14041.jpg"
 
 },
 
@@ -666,7 +666,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14042.jpg"
+        "FILE" : "bg_stc_14042.jpg"
 
 },
 
@@ -674,7 +674,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14043.jpg"
+        "FILE" : "bg_stc_14043.jpg"
 
 },
 
@@ -682,7 +682,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14044.jpg"
+        "FILE" : "bg_stc_14044.jpg"
 
 },
 
@@ -690,7 +690,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14051.jpg"
+        "FILE" : "bg_stc_14051.jpg"
 
 },
 
@@ -698,7 +698,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14052.jpg"
+        "FILE" : "bg_stc_14052.jpg"
 
 },
 
@@ -706,7 +706,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14053.jpg"
+        "FILE" : "bg_stc_14053.jpg"
 
 },
 
@@ -714,7 +714,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14061.jpg"
+        "FILE" : "bg_stc_14061.jpg"
 
 },
 
@@ -722,7 +722,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14062.jpg"
+        "FILE" : "bg_stc_14062.jpg"
 
 },
 
@@ -730,7 +730,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14063.jpg"
+        "FILE" : "bg_stc_14063.jpg"
 
 },
 
@@ -738,7 +738,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14071.jpg"
+        "FILE" : "bg_stc_14071.jpg"
 
 },
 
@@ -746,7 +746,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14072.jpg"
+        "FILE" : "bg_stc_14072.jpg"
 
 },
 
@@ -754,7 +754,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14073.jpg"
+        "FILE" : "bg_stc_14073.jpg"
 
 },
 
@@ -762,7 +762,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14081.jpg"
+        "FILE" : "bg_stc_14081.jpg"
 
 },
 
@@ -770,7 +770,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14082.jpg"
+        "FILE" : "bg_stc_14082.jpg"
 
 },
 
@@ -778,7 +778,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14083.jpg"
+        "FILE" : "bg_stc_14083.jpg"
 
 },
 
@@ -786,7 +786,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_14084.jpg"
+        "FILE" : "bg_stc_14084.jpg"
 
 },
 
@@ -794,7 +794,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15011.jpg"
+        "FILE" : "bg_stc_15011.jpg"
 
 },
 
@@ -802,7 +802,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15021.jpg"
+        "FILE" : "bg_stc_15021.jpg"
 
 },
 
@@ -810,7 +810,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15022.jpg"
+        "FILE" : "bg_stc_15022.jpg"
 
 },
 
@@ -818,7 +818,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15023.jpg"
+        "FILE" : "bg_stc_15023.jpg"
 
 },
 
@@ -826,7 +826,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15024.jpg"
+        "FILE" : "bg_stc_15024.jpg"
 
 },
 
@@ -834,7 +834,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15025.jpg"
+        "FILE" : "bg_stc_15025.jpg"
 
 },
 
@@ -842,7 +842,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15026.jpg"
+        "FILE" : "bg_stc_15026.jpg"
 
 },
 
@@ -850,7 +850,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15041.jpg"
+        "FILE" : "bg_stc_15041.jpg"
 
 },
 
@@ -858,7 +858,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15042.jpg"
+        "FILE" : "bg_stc_15042.jpg"
 
 },
 
@@ -866,7 +866,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15043.jpg"
+        "FILE" : "bg_stc_15043.jpg"
 
 },
 
@@ -874,7 +874,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15051.jpg"
+        "FILE" : "bg_stc_15051.jpg"
 
 },
 
@@ -882,7 +882,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15052.jpg"
+        "FILE" : "bg_stc_15052.jpg"
 
 },
 
@@ -890,7 +890,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15053.jpg"
+        "FILE" : "bg_stc_15053.jpg"
 
 },
 
@@ -898,7 +898,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15054.jpg"
+        "FILE" : "bg_stc_15054.jpg"
 
 },
 
@@ -906,7 +906,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15061.jpg"
+        "FILE" : "bg_stc_15061.jpg"
 
 },
 
@@ -914,7 +914,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15062.jpg"
+        "FILE" : "bg_stc_15062.jpg"
 
 },
 
@@ -922,7 +922,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15071.jpg"
+        "FILE" : "bg_stc_15071.jpg"
 
 },
 
@@ -930,7 +930,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15072.jpg"
+        "FILE" : "bg_stc_15072.jpg"
 
 },
 
@@ -938,7 +938,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_15081.jpg"
+        "FILE" : "bg_stc_15081.jpg"
 
 },
 
@@ -946,7 +946,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16011.jpg"
+        "FILE" : "bg_stc_16011.jpg"
 
 },
 
@@ -954,7 +954,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16021.jpg"
+        "FILE" : "bg_stc_16021.jpg"
 
 },
 
@@ -962,7 +962,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16022.jpg"
+        "FILE" : "bg_stc_16022.jpg"
 
 },
 
@@ -970,7 +970,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16023.jpg"
+        "FILE" : "bg_stc_16023.jpg"
 
 },
 
@@ -978,7 +978,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16024.jpg"
+        "FILE" : "bg_stc_16024.jpg"
 
 },
 
@@ -986,7 +986,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16041.jpg"
+        "FILE" : "bg_stc_16041.jpg"
 
 },
 
@@ -994,7 +994,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16042.jpg"
+        "FILE" : "bg_stc_16042.jpg"
 
 },
 
@@ -1002,7 +1002,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16043.jpg"
+        "FILE" : "bg_stc_16043.jpg"
 
 },
 
@@ -1010,7 +1010,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16044.jpg"
+        "FILE" : "bg_stc_16044.jpg"
 
 },
 
@@ -1018,7 +1018,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16051.jpg"
+        "FILE" : "bg_stc_16051.jpg"
 
 },
 
@@ -1026,7 +1026,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16052.jpg"
+        "FILE" : "bg_stc_16052.jpg"
 
 },
 
@@ -1034,7 +1034,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16061.jpg"
+        "FILE" : "bg_stc_16061.jpg"
 
 },
 
@@ -1042,7 +1042,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16062.jpg"
+        "FILE" : "bg_stc_16062.jpg"
 
 },
 
@@ -1050,7 +1050,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16063.jpg"
+        "FILE" : "bg_stc_16063.jpg"
 
 },
 
@@ -1058,7 +1058,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_16071.jpg"
+        "FILE" : "bg_stc_16071.jpg"
 
 },
 
@@ -1066,7 +1066,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17012.jpg"
+        "FILE" : "bg_stc_17012.jpg"
 
 },
 
@@ -1074,7 +1074,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17021.jpg"
+        "FILE" : "bg_stc_17021.jpg"
 
 },
 
@@ -1082,7 +1082,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17022.jpg"
+        "FILE" : "bg_stc_17022.jpg"
 
 },
 
@@ -1090,7 +1090,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17023.jpg"
+        "FILE" : "bg_stc_17023.jpg"
 
 },
 
@@ -1098,7 +1098,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17041.jpg"
+        "FILE" : "bg_stc_17041.jpg"
 
 },
 
@@ -1106,7 +1106,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17042.jpg"
+        "FILE" : "bg_stc_17042.jpg"
 
 },
 
@@ -1114,7 +1114,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17043.jpg"
+        "FILE" : "bg_stc_17043.jpg"
 
 },
 
@@ -1122,7 +1122,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17051.jpg"
+        "FILE" : "bg_stc_17051.jpg"
 
 },
 
@@ -1130,7 +1130,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17052.jpg"
+        "FILE" : "bg_stc_17052.jpg"
 
 },
 
@@ -1138,7 +1138,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17053.jpg"
+        "FILE" : "bg_stc_17053.jpg"
 
 },
 
@@ -1146,7 +1146,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17061.jpg"
+        "FILE" : "bg_stc_17061.jpg"
 
 },
 
@@ -1154,7 +1154,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17071.jpg"
+        "FILE" : "bg_stc_17071.jpg"
 
 },
 
@@ -1162,7 +1162,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17081.jpg"
+        "FILE" : "bg_stc_17081.jpg"
 
 },
 
@@ -1170,7 +1170,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17082.jpg"
+        "FILE" : "bg_stc_17082.jpg"
 
 },
 
@@ -1178,7 +1178,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17091.jpg"
+        "FILE" : "bg_stc_17091.jpg"
 
 },
 
@@ -1186,7 +1186,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17092.jpg"
+        "FILE" : "bg_stc_17092.jpg"
 
 },
 
@@ -1194,7 +1194,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17093.jpg"
+        "FILE" : "bg_stc_17093.jpg"
 
 },
 
@@ -1202,7 +1202,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17101.jpg"
+        "FILE" : "bg_stc_17101.jpg"
 
 },
 
@@ -1210,7 +1210,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17102.jpg"
+        "FILE" : "bg_stc_17102.jpg"
 
 },
 
@@ -1218,7 +1218,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17103.jpg"
+        "FILE" : "bg_stc_17103.jpg"
 
 },
 
@@ -1226,7 +1226,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17111.jpg"
+        "FILE" : "bg_stc_17111.jpg"
 
 },
 
@@ -1234,7 +1234,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17112.jpg"
+        "FILE" : "bg_stc_17112.jpg"
 
 },
 
@@ -1242,7 +1242,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17113.jpg"
+        "FILE" : "bg_stc_17113.jpg"
 
 },
 
@@ -1250,7 +1250,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17121.jpg"
+        "FILE" : "bg_stc_17121.jpg"
 
 },
 
@@ -1258,7 +1258,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17131.jpg"
+        "FILE" : "bg_stc_17131.jpg"
 
 },
 
@@ -1266,7 +1266,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17141.jpg"
+        "FILE" : "bg_stc_17141.jpg"
 
 },
 
@@ -1274,7 +1274,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17142.jpg"
+        "FILE" : "bg_stc_17142.jpg"
 
 },
 
@@ -1282,7 +1282,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17143.jpg"
+        "FILE" : "bg_stc_17143.jpg"
 
 },
 
@@ -1290,7 +1290,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17151.jpg"
+        "FILE" : "bg_stc_17151.jpg"
 
 },
 
@@ -1298,7 +1298,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_17161.jpg"
+        "FILE" : "bg_stc_17161.jpg"
 
 },
 
@@ -1306,7 +1306,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18012.jpg"
+        "FILE" : "bg_stc_18012.jpg"
 
 },
 
@@ -1314,7 +1314,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18021.jpg"
+        "FILE" : "bg_stc_18021.jpg"
 
 },
 
@@ -1322,7 +1322,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18022.jpg"
+        "FILE" : "bg_stc_18022.jpg"
 
 },
 
@@ -1330,7 +1330,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18023.jpg"
+        "FILE" : "bg_stc_18023.jpg"
 
 },
 
@@ -1338,7 +1338,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18024.jpg"
+        "FILE" : "bg_stc_18024.jpg"
 
 },
 
@@ -1346,7 +1346,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18041.jpg"
+        "FILE" : "bg_stc_18041.jpg"
 
 },
 
@@ -1354,7 +1354,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18042.jpg"
+        "FILE" : "bg_stc_18042.jpg"
 
 },
 
@@ -1362,7 +1362,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18043.jpg"
+        "FILE" : "bg_stc_18043.jpg"
 
 },
 
@@ -1370,7 +1370,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18051.jpg"
+        "FILE" : "bg_stc_18051.jpg"
 
 },
 
@@ -1378,7 +1378,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18052.jpg"
+        "FILE" : "bg_stc_18052.jpg"
 
 },
 
@@ -1386,7 +1386,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18053.jpg"
+        "FILE" : "bg_stc_18053.jpg"
 
 },
 
@@ -1394,7 +1394,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_18054.jpg"
+        "FILE" : "bg_stc_18054.jpg"
 
 },
 
@@ -1402,7 +1402,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19011.jpg"
+        "FILE" : "bg_stc_19011.jpg"
 
 },
 
@@ -1410,7 +1410,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19021.jpg"
+        "FILE" : "bg_stc_19021.jpg"
 
 },
 
@@ -1418,7 +1418,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19022.jpg"
+        "FILE" : "bg_stc_19022.jpg"
 
 },
 
@@ -1426,7 +1426,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19023.jpg"
+        "FILE" : "bg_stc_19023.jpg"
 
 },
 
@@ -1434,7 +1434,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19041.jpg"
+        "FILE" : "bg_stc_19041.jpg"
 
 },
 
@@ -1442,7 +1442,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19042.jpg"
+        "FILE" : "bg_stc_19042.jpg"
 
 },
 
@@ -1450,7 +1450,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19043.jpg"
+        "FILE" : "bg_stc_19043.jpg"
 
 },
 
@@ -1458,7 +1458,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19051.jpg"
+        "FILE" : "bg_stc_19051.jpg"
 
 },
 
@@ -1466,7 +1466,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19061.jpg"
+        "FILE" : "bg_stc_19061.jpg"
 
 },
 
@@ -1474,7 +1474,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19071.jpg"
+        "FILE" : "bg_stc_19071.jpg"
 
 },
 
@@ -1482,7 +1482,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19081.jpg"
+        "FILE" : "bg_stc_19081.jpg"
 
 },
 
@@ -1490,7 +1490,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19091.jpg"
+        "FILE" : "bg_stc_19091.jpg"
 
 },
 
@@ -1498,7 +1498,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19092.jpg"
+        "FILE" : "bg_stc_19092.jpg"
 
 },
 
@@ -1506,7 +1506,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19101.jpg"
+        "FILE" : "bg_stc_19101.jpg"
 
 },
 
@@ -1514,7 +1514,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19111.jpg"
+        "FILE" : "bg_stc_19111.jpg"
 
 },
 
@@ -1522,7 +1522,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19112.jpg"
+        "FILE" : "bg_stc_19112.jpg"
 
 },
 
@@ -1530,7 +1530,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19121.jpg"
+        "FILE" : "bg_stc_19121.jpg"
 
 },
 
@@ -1538,7 +1538,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19122.jpg"
+        "FILE" : "bg_stc_19122.jpg"
 
 },
 
@@ -1546,7 +1546,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19131.jpg"
+        "FILE" : "bg_stc_19131.jpg"
 
 },
 
@@ -1554,7 +1554,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19132.jpg"
+        "FILE" : "bg_stc_19132.jpg"
 
 },
 
@@ -1562,7 +1562,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19133.jpg"
+        "FILE" : "bg_stc_19133.jpg"
 
 },
 
@@ -1570,7 +1570,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19134.jpg"
+        "FILE" : "bg_stc_19134.jpg"
 
 },
 
@@ -1578,7 +1578,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19136.jpg"
+        "FILE" : "bg_stc_19136.jpg"
 
 },
 
@@ -1586,7 +1586,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19141.jpg"
+        "FILE" : "bg_stc_19141.jpg"
 
 },
 
@@ -1594,7 +1594,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19142.jpg"
+        "FILE" : "bg_stc_19142.jpg"
 
 },
 
@@ -1602,7 +1602,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19161.jpg"
+        "FILE" : "bg_stc_19161.jpg"
 
 },
 
@@ -1610,7 +1610,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19162.jpg"
+        "FILE" : "bg_stc_19162.jpg"
 
 },
 
@@ -1618,7 +1618,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19163.jpg"
+        "FILE" : "bg_stc_19163.jpg"
 
 },
 
@@ -1626,7 +1626,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19171.jpg"
+        "FILE" : "bg_stc_19171.jpg"
 
 },
 
@@ -1634,7 +1634,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19172.jpg"
+        "FILE" : "bg_stc_19172.jpg"
 
 },
 
@@ -1642,7 +1642,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19173.jpg"
+        "FILE" : "bg_stc_19173.jpg"
 
 },
 
@@ -1650,7 +1650,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19174.jpg"
+        "FILE" : "bg_stc_19174.jpg"
 
 },
 
@@ -1658,7 +1658,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19175.jpg"
+        "FILE" : "bg_stc_19175.jpg"
 
 },
 
@@ -1666,7 +1666,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19176.jpg"
+        "FILE" : "bg_stc_19176.jpg"
 
 },
 
@@ -1674,7 +1674,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19177.jpg"
+        "FILE" : "bg_stc_19177.jpg"
 
 },
 
@@ -1682,7 +1682,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19181.jpg"
+        "FILE" : "bg_stc_19181.jpg"
 
 },
 
@@ -1690,7 +1690,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19182.jpg"
+        "FILE" : "bg_stc_19182.jpg"
 
 },
 
@@ -1698,7 +1698,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19183.jpg"
+        "FILE" : "bg_stc_19183.jpg"
 
 },
 
@@ -1706,7 +1706,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19184.jpg"
+        "FILE" : "bg_stc_19184.jpg"
 
 },
 
@@ -1714,7 +1714,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19185.jpg"
+        "FILE" : "bg_stc_19185.jpg"
 
 },
 
@@ -1722,7 +1722,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19191.jpg"
+        "FILE" : "bg_stc_19191.jpg"
 
 },
 
@@ -1730,7 +1730,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19201.jpg"
+        "FILE" : "bg_stc_19201.jpg"
 
 },
 
@@ -1738,7 +1738,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19202.jpg"
+        "FILE" : "bg_stc_19202.jpg"
 
 },
 
@@ -1746,7 +1746,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19203.jpg"
+        "FILE" : "bg_stc_19203.jpg"
 
 },
 
@@ -1754,7 +1754,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19211.jpg"
+        "FILE" : "bg_stc_19211.jpg"
 
 },
 
@@ -1762,7 +1762,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19243.jpg"
+        "FILE" : "bg_stc_19243.jpg"
 
 },
 
@@ -1770,7 +1770,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19251.jpg"
+        "FILE" : "bg_stc_19251.jpg"
 
 },
 
@@ -1778,7 +1778,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_19252.jpg"
+        "FILE" : "bg_stc_19252.jpg"
 
 },
 
@@ -1786,7 +1786,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20011.jpg"
+        "FILE" : "bg_stc_20011.jpg"
 
 },
 
@@ -1794,7 +1794,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20012.jpg"
+        "FILE" : "bg_stc_20012.jpg"
 
 },
 
@@ -1802,7 +1802,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20013.jpg"
+        "FILE" : "bg_stc_20013.jpg"
 
 },
 
@@ -1810,7 +1810,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20014.jpg"
+        "FILE" : "bg_stc_20014.jpg"
 
 },
 
@@ -1818,7 +1818,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20015.jpg"
+        "FILE" : "bg_stc_20015.jpg"
 
 },
 
@@ -1826,7 +1826,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20021.jpg"
+        "FILE" : "bg_stc_20021.jpg"
 
 },
 
@@ -1834,7 +1834,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20022.jpg"
+        "FILE" : "bg_stc_20022.jpg"
 
 },
 
@@ -1842,7 +1842,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20023.jpg"
+        "FILE" : "bg_stc_20023.jpg"
 
 },
 
@@ -1850,7 +1850,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20031.jpg"
+        "FILE" : "bg_stc_20031.jpg"
 
 },
 
@@ -1858,7 +1858,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20032.jpg"
+        "FILE" : "bg_stc_20032.jpg"
 
 },
 
@@ -1866,7 +1866,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20033.jpg"
+        "FILE" : "bg_stc_20033.jpg"
 
 },
 
@@ -1874,7 +1874,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20041.jpg"
+        "FILE" : "bg_stc_20041.jpg"
 
 },
 
@@ -1882,7 +1882,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20051.jpg"
+        "FILE" : "bg_stc_20051.jpg"
 
 },
 
@@ -1890,7 +1890,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20052.jpg"
+        "FILE" : "bg_stc_20052.jpg"
 
 },
 
@@ -1898,7 +1898,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20061.jpg"
+        "FILE" : "bg_stc_20061.jpg"
 
 },
 
@@ -1906,7 +1906,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20071.jpg"
+        "FILE" : "bg_stc_20071.jpg"
 
 },
 
@@ -1914,7 +1914,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20072.jpg"
+        "FILE" : "bg_stc_20072.jpg"
 
 },
 
@@ -1922,7 +1922,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20073.jpg"
+        "FILE" : "bg_stc_20073.jpg"
 
 },
 
@@ -1930,7 +1930,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20081.jpg"
+        "FILE" : "bg_stc_20081.jpg"
 
 },
 
@@ -1938,7 +1938,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20082.jpg"
+        "FILE" : "bg_stc_20082.jpg"
 
 },
 
@@ -1946,7 +1946,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20083.jpg"
+        "FILE" : "bg_stc_20083.jpg"
 
 },
 
@@ -1954,7 +1954,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20091.jpg"
+        "FILE" : "bg_stc_20091.jpg"
 
 },
 
@@ -1962,7 +1962,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20092.jpg"
+        "FILE" : "bg_stc_20092.jpg"
 
 },
 
@@ -1970,7 +1970,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20093.jpg"
+        "FILE" : "bg_stc_20093.jpg"
 
 },
 
@@ -1978,7 +1978,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20101.jpg"
+        "FILE" : "bg_stc_20101.jpg"
 
 },
 
@@ -1986,7 +1986,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20102.jpg"
+        "FILE" : "bg_stc_20102.jpg"
 
 },
 
@@ -1994,7 +1994,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20103.jpg"
+        "FILE" : "bg_stc_20103.jpg"
 
 },
 
@@ -2002,7 +2002,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20111.jpg"
+        "FILE" : "bg_stc_20111.jpg"
 
 },
 
@@ -2010,7 +2010,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20112.jpg"
+        "FILE" : "bg_stc_20112.jpg"
 
 },
 
@@ -2018,7 +2018,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20121.jpg"
+        "FILE" : "bg_stc_20121.jpg"
 
 },
 
@@ -2026,7 +2026,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20122.jpg"
+        "FILE" : "bg_stc_20122.jpg"
 
 },
 
@@ -2034,7 +2034,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20131.jpg"
+        "FILE" : "bg_stc_20131.jpg"
 
 },
 
@@ -2042,7 +2042,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20141.jpg"
+        "FILE" : "bg_stc_20141.jpg"
 
 },
 
@@ -2050,7 +2050,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20142.jpg"
+        "FILE" : "bg_stc_20142.jpg"
 
 },
 
@@ -2058,7 +2058,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20151.jpg"
+        "FILE" : "bg_stc_20151.jpg"
 
 },
 
@@ -2066,7 +2066,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20152.jpg"
+        "FILE" : "bg_stc_20152.jpg"
 
 },
 
@@ -2074,7 +2074,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20161.jpg"
+        "FILE" : "bg_stc_20161.jpg"
 
 },
 
@@ -2082,7 +2082,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20162.jpg"
+        "FILE" : "bg_stc_20162.jpg"
 
 },
 
@@ -2090,7 +2090,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20171.jpg"
+        "FILE" : "bg_stc_20171.jpg"
 
 },
 
@@ -2098,7 +2098,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20181.jpg"
+        "FILE" : "bg_stc_20181.jpg"
 
 },
 
@@ -2106,7 +2106,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20191.jpg"
+        "FILE" : "bg_stc_20191.jpg"
 
 },
 
@@ -2114,7 +2114,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20201.jpg"
+        "FILE" : "bg_stc_20201.jpg"
 
 },
 
@@ -2122,7 +2122,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20211.jpg"
+        "FILE" : "bg_stc_20211.jpg"
 
 },
 
@@ -2130,7 +2130,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20221.jpg"
+        "FILE" : "bg_stc_20221.jpg"
 
 },
 
@@ -2138,7 +2138,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20231.jpg"
+        "FILE" : "bg_stc_20231.jpg"
 
 },
 
@@ -2146,7 +2146,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20241.jpg"
+        "FILE" : "bg_stc_20241.jpg"
 
 },
 
@@ -2154,7 +2154,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20251.jpg"
+        "FILE" : "bg_stc_20251.jpg"
 
 },
 
@@ -2162,7 +2162,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20252.jpg"
+        "FILE" : "bg_stc_20252.jpg"
 
 },
 
@@ -2170,7 +2170,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20253.jpg"
+        "FILE" : "bg_stc_20253.jpg"
 
 },
 
@@ -2178,7 +2178,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20255.jpg"
+        "FILE" : "bg_stc_20255.jpg"
 
 },
 
@@ -2186,7 +2186,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20256.jpg"
+        "FILE" : "bg_stc_20256.jpg"
 
 },
 
@@ -2194,7 +2194,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20257.jpg"
+        "FILE" : "bg_stc_20257.jpg"
 
 },
 
@@ -2202,7 +2202,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20261.jpg"
+        "FILE" : "bg_stc_20261.jpg"
 
 },
 
@@ -2210,7 +2210,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20262.jpg"
+        "FILE" : "bg_stc_20262.jpg"
 
 },
 
@@ -2218,7 +2218,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20263.jpg"
+        "FILE" : "bg_stc_20263.jpg"
 
 },
 
@@ -2226,7 +2226,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20264.jpg"
+        "FILE" : "bg_stc_20264.jpg"
 
 },
 
@@ -2234,7 +2234,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20271.jpg"
+        "FILE" : "bg_stc_20271.jpg"
 
 },
 
@@ -2242,7 +2242,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20272.jpg"
+        "FILE" : "bg_stc_20272.jpg"
 
 },
 
@@ -2250,7 +2250,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20273.jpg"
+        "FILE" : "bg_stc_20273.jpg"
 
 },
 
@@ -2258,7 +2258,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20281.jpg"
+        "FILE" : "bg_stc_20281.jpg"
 
 },
 
@@ -2266,7 +2266,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20282.jpg"
+        "FILE" : "bg_stc_20282.jpg"
 
 },
 
@@ -2274,7 +2274,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20283.jpg"
+        "FILE" : "bg_stc_20283.jpg"
 
 },
 
@@ -2282,7 +2282,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20284.jpg"
+        "FILE" : "bg_stc_20284.jpg"
 
 },
 
@@ -2290,7 +2290,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20285.jpg"
+        "FILE" : "bg_stc_20285.jpg"
 
 },
 
@@ -2298,7 +2298,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20291.jpg"
+        "FILE" : "bg_stc_20291.jpg"
 
 },
 
@@ -2306,7 +2306,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20292.jpg"
+        "FILE" : "bg_stc_20292.jpg"
 
 },
 
@@ -2314,7 +2314,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20293.jpg"
+        "FILE" : "bg_stc_20293.jpg"
 
 },
 
@@ -2322,7 +2322,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20301.jpg"
+        "FILE" : "bg_stc_20301.jpg"
 
 },
 
@@ -2330,7 +2330,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20302.jpg"
+        "FILE" : "bg_stc_20302.jpg"
 
 },
 
@@ -2338,7 +2338,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20303.jpg"
+        "FILE" : "bg_stc_20303.jpg"
 
 },
 
@@ -2346,7 +2346,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20311.jpg"
+        "FILE" : "bg_stc_20311.jpg"
 
 },
 
@@ -2354,7 +2354,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20312.jpg"
+        "FILE" : "bg_stc_20312.jpg"
 
 },
 
@@ -2362,7 +2362,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20321.jpg"
+        "FILE" : "bg_stc_20321.jpg"
 
 },
 
@@ -2370,7 +2370,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20331.jpg"
+        "FILE" : "bg_stc_20331.jpg"
 
 },
 
@@ -2378,7 +2378,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20341.jpg"
+        "FILE" : "bg_stc_20341.jpg"
 
 },
 
@@ -2386,7 +2386,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20342.jpg"
+        "FILE" : "bg_stc_20342.jpg"
 
 },
 
@@ -2394,7 +2394,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20351.jpg"
+        "FILE" : "bg_stc_20351.jpg"
 
 },
 
@@ -2402,7 +2402,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20352.jpg"
+        "FILE" : "bg_stc_20352.jpg"
 
 },
 
@@ -2410,7 +2410,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20353.jpg"
+        "FILE" : "bg_stc_20353.jpg"
 
 },
 
@@ -2418,7 +2418,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20361.jpg"
+        "FILE" : "bg_stc_20361.jpg"
 
 },
 
@@ -2426,7 +2426,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20371.jpg"
+        "FILE" : "bg_stc_20371.jpg"
 
 },
 
@@ -2434,7 +2434,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20382.jpg"
+        "FILE" : "bg_stc_20382.jpg"
 
 },
 
@@ -2442,7 +2442,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20391.jpg"
+        "FILE" : "bg_stc_20391.jpg"
 
 },
 
@@ -2450,7 +2450,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20401.jpg"
+        "FILE" : "bg_stc_20401.jpg"
 
 },
 
@@ -2458,7 +2458,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20402.jpg"
+        "FILE" : "bg_stc_20402.jpg"
 
 },
 
@@ -2466,7 +2466,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20411.jpg"
+        "FILE" : "bg_stc_20411.jpg"
 
 },
 
@@ -2474,7 +2474,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20421.jpg"
+        "FILE" : "bg_stc_20421.jpg"
 
 },
 
@@ -2482,7 +2482,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20431.jpg"
+        "FILE" : "bg_stc_20431.jpg"
 
 },
 
@@ -2490,7 +2490,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20432.jpg"
+        "FILE" : "bg_stc_20432.jpg"
 
 },
 
@@ -2498,7 +2498,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20441.jpg"
+        "FILE" : "bg_stc_20441.jpg"
 
 },
 
@@ -2506,7 +2506,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20451.jpg"
+        "FILE" : "bg_stc_20451.jpg"
 
 },
 
@@ -2514,7 +2514,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20461.jpg"
+        "FILE" : "bg_stc_20461.jpg"
 
 },
 
@@ -2522,7 +2522,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20463.jpg"
+        "FILE" : "bg_stc_20463.jpg"
 
 },
 
@@ -2530,7 +2530,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20471.jpg"
+        "FILE" : "bg_stc_20471.jpg"
 
 },
 
@@ -2538,7 +2538,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20472.jpg"
+        "FILE" : "bg_stc_20472.jpg"
 
 },
 
@@ -2546,7 +2546,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20481.jpg"
+        "FILE" : "bg_stc_20481.jpg"
 
 },
 
@@ -2554,7 +2554,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20482.jpg"
+        "FILE" : "bg_stc_20482.jpg"
 
 },
 
@@ -2562,7 +2562,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20483.jpg"
+        "FILE" : "bg_stc_20483.jpg"
 
 },
 
@@ -2570,7 +2570,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20491.jpg"
+        "FILE" : "bg_stc_20491.jpg"
 
 },
 
@@ -2578,7 +2578,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20492.jpg"
+        "FILE" : "bg_stc_20492.jpg"
 
 },
 
@@ -2586,7 +2586,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20493.jpg"
+        "FILE" : "bg_stc_20493.jpg"
 
 },
 
@@ -2594,7 +2594,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20501.jpg"
+        "FILE" : "bg_stc_20501.jpg"
 
 },
 
@@ -2602,7 +2602,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20502.jpg"
+        "FILE" : "bg_stc_20502.jpg"
 
 },
 
@@ -2610,7 +2610,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20503.jpg"
+        "FILE" : "bg_stc_20503.jpg"
 
 },
 
@@ -2618,7 +2618,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20511.jpg"
+        "FILE" : "bg_stc_20511.jpg"
 
 },
 
@@ -2626,7 +2626,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_20512.jpg"
+        "FILE" : "bg_stc_20512.jpg"
 
 },
 
@@ -2634,7 +2634,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21011.jpg"
+        "FILE" : "bg_stc_21011.jpg"
 
 },
 
@@ -2642,7 +2642,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21012.jpg"
+        "FILE" : "bg_stc_21012.jpg"
 
 },
 
@@ -2650,7 +2650,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21013.jpg"
+        "FILE" : "bg_stc_21013.jpg"
 
 },
 
@@ -2658,7 +2658,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21014.jpg"
+        "FILE" : "bg_stc_21014.jpg"
 
 },
 
@@ -2666,7 +2666,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21015.jpg"
+        "FILE" : "bg_stc_21015.jpg"
 
 },
 
@@ -2674,7 +2674,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21016.jpg"
+        "FILE" : "bg_stc_21016.jpg"
 
 },
 
@@ -2682,7 +2682,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21017.jpg"
+        "FILE" : "bg_stc_21017.jpg"
 
 },
 
@@ -2690,7 +2690,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21018.jpg"
+        "FILE" : "bg_stc_21018.jpg"
 
 },
 
@@ -2698,7 +2698,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21019.jpg"
+        "FILE" : "bg_stc_21019.jpg"
 
 },
 
@@ -2706,7 +2706,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21021.jpg"
+        "FILE" : "bg_stc_21021.jpg"
 
 },
 
@@ -2714,7 +2714,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21022.jpg"
+        "FILE" : "bg_stc_21022.jpg"
 
 },
 
@@ -2722,7 +2722,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21023.jpg"
+        "FILE" : "bg_stc_21023.jpg"
 
 },
 
@@ -2730,7 +2730,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21025.jpg"
+        "FILE" : "bg_stc_21025.jpg"
 
 },
 
@@ -2738,7 +2738,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21026.jpg"
+        "FILE" : "bg_stc_21026.jpg"
 
 },
 
@@ -2746,7 +2746,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21027.jpg"
+        "FILE" : "bg_stc_21027.jpg"
 
 },
 
@@ -2754,7 +2754,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21028.jpg"
+        "FILE" : "bg_stc_21028.jpg"
 
 },
 
@@ -2762,7 +2762,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21029.jpg"
+        "FILE" : "bg_stc_21029.jpg"
 
 },
 
@@ -2770,7 +2770,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21031.jpg"
+        "FILE" : "bg_stc_21031.jpg"
 
 },
 
@@ -2778,7 +2778,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21041.jpg"
+        "FILE" : "bg_stc_21041.jpg"
 
 },
 
@@ -2786,7 +2786,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21061.jpg"
+        "FILE" : "bg_stc_21061.jpg"
 
 },
 
@@ -2794,7 +2794,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21071.jpg"
+        "FILE" : "bg_stc_21071.jpg"
 
 },
 
@@ -2802,7 +2802,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21072.jpg"
+        "FILE" : "bg_stc_21072.jpg"
 
 },
 
@@ -2810,7 +2810,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21073.jpg"
+        "FILE" : "bg_stc_21073.jpg"
 
 },
 
@@ -2818,7 +2818,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21081.jpg"
+        "FILE" : "bg_stc_21081.jpg"
 
 },
 
@@ -2826,7 +2826,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21082.jpg"
+        "FILE" : "bg_stc_21082.jpg"
 
 },
 
@@ -2834,7 +2834,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21083.jpg"
+        "FILE" : "bg_stc_21083.jpg"
 
 },
 
@@ -2842,7 +2842,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21091.jpg"
+        "FILE" : "bg_stc_21091.jpg"
 
 },
 
@@ -2850,7 +2850,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21101.jpg"
+        "FILE" : "bg_stc_21101.jpg"
 
 },
 
@@ -2858,7 +2858,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21111.jpg"
+        "FILE" : "bg_stc_21111.jpg"
 
 },
 
@@ -2866,7 +2866,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21121.jpg"
+        "FILE" : "bg_stc_21121.jpg"
 
 },
 
@@ -2874,7 +2874,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21122.jpg"
+        "FILE" : "bg_stc_21122.jpg"
 
 },
 
@@ -2882,7 +2882,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21123.jpg"
+        "FILE" : "bg_stc_21123.jpg"
 
 },
 
@@ -2890,7 +2890,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21131.jpg"
+        "FILE" : "bg_stc_21131.jpg"
 
 },
 
@@ -2898,7 +2898,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21132.jpg"
+        "FILE" : "bg_stc_21132.jpg"
 
 },
 
@@ -2906,7 +2906,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21133.jpg"
+        "FILE" : "bg_stc_21133.jpg"
 
 },
 
@@ -2914,7 +2914,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21141.jpg"
+        "FILE" : "bg_stc_21141.jpg"
 
 },
 
@@ -2922,7 +2922,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21142.jpg"
+        "FILE" : "bg_stc_21142.jpg"
 
 },
 
@@ -2930,7 +2930,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21143.jpg"
+        "FILE" : "bg_stc_21143.jpg"
 
 },
 
@@ -2938,7 +2938,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21151.jpg"
+        "FILE" : "bg_stc_21151.jpg"
 
 },
 
@@ -2946,7 +2946,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21152.jpg"
+        "FILE" : "bg_stc_21152.jpg"
 
 },
 
@@ -2954,7 +2954,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21153.jpg"
+        "FILE" : "bg_stc_21153.jpg"
 
 },
 
@@ -2962,7 +2962,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21161.jpg"
+        "FILE" : "bg_stc_21161.jpg"
 
 },
 
@@ -2970,7 +2970,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21162.jpg"
+        "FILE" : "bg_stc_21162.jpg"
 
 },
 
@@ -2978,7 +2978,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21163.jpg"
+        "FILE" : "bg_stc_21163.jpg"
 
 },
 
@@ -2986,7 +2986,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21171.jpg"
+        "FILE" : "bg_stc_21171.jpg"
 
 },
 
@@ -2994,7 +2994,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21172.jpg"
+        "FILE" : "bg_stc_21172.jpg"
 
 },
 
@@ -3002,7 +3002,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21173.jpg"
+        "FILE" : "bg_stc_21173.jpg"
 
 },
 
@@ -3010,7 +3010,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21174.jpg"
+        "FILE" : "bg_stc_21174.jpg"
 
 },
 
@@ -3018,7 +3018,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21175.jpg"
+        "FILE" : "bg_stc_21175.jpg"
 
 },
 
@@ -3026,7 +3026,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21176.jpg"
+        "FILE" : "bg_stc_21176.jpg"
 
 },
 
@@ -3034,7 +3034,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21177.jpg"
+        "FILE" : "bg_stc_21177.jpg"
 
 },
 
@@ -3042,7 +3042,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21178.jpg"
+        "FILE" : "bg_stc_21178.jpg"
 
 },
 
@@ -3050,7 +3050,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21181.jpg"
+        "FILE" : "bg_stc_21181.jpg"
 
 },
 
@@ -3058,7 +3058,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21182.jpg"
+        "FILE" : "bg_stc_21182.jpg"
 
 },
 
@@ -3066,7 +3066,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21183.jpg"
+        "FILE" : "bg_stc_21183.jpg"
 
 },
 
@@ -3074,7 +3074,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21191.jpg"
+        "FILE" : "bg_stc_21191.jpg"
 
 },
 
@@ -3082,7 +3082,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21192.jpg"
+        "FILE" : "bg_stc_21192.jpg"
 
 },
 
@@ -3090,7 +3090,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21193.jpg"
+        "FILE" : "bg_stc_21193.jpg"
 
 },
 
@@ -3098,7 +3098,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21201.jpg"
+        "FILE" : "bg_stc_21201.jpg"
 
 },
 
@@ -3106,7 +3106,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21202.jpg"
+        "FILE" : "bg_stc_21202.jpg"
 
 },
 
@@ -3114,7 +3114,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21203.jpg"
+        "FILE" : "bg_stc_21203.jpg"
 
 },
 
@@ -3122,7 +3122,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21205.jpg"
+        "FILE" : "bg_stc_21205.jpg"
 
 },
 
@@ -3130,7 +3130,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21206.jpg"
+        "FILE" : "bg_stc_21206.jpg"
 
 },
 
@@ -3138,7 +3138,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21211.jpg"
+        "FILE" : "bg_stc_21211.jpg"
 
 },
 
@@ -3146,7 +3146,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21212.jpg"
+        "FILE" : "bg_stc_21212.jpg"
 
 },
 
@@ -3154,7 +3154,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21221.jpg"
+        "FILE" : "bg_stc_21221.jpg"
 
 },
 
@@ -3162,7 +3162,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21231.jpg"
+        "FILE" : "bg_stc_21231.jpg"
 
 },
 
@@ -3170,7 +3170,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21232.jpg"
+        "FILE" : "bg_stc_21232.jpg"
 
 },
 
@@ -3178,7 +3178,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21241.jpg"
+        "FILE" : "bg_stc_21241.jpg"
 
 },
 
@@ -3186,7 +3186,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21242.jpg"
+        "FILE" : "bg_stc_21242.jpg"
 
 },
 
@@ -3194,7 +3194,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21243.jpg"
+        "FILE" : "bg_stc_21243.jpg"
 
 },
 
@@ -3202,7 +3202,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21244.jpg"
+        "FILE" : "bg_stc_21244.jpg"
 
 },
 
@@ -3210,7 +3210,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21251.jpg"
+        "FILE" : "bg_stc_21251.jpg"
 
 },
 
@@ -3218,7 +3218,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21252.jpg"
+        "FILE" : "bg_stc_21252.jpg"
 
 },
 
@@ -3226,7 +3226,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21261.jpg"
+        "FILE" : "bg_stc_21261.jpg"
 
 },
 
@@ -3234,7 +3234,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21262.jpg"
+        "FILE" : "bg_stc_21262.jpg"
 
 },
 
@@ -3242,7 +3242,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21263.jpg"
+        "FILE" : "bg_stc_21263.jpg"
 
 },
 
@@ -3250,7 +3250,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21264.jpg"
+        "FILE" : "bg_stc_21264.jpg"
 
 },
 
@@ -3258,7 +3258,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21271.jpg"
+        "FILE" : "bg_stc_21271.jpg"
 
 },
 
@@ -3266,7 +3266,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21281.jpg"
+        "FILE" : "bg_stc_21281.jpg"
 
 },
 
@@ -3274,7 +3274,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21291.jpg"
+        "FILE" : "bg_stc_21291.jpg"
 
 },
 
@@ -3282,7 +3282,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21292.jpg"
+        "FILE" : "bg_stc_21292.jpg"
 
 },
 
@@ -3290,7 +3290,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21293.jpg"
+        "FILE" : "bg_stc_21293.jpg"
 
 },
 
@@ -3298,7 +3298,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21294.jpg"
+        "FILE" : "bg_stc_21294.jpg"
 
 },
 
@@ -3306,7 +3306,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21295.jpg"
+        "FILE" : "bg_stc_21295.jpg"
 
 },
 
@@ -3314,7 +3314,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21301.jpg"
+        "FILE" : "bg_stc_21301.jpg"
 
 },
 
@@ -3322,7 +3322,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21311.jpg"
+        "FILE" : "bg_stc_21311.jpg"
 
 },
 
@@ -3330,7 +3330,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21321.jpg"
+        "FILE" : "bg_stc_21321.jpg"
 
 },
 
@@ -3338,7 +3338,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21334.jpg"
+        "FILE" : "bg_stc_21334.jpg"
 
 },
 
@@ -3346,7 +3346,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21351.jpg"
+        "FILE" : "bg_stc_21351.jpg"
 
 },
 
@@ -3354,7 +3354,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21352.jpg"
+        "FILE" : "bg_stc_21352.jpg"
 
 },
 
@@ -3362,7 +3362,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21353.jpg"
+        "FILE" : "bg_stc_21353.jpg"
 
 },
 
@@ -3370,7 +3370,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21354.jpg"
+        "FILE" : "bg_stc_21354.jpg"
 
 },
 
@@ -3378,7 +3378,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21355.jpg"
+        "FILE" : "bg_stc_21355.jpg"
 
 },
 
@@ -3386,7 +3386,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21356.jpg"
+        "FILE" : "bg_stc_21356.jpg"
 
 },
 
@@ -3394,7 +3394,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21357.jpg"
+        "FILE" : "bg_stc_21357.jpg"
 
 },
 
@@ -3402,7 +3402,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21358.jpg"
+        "FILE" : "bg_stc_21358.jpg"
 
 },
 
@@ -3410,7 +3410,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21359.jpg"
+        "FILE" : "bg_stc_21359.jpg"
 
 },
 
@@ -3418,7 +3418,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21371.jpg"
+        "FILE" : "bg_stc_21371.jpg"
 
 },
 
@@ -3426,7 +3426,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21372.jpg"
+        "FILE" : "bg_stc_21372.jpg"
 
 },
 
@@ -3434,7 +3434,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21381.jpg"
+        "FILE" : "bg_stc_21381.jpg"
 
 },
 
@@ -3442,7 +3442,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21393.jpg"
+        "FILE" : "bg_stc_21393.jpg"
 
 },
 
@@ -3450,7 +3450,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21481.jpg"
+        "FILE" : "bg_stc_21481.jpg"
 
 },
 
@@ -3458,7 +3458,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21482.jpg"
+        "FILE" : "bg_stc_21482.jpg"
 
 },
 
@@ -3466,7 +3466,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_21483.jpg"
+        "FILE" : "bg_stc_21483.jpg"
 
 },
 
@@ -3474,7 +3474,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_23011.jpg"
+        "FILE" : "bg_stc_23011.jpg"
 
 },
 
@@ -3482,7 +3482,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_23021.jpg"
+        "FILE" : "bg_stc_23021.jpg"
 
 },
 
@@ -3490,7 +3490,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_23031.jpg"
+        "FILE" : "bg_stc_23031.jpg"
 
 },
 
@@ -3498,7 +3498,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_23041.jpg"
+        "FILE" : "bg_stc_23041.jpg"
 
 },
 
@@ -3506,7 +3506,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_24011.jpg"
+        "FILE" : "bg_stc_24011.jpg"
 
 },
 
@@ -3514,7 +3514,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_31021.jpg"
+        "FILE" : "bg_stc_31021.jpg"
 
 },
 
@@ -3522,7 +3522,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_31031.jpg"
+        "FILE" : "bg_stc_31031.jpg"
 
 },
 
@@ -3530,7 +3530,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_31032.jpg"
+        "FILE" : "bg_stc_31032.jpg"
 
 },
 
@@ -3538,7 +3538,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_31033.jpg"
+        "FILE" : "bg_stc_31033.jpg"
 
 },
 
@@ -3546,7 +3546,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_31041.jpg"
+        "FILE" : "bg_stc_31041.jpg"
 
 },
 
@@ -3554,7 +3554,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_31042.jpg"
+        "FILE" : "bg_stc_31042.jpg"
 
 },
 
@@ -3562,7 +3562,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46000.jpg"
+        "FILE" : "bg_stc_46000.jpg"
 
 },
 
@@ -3570,7 +3570,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46001.jpg"
+        "FILE" : "bg_stc_46001.jpg"
 
 },
 
@@ -3578,7 +3578,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46103.jpg"
+        "FILE" : "bg_stc_46103.jpg"
 
 },
 
@@ -3586,7 +3586,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46104.jpg"
+        "FILE" : "bg_stc_46104.jpg"
 
 },
 
@@ -3594,7 +3594,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46105.jpg"
+        "FILE" : "bg_stc_46105.jpg"
 
 },
 
@@ -3602,7 +3602,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46106.jpg"
+        "FILE" : "bg_stc_46106.jpg"
 
 },
 
@@ -3610,7 +3610,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46107.jpg"
+        "FILE" : "bg_stc_46107.jpg"
 
 },
 
@@ -3618,7 +3618,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46108.jpg"
+        "FILE" : "bg_stc_46108.jpg"
 
 },
 
@@ -3626,7 +3626,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46201.jpg"
+        "FILE" : "bg_stc_46201.jpg"
 
 },
 
@@ -3634,7 +3634,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46213.jpg"
+        "FILE" : "bg_stc_46213.jpg"
 
 },
 
@@ -3642,7 +3642,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46400.jpg"
+        "FILE" : "bg_stc_46400.jpg"
 
 },
 
@@ -3650,7 +3650,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46401.jpg"
+        "FILE" : "bg_stc_46401.jpg"
 
 },
 
@@ -3658,7 +3658,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46403.jpg"
+        "FILE" : "bg_stc_46403.jpg"
 
 },
 
@@ -3666,7 +3666,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46404.jpg"
+        "FILE" : "bg_stc_46404.jpg"
 
 },
 
@@ -3674,7 +3674,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_46500.jpg"
+        "FILE" : "bg_stc_46500.jpg"
 
 },
 
@@ -3682,7 +3682,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47000.jpg"
+        "FILE" : "bg_stc_47000.jpg"
 
 },
 
@@ -3690,7 +3690,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47001.jpg"
+        "FILE" : "bg_stc_47001.jpg"
 
 },
 
@@ -3698,7 +3698,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47103.jpg"
+        "FILE" : "bg_stc_47103.jpg"
 
 },
 
@@ -3706,7 +3706,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47104.jpg"
+        "FILE" : "bg_stc_47104.jpg"
 
 },
 
@@ -3714,7 +3714,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47105.jpg"
+        "FILE" : "bg_stc_47105.jpg"
 
 },
 
@@ -3722,7 +3722,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47106.jpg"
+        "FILE" : "bg_stc_47106.jpg"
 
 },
 
@@ -3730,7 +3730,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47107.jpg"
+        "FILE" : "bg_stc_47107.jpg"
 
 },
 
@@ -3738,7 +3738,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47108.jpg"
+        "FILE" : "bg_stc_47108.jpg"
 
 },
 
@@ -3746,7 +3746,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_47109.jpg"
+        "FILE" : "bg_stc_47109.jpg"
 
 },
 
@@ -3754,7 +3754,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_48000.jpg"
+        "FILE" : "bg_stc_48000.jpg"
 
 },
 
@@ -3762,7 +3762,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_48001.jpg"
+        "FILE" : "bg_stc_48001.jpg"
 
 },
 
@@ -3770,7 +3770,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_90071.jpg"
+        "FILE" : "bg_stc_90071.jpg"
 
 },
 
@@ -3778,7 +3778,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_90091.jpg"
+        "FILE" : "bg_stc_90091.jpg"
 
 },
 
@@ -3786,7 +3786,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_91022.jpg"
+        "FILE" : "bg_stc_91022.jpg"
 
 },
 
@@ -3794,7 +3794,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_91023.jpg"
+        "FILE" : "bg_stc_91023.jpg"
 
 },
 
@@ -3802,7 +3802,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_91024.jpg"
+        "FILE" : "bg_stc_91024.jpg"
 
 },
 
@@ -3810,7 +3810,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_91094.jpg"
+        "FILE" : "bg_stc_91094.jpg"
 
 },
 
@@ -3818,7 +3818,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_91151.jpg"
+        "FILE" : "bg_stc_91151.jpg"
 
 },
 
@@ -3826,7 +3826,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_91181.jpg"
+        "FILE" : "bg_stc_91181.jpg"
 
 },
 
@@ -3834,7 +3834,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_92021.jpg"
+        "FILE" : "bg_stc_92021.jpg"
 
 },
 
@@ -3842,7 +3842,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_92062.jpg"
+        "FILE" : "bg_stc_92062.jpg"
 
 },
 
@@ -3850,7 +3850,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_92063.jpg"
+        "FILE" : "bg_stc_92063.jpg"
 
 },
 
@@ -3858,7 +3858,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_92064.jpg"
+        "FILE" : "bg_stc_92064.jpg"
 
 },
 
@@ -3866,7 +3866,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_93062.jpg"
+        "FILE" : "bg_stc_93062.jpg"
 
 },
 
@@ -3874,7 +3874,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_93071.jpg"
+        "FILE" : "bg_stc_93071.jpg"
 
 },
 
@@ -3882,7 +3882,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_93072.jpg"
+        "FILE" : "bg_stc_93072.jpg"
 
 },
 
@@ -3890,7 +3890,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_93081.jpg"
+        "FILE" : "bg_stc_93081.jpg"
 
 },
 
@@ -3898,7 +3898,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_93082.jpg"
+        "FILE" : "bg_stc_93082.jpg"
 
 },
 
@@ -3906,7 +3906,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_94023.jpg"
+        "FILE" : "bg_stc_94023.jpg"
 
 },
 
@@ -3914,7 +3914,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_94072.jpg"
+        "FILE" : "bg_stc_94072.jpg"
 
 },
 
@@ -3922,7 +3922,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_94081.jpg"
+        "FILE" : "bg_stc_94081.jpg"
 
 },
 
@@ -3930,7 +3930,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_95053.jpg"
+        "FILE" : "bg_stc_95053.jpg"
 
 },
 
@@ -3938,7 +3938,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_95061.jpg"
+        "FILE" : "bg_stc_95061.jpg"
 
 },
 
@@ -3946,7 +3946,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_95062.jpg"
+        "FILE" : "bg_stc_95062.jpg"
 
 },
 
@@ -3954,7 +3954,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_95072.jpg"
+        "FILE" : "bg_stc_95072.jpg"
 
 },
 
@@ -3962,7 +3962,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96000.jpg"
+        "FILE" : "bg_stc_96000.jpg"
 
 },
 
@@ -3970,7 +3970,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96001.jpg"
+        "FILE" : "bg_stc_96001.jpg"
 
 },
 
@@ -3978,7 +3978,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96103.jpg"
+        "FILE" : "bg_stc_96103.jpg"
 
 },
 
@@ -3986,7 +3986,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96104.jpg"
+        "FILE" : "bg_stc_96104.jpg"
 
 },
 
@@ -3994,7 +3994,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96105.jpg"
+        "FILE" : "bg_stc_96105.jpg"
 
 },
 
@@ -4002,7 +4002,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96106.jpg"
+        "FILE" : "bg_stc_96106.jpg"
 
 },
 
@@ -4010,7 +4010,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96400.jpg"
+        "FILE" : "bg_stc_96400.jpg"
 
 },
 
@@ -4018,7 +4018,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96401.jpg"
+        "FILE" : "bg_stc_96401.jpg"
 
 },
 
@@ -4026,7 +4026,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_96500.jpg"
+        "FILE" : "bg_stc_96500.jpg"
 
 },
 
@@ -4034,7 +4034,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_97000.jpg"
+        "FILE" : "bg_stc_97000.jpg"
 
 },
 
@@ -4042,7 +4042,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_97001.jpg"
+        "FILE" : "bg_stc_97001.jpg"
 
 },
 
@@ -4050,7 +4050,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_97103.jpg"
+        "FILE" : "bg_stc_97103.jpg"
 
 },
 
@@ -4058,7 +4058,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_97104.jpg"
+        "FILE" : "bg_stc_97104.jpg"
 
 },
 
@@ -4066,7 +4066,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_97105.jpg"
+        "FILE" : "bg_stc_97105.jpg"
 
 },
 
@@ -4074,7 +4074,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_97106.jpg"
+        "FILE" : "bg_stc_97106.jpg"
 
 },
 
@@ -4082,7 +4082,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_doppel.jpg"
+        "FILE" : "bg_stc_doppel.jpg"
 
 },
 
@@ -4090,7 +4090,7 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_narration.jpg"
+        "FILE" : "bg_stc_narration.jpg"
 
 },
 
@@ -4098,6 +4098,6 @@ var BackgroundList = [{
 
         "TYPE" : "STATIC",
 
-        "FILE" : "bg_adv_red.jpg"
+        "FILE" : "bg_stc_red.jpg"
 
 }];
