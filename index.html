@@ -22,15 +22,8 @@
             }
             
             #glcanvas {
-                /*
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                */
                 background-size: 150%;
                 background-position: 50% 50%;
-                background-image: url(assets/image/back_class_normal.png);
             }
             
             button {
@@ -86,31 +79,66 @@
                     to(#c0392b));
                 border: 1px solid #c0392b;
             }
+
+            .darken {
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+
+            .selector {
+                width: 80%;
+                height: 90%;
+                position: absolute;
+                top: 5%;
+                left: 10%;
+                background-color: white;
+                overflow-y: scroll;
+                padding: 10px;
+                border-radius: 3px;
+            }
+
+            .thumbbutton {
+                cursor: pointer;
+                height: 90px;
+                width: 120px;
+                display: inline-block;
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 3px;
+            }
         </style>
 
     </head>
 
-    <body onload="main()">
+    <body onload="main()" align="center">
+        <div id="background">
+        </div>
+        <div align="center">
+            <p style="display:inline-block;padding-right: 10px;">
+                <button id="btnBg" class="active" style="cursor:pointer">Change Background</button>
+            </p>
+            <p style="display:inline-block">
+                <button id="btnReset" class="active" style="cursor:pointer">Reset Position</button>
+            </p>
+        </div>
         
 		<div align="center">
-        <!--<p style="display:inline-block">
-            <button id="btnChange" class="active" style="display:none">Change Model</button>
-        </p>-->
         <p  style="display:inline-block"> Model: </p>
         <select style="display:inline-block" id="select_model" onchange="chg_model()"> </select>
 		<p  style="display:inline-block"> Expression: </p>
 		<select style="display:inline-block" id="select_expression" onchange="chg_expr()"> </select>
 		<p  style="display:inline-block"> Motion: </p>
 		<select style="display:inline-block" id="select_motion"> </select>
-		<p style="display:inline-block">
-            <button id="btnReset" class="active" style="cursor:pointer">Reset Position</button>
-        </p>
+		
         <p>Hold Right-Click and Drag to move around. Hold Left-Click and Drag to follow mouse.
         </div>
         
-        <div align="center">
-            <canvas id="glcanvas" width="680" height="940" 
-                style="border:dashed 1px #CCC">
+        <div align="center" style="width: 1024px; height: 768px; display: inline-block; background-image: url(../assets/bg/static/bg_adv_20012.jpg)" id="back_ground">
+            <canvas id="glcanvas" width="1024px" height="768px">
             </canvas>
         </div>
         
@@ -121,12 +149,16 @@
 
         <!-- Live2D Framework -->
         <script src="js/Live2DFramework.js"></script>
+
+        <!-- plist parser -->
+        <script src="js/plist_parser.js"></script>
         
         <!-- User's Script -->
         <script src="src/utils/MatrixStack.js"></script>
         <script src="src/utils/ModelSettingJson.js"></script>
         <script src="src/PlatformManager.js"></script>
         <script src="src/LAppDefine.js"></script>
+        <script src="src/BackgroundList.js"></script>
         <script src="src/LAppModel.js"></script>
         <script src="src/LAppLive2DManager.js"></script>
         <script src="src/main.js"></script>

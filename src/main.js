@@ -35,7 +35,14 @@ function main()
     
     initModelSelection();
     initL2dCanvas("glcanvas");
+    //initBgSelector();
     
+    //
+
+    
+
+
+    //
     
     init();
 }
@@ -82,6 +89,9 @@ function initL2dCanvas(canvasId)
 
     document.getElementById("btnReset").addEventListener("click", function(e) {
         init();
+    }, false);
+    document.getElementById("btnBg").addEventListener("click", function(e) {
+        initBgSelector();
     }, false);
        
 }
@@ -143,6 +153,7 @@ function init()
     changeModel();
     
     startDraw();
+    modelScaling(0.6, 0, 0);
 }
 
 
@@ -486,3 +497,31 @@ function l2dError(msg)
     
     console.error(msg);
 };
+
+function initBgSelector()
+{
+    var div = document.createElement('div');
+    div.className = "darken";
+    div.id = "darken";
+    document.body.appendChild(div);
+    document.body.style.overflow = "hidden";
+    var selector = document.createElement('div');
+    selector.id = "selector";
+    selector.className = "selector";
+    document.body.appendChild(selector);
+    for (var i = 0; i < BackgroundList.length; i++){
+        var img = document.createElement('div');
+        img.className = "thumbbutton";
+        img.style.backgroundImage = "url(../assets/bg/static/"+BackgroundList[i].FILE+")";
+        img.style.backgroundSize = "120px 90px";
+        img.id = BackgroundList[i].FILE;
+        img.addEventListener("click", function(e) {
+            document.getElementById("back_ground").style.backgroundImage = "url(../assets/bg/static/"+this.id+")";
+            document.body.removeChild(document.getElementById("selector"));
+            document.body.removeChild(document.getElementById("darken"));
+            document.body.style.overflow = "auto";
+    }, false);
+        document.getElementById("selector").appendChild(img);
+    }
+}
+

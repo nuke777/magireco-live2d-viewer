@@ -10,7 +10,7 @@ var LAppDefine = {
     
     
     VIEW_MAX_SCALE : 2,
-    VIEW_MIN_SCALE : 0.8,
+    VIEW_MIN_SCALE : 0.5,
 
     VIEW_LOGICAL_LEFT : -1,
     VIEW_LOGICAL_RIGHT : 1,
@@ -27,7 +27,7 @@ var LAppDefine = {
     PRIORITY_FORCE : 3,
 
     MODEL_POSITION_X : 0,
-    MODEL_POSITION_Y : -0.125,
+    MODEL_POSITION_Y : 0,
     
     
     BACK_IMAGE_NAME : "assets/image/back_class_normal.png",
@@ -524,6 +524,9 @@ var LAppDefine = {
         "-831200" : "831200",
         "-831300" : "831300",
         "-831301" : "831301",
-    }
+    },
     
+    BG : [
+        ["web_0011"]
+    ]
 };
