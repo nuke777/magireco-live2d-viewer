@@ -1,4 +1,4 @@
-var LAppDefine = {
+﻿var LAppDefine = {
     
     
     DEBUG_LOG : false,
@@ -165,6 +165,8 @@ var LAppDefine = {
         "Hiiragi Nemu (MagiRepo)" : "101488",
         "Hinata Matsuri" : "403200",
         "Hinata Matsuri (School)" : "403201",
+	"Hiroe Chiharu" : "102600",
+	"Hiroe Chiharu (School)" : "102601",
         "Holy Alina" : "110800",
         "Holy Alina (MagiRepo)" : "110888",
         "Holy Alina Final Form" : "120800",
@@ -402,6 +404,10 @@ var LAppDefine = {
         "Togame Momoko (Swimsuit)" : "101051",
         "Togame Momoko (MagiRepo)" : "101088",
         "Togame Momoko (? [101090])" : "101090",
+	"Toki Sunao" : "102700",
+	"Toki Sunao (School" : "102701",
+	"Tokime Shizuka" : "102500",
+	"Tokime Shizuka (School)" : "102501",
         "Tokiwa Nanaka" : "300500",
         "Tokiwa Nanaka (School)" : "300501",
         "Tokiwa Nanaka (Shadow)" : "300502",
