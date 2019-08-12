@@ -4100,4 +4100,20 @@ var BackgroundList = [{
 
         "FILE" : "bg_stc_red.jpg"
 
+},
+
+{
+
+        "TYPE" : "STATIC",
+
+        "FILE" : "bg_stc_blue.png"
+
+},
+
+{
+
+        "TYPE" : "STATIC",
+
+        "FILE" : "bg_stc_green.png"
+
 }];

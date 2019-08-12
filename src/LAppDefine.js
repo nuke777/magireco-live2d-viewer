@@ -27,13 +27,7 @@
     PRIORITY_FORCE : 3,
 
     MODEL_POSITION_X : 0,
-    MODEL_POSITION_Y : 0,
-    
-    
-    BACK_IMAGE_NAME : "assets/image/back_class_normal.png",
-
-    MODEL_IROHA : "assets/live2d/100100/model.json",
-
+    MODEL_POSITION_Y : 0,   
     
     MOTION_GROUP_IDLE : "motion", 
     MOTION_GROUP_TAP_BODY : "tap_body", 
@@ -405,7 +399,7 @@
         "Togame Momoko (MagiRepo)" : "101088",
         "Togame Momoko (? [101090])" : "101090",
 	"Toki Sunao" : "102700",
-	"Toki Sunao (School" : "102701",
+	"Toki Sunao (School)" : "102701",
 	"Tokime Shizuka" : "102500",
 	"Tokime Shizuka (School)" : "102501",
         "Tokiwa Nanaka" : "300500",
