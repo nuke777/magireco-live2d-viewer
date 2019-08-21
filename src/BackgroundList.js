@@ -1,6 +1,18 @@
 var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "0_bg_stc_blue.png",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "0_bg_stc_green.png",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "0_bg_stc_red.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_11011.jpg",
 	},
 	{
@@ -233,6 +245,22 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13025.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13031.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13032.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13033.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_13041.jpg",
 	},
 	{
@@ -329,6 +357,10 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14029.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_14031.jpg",
 	},
 	{
@@ -406,6 +438,10 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_14084.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14131.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
@@ -902,6 +938,18 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_19211.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_19221.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_19222.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_19223.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
@@ -2213,22 +2261,10 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
-		"FILE" : "bg_stc_blue.png",
-	},
-	{
-		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_doppel.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
-		"FILE" : "bg_stc_green.png",
-	},
-	{
-		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_narration.jpg",
-	},
-	{
-		"TYPE" : "STATIC",
-		"FILE" : "bg_stc_red.jpg",
 	},
 ];
