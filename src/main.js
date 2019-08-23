@@ -34,6 +34,8 @@ function main()
     this.hold = false;
 
     this.charData = CharData;
+
+    this.voiceData = {};
     
     initModelSelection(this.charData[86]);
     initL2dCanvas("glcanvas");
@@ -87,6 +89,9 @@ function initL2dCanvas(canvasId)
         initBgSelector();
     }, false);
     $("#btnCharacter").click(() => { loadCharList() });
+    $("#select_motion").change(() => {
+        thisRef.live2DMgr.changeMotion($("#select_motion").val());
+    });
     window.onresize = (event) => {
         if (event === void 0) { event = null; }
         if (document.getElementById("darken") != null){
@@ -217,18 +222,20 @@ function draw()
 }
 
 function chg_expr() {
-    this.live2DMgr.changeExpression();
+    this.live2DMgr.changeExpressionById(document.getElementById("select_expression").selectedIndex);
 }
 
 function changeModel()
 {
     document.getElementById("select_model").setAttribute("disabled","disabled");
+    $("#select_voice").prop("disabled", true);
     this.isModelShown = false;
     
     this.live2DMgr.reloadFlg = true;
     this.live2DMgr.count++;
 
     this.live2DMgr.changeModel(this.gl, document.getElementById("select_model").value);
+    loadVoice($("#select_model").val());
 }
 
 
@@ -607,4 +614,52 @@ function search (key) {
     console.log(CharData);
     this.charData = data;
     loadResults(this.charData);
+}
+
+function loadVoice(id){
+    loadJSON(id, (response) => {
+        console.log(JSON.parse(response));
+        var voiceJson = JSON.parse(response);
+        var options = "";
+        for (var x in voiceJson.story){
+            options += '<option value="'+x+'">'+x+'</option>';
+        }
+        $("#select_voice").html(options).prop("disabled", false);
+        thisRef.voiceData = voiceJson;
+    });
+}
+
+function loadJSON(id, callback) {   
+    var path = "../json/"+id+".json";
+    var xobj = new XMLHttpRequest();
+        xobj.overrideMimeType("application/json");
+    xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+}
+
+function chg_voice(){
+    var queue = this.voiceData.story[$("#select_voice").val()];
+    motionSequence(queue);
+}
+
+function motionSequence(queue){
+    if (queue.length == 0){
+        //console.log("end");
+        return;
+    }
+    //console.log(queue[0].autoTurnFirst);
+    //console.log(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, queue[0].chara[0].motion));
+    live2DMgr.changeMotion(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, queue[0].chara[0].motion));
+    if (queue[0].chara[0].face != null)
+        live2DMgr.changeExpression(queue[0].chara[0].face);
+    setTimeout(() => {
+        queue.shift();      
+        motionSequence(queue);
+    }, queue[0].autoTurnFirst * 1000);
 }

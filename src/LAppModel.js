@@ -20,6 +20,7 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
 {
     this.setUpdating(true);
     this.setInitialized(false);
+    this.enableLoop = true;
 
     this.modelHomeDir = modelSettingPath.substring(0, modelSettingPath.lastIndexOf("/") + 1); 
 
@@ -215,7 +216,7 @@ LAppModel.prototype.preloadMotionGroup = function(name)
 
 LAppModel.prototype.update = function()
 {
-    // console.log("--> LAppModel.update()");
+    //console.log("--> LAppModel.update()");
 
     if(this.live2DModel == null) 
     {
@@ -228,10 +229,9 @@ LAppModel.prototype.update = function()
     var timeSec = timeMSec / 1000.0;
     var t = timeSec * 2 * Math.PI; 
     
-    
-    if (this.mainMotionManager.isFinished())
+    if (this.mainMotionManager.isFinished() && this.enableLoop)
     {
-        this.startRandomMotion(LAppDefine.MOTION_GROUP_IDLE, LAppDefine.PRIORITY_IDLE);
+        //this.startMotion(0, LAppDefine.PRIORITY_IDLE);
     }
     
     //-----------------------------------------------------------------		
@@ -342,17 +342,23 @@ LAppModel.prototype.startRandomMotion = function(name, priority)
     var max = this.modelSetting.getMotionNum(name);
     //var no = parseInt(Math.random() * max); random
 	var no = document.getElementById("select_motion").selectedIndex;
-    this.startMotion(name, no, priority);
+    this.startMotion(no, priority);
+}
+
+LAppModel.prototype.startTimedMotion = function (motion, priority, time)
+{
+
 }
 
 
 
-LAppModel.prototype.startMotion = function(name, no, priority)
+LAppModel.prototype.startMotion = function(no, priority)
 {
+    var name = LAppDefine.MOTION_GROUP_IDLE;
     // console.log("startMotion : " + name + " " + no + " " + priority);
     
     var motionName = this.modelSetting.getMotionFile(name, no);
-    
+
     if (motionName == null || motionName == "")
     {
         if (LAppDefine.DEBUG_LOG)

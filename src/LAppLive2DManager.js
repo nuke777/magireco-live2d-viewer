@@ -144,10 +144,26 @@ LAppLive2DManager.prototype.tapEvent = function(x, y)
     return true;
 };
 
-LAppLive2DManager.prototype.changeExpression = function()
+LAppLive2DManager.prototype.changeExpressionById = function(id)
 {
 	for (var i = 0; i < this.models.length; i++)
     {
-        this.models[i].setExpressionById(document.getElementById("select_expression").selectedIndex);
+        this.models[i].setExpressionById(id);
+    }
+}
+
+LAppLive2DManager.prototype.changeExpression = function(name)
+{
+    for (var i = 0; i < this.models.length; i++)
+    {
+        this.models[i].setExpression(name);
+    }
+}
+
+LAppLive2DManager.prototype.changeMotion = function(no)
+{
+    for (var i = 0; i < this.models.length; i++)
+    {
+        this.models[i].startMotion(no, LAppDefine.PRIORITY_FORCE);
     }
 }
