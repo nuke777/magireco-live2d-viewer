@@ -32,30 +32,23 @@ function main()
     this.isModelShown = false;
 
     this.hold = false;
+
+    this.charData = CharData;
     
-    initModelSelection();
+    initModelSelection(this.charData[86]);
     initL2dCanvas("glcanvas");
-    //initBgSelector();
-    
-    //
-
-    
-
-
-    //
     
     init();
 }
 
-function initModelSelection()
+function initModelSelection(data)
 {
-    for (var key in LAppDefine.CHAR_MODEL){
+    for (var key in data.SKIN){
         var opt = document.createElement("option");
         opt.text = key;
-        opt.value = LAppDefine.CHAR_MODEL[key];
+        opt.value = data.ID+""+data.SKIN[key];
         document.getElementById("select_model").appendChild(opt);
     }
-    document.getElementById("select_model").value = 100100;
 }
 
 function chg_model()
@@ -93,6 +86,7 @@ function initL2dCanvas(canvasId)
     document.getElementById("btnBg").addEventListener("click", function(e) {
         initBgSelector();
     }, false);
+    $("#btnCharacter").click(() => { loadCharList() });
     window.onresize = (event) => {
         if (event === void 0) { event = null; }
         if (document.getElementById("darken") != null){
@@ -539,3 +533,78 @@ function initBgSelector()
     }
 }
 
+function loadCharList() {
+    $(document.body).append($("<div></div>")
+            .attr("id","darken")
+            .addClass("darken")
+            .css("top", window.pageYOffset + "px")
+            .click(function(){
+                $('#selector').remove();
+                $('#darken').remove();
+                $(document.body).css("overflow", "auto");
+                thisRef.charData = CharData;
+            }))
+        .append($("<div></div>")
+            .attr("id","selector")
+            .addClass("selector")
+            .css("top", (window.pageYOffset + (window.innerHeight * 0.05)) + "px"))
+        .css("overflow", "hidden");
+        $("#selector").append($("<div></div>")
+                .attr("id","searchContainer")
+                .addClass("searchContainer")
+                .css({"padding" : "15px"})
+                .append($("<input>")
+                    .attr("id","searchField")
+                    .addClass("form-control")
+                    .css({"display" : "inline-block", "width" : "50%"})
+                    .on("keyup", function(){
+                        var key = event.keyCode || event.charCode;
+                        search(key);
+                    })))
+            .append($("<div></div>")
+                .attr("id","resultContainer")
+                .addClass("resultContainer"));
+            loadResults(this.charData);
+}
+
+function loadResults (data){
+    $("#resultContainer").empty();
+    for (var value in data){
+        $("#resultContainer").append($("<div></div>")
+            .addClass("megucaIcon")
+            .attr("id","meguca_"+value)
+            .css("background", "url(../assets/icon/"+data[value].ICON+")")
+            .css("background-size", "130px 144px")
+            .mouseover(function(){
+                $(this).css("background-size", "105%");
+            })
+            .mouseout(function(){
+                $(this).css("background-size", "100%");
+            })
+            .click(function(){
+                $("#select_model").empty();
+                initModelSelection(data[$(this).attr("id").slice(7)]);
+                changeModel();
+                $('#selector').remove();
+                $('#darken').remove();
+                $(document.body).css("overflow", "auto");
+                thisRef.charData = CharData;
+            }));     
+    }
+}
+
+function search (key) {
+    if (key != null){
+        if (key == 8 || key == 46)
+            this.charData = CharData;
+    }
+    var data = {};
+    var r = new RegExp($("#searchField").val().toLowerCase().trim());
+    for (var value in this.charData){
+        if (r.test(this.charData[value].NAME.toLowerCase()))
+            data[value] = this.charData[value];
+    }
+    console.log(CharData);
+    this.charData = data;
+    loadResults(this.charData);
+}

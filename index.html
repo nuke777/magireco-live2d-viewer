@@ -98,7 +98,15 @@
                 padding: 10px;
                 border-radius: 3px;
             }
-
+            .megucaIcon {
+                cursor: pointer;
+                height: 144px;
+                width: 130px;
+                display: inline-block;
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 3px;
+            }
             .thumbbutton {
                 cursor: pointer;
                 height: 90px;
@@ -116,6 +124,9 @@
         <div id="background">
         </div>
         <div align="center">
+            <p style="display:inline-block;padding-right: 10px;">
+                <button id="btnCharacter" class="active" style="cursor:pointer">Change Character</button>
+            </p>
             <p style="display:inline-block;padding-right: 10px;">
                 <button id="btnBg" class="active" style="cursor:pointer">Change Background</button>
             </p>
@@ -150,6 +161,9 @@
 
         <!-- plist parser -->
         <script src="js/plist_parser.js"></script>
+
+        <!--jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         
         <!-- User's Script -->
         <script src="src/utils/MatrixStack.js"></script>
@@ -157,6 +171,7 @@
         <script src="src/PlatformManager.js"></script>
         <script src="src/LAppDefine.js"></script>
         <script src="src/BackgroundList.js"></script>
+        <script src="src/CharData.js"></script>
         <script src="src/LAppModel.js"></script>
         <script src="src/LAppLive2DManager.js"></script>
         <script src="src/main.js"></script>

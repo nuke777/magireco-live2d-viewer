@@ -1,5 +1,5 @@
 ﻿var LAppDefine = {
-    
+//module.exports = {  
     
     DEBUG_LOG : false,
     DEBUG_MOUSE_LOG : false, 
