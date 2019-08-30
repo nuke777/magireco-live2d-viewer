@@ -185,6 +185,15 @@ var CharData = [
 		}
 	},
 	{
+		"NAME" : "Chitama Ranka",
+		"ID" : "3044",
+		"ICON" : "card_30441_d.png",
+		"SKIN" : {
+			"Chitama Ranka" : "00",
+			"Chitama Ranka (School)" : "01"
+		}
+	},
+	{
 		"NAME" : "Chitose Yuma",
 		"ID" : "4003",
 		"ICON" : "card_40033_d.png",
@@ -693,6 +702,15 @@ var CharData = [
 		}
 	},
 	{
+		"NAME" : "Minamitsu Ryouko",
+		"ID" : "3058",
+		"ICON" : "card_30581_d.png",
+		"SKIN" : {
+			"Minamitsu Ryouko" : "00",
+			"Minamitsu Ryouko (School)" : "01"
+		}
+	},
+	{
 		"NAME" : "Minou",
 		"ID" : "4024",
 		"ICON" : "card_40241_d.png",
@@ -844,6 +862,14 @@ var CharData = [
 		"SKIN" : {
 			"Sasara Hanna" : "00",
 			"Sasara Hanna (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Satomi Kagome",
+		"ID" : "1020",
+		"ICON" : "card_10201_d.png",
+		"SKIN" : {
+			"Satomi Kagome (School)" : "01"
 		}
 	},
 	{

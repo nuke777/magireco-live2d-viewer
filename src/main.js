@@ -1,4 +1,5 @@
 var thisRef = this;
+thisRef.voiceData = {};
 
 
 window.onerror = function(msg, url, line, col, error) {
@@ -35,9 +36,11 @@ function main()
 
     this.charData = CharData;
 
-    this.voiceData = {};
+    //this.voiceData = {};
+
+    this.test = "OwO";
     
-    initModelSelection(this.charData[86]);
+    initModelSelection(this.charData[LAppDefine.CHAR_MODEL]);
     initL2dCanvas("glcanvas");
     
     init();
@@ -611,20 +614,26 @@ function search (key) {
         if (r.test(this.charData[value].NAME.toLowerCase()))
             data[value] = this.charData[value];
     }
-    console.log(CharData);
+    //console.log(CharData);
     this.charData = data;
     loadResults(this.charData);
 }
 
 function loadVoice(id){
     loadJSON(id, (response) => {
-        console.log(JSON.parse(response));
         var voiceJson = JSON.parse(response);
         var options = "";
         for (var x in voiceJson.story){
             options += '<option value="'+x+'">'+x+'</option>';
         }
         $("#select_voice").html(options).prop("disabled", false);
+        thisRef.voiceData = voiceJson;
+    });
+}
+
+function reloadVoiceJson(id){
+    loadJSON(id, (response) => {
+        var voiceJson = JSON.parse(response);
         thisRef.voiceData = voiceJson;
     });
 }
@@ -643,23 +652,50 @@ function loadJSON(id, callback) {
     xobj.send(null);  
 }
 
-function chg_voice(){
-    var queue = this.voiceData.story[$("#select_voice").val()];
-    motionSequence(queue);
+function loadAudio(id, callback) {
+    var request = new XMLHttpRequest();
+    request.open("GET", "https://media.nuke.moe/magireco/assets/voices/"+id+"_hca.ogg", true);
+    request.responseType = "blob";    
+    request.onload = function() {
+      if (request.status == 200) {
+        callback(request.response);
+        //var audio = new Audio(URL.createObjectURL(this.response));
+        //audio.load();
+        //audio.play();
+      } else {
+        callback("Error");
+      }
+    }
+    request.send();
 }
 
-function motionSequence(queue){
-    if (queue.length == 0){
-        //console.log("end");
+function chg_voice(){
+    reloadVoiceJson($("#select_model").val());
+    var q = thisRef.voiceData.story[$("#select_voice").val()];
+    loadAudio(q[0].chara[0].voice, (response) => {
+        if (response == "Error") 
+            return;
+        var audio = new Audio(URL.createObjectURL(response));
+        audio.load();
+        audio.play();
+        motionSequence(q);
+    });   
+}
+
+function motionSequence(q){
+    var motion = this;
+    motion.q = q;
+    if (motion.q.length == 0){
+        console.log("end");
         return;
     }
-    //console.log(queue[0].autoTurnFirst);
-    //console.log(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, queue[0].chara[0].motion));
-    live2DMgr.changeMotion(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, queue[0].chara[0].motion));
-    if (queue[0].chara[0].face != null)
-        live2DMgr.changeExpression(queue[0].chara[0].face);
+    //console.log(q[0].autoTurnFirst);
+    //console.log(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, q[0].chara[0].motion));
+    live2DMgr.changeMotion(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, motion.q[0].chara[0].motion));
+    if (motion.q[0].chara[0].face != null)
+        live2DMgr.changeExpression(motion.q[0].chara[0].face);
     setTimeout(() => {
-        queue.shift();      
-        motionSequence(queue);
-    }, queue[0].autoTurnFirst * 1000);
+        motion.q.shift();
+        motionSequence(motion.q);
+    }, motion.q[0].autoTurnFirst * 1000);
 }
