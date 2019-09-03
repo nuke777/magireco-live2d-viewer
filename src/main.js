@@ -662,7 +662,7 @@ function reloadVoiceJson(id){
     loadJSON(id, (response) => {
         if (response == "Error"){
             if (id%100 != 0){
-                loadVoice(id - id%100);
+                reloadVoiceJson(id - id%100);
                 return;
             }
             return;
@@ -681,7 +681,8 @@ function loadJSON(id, callback) {
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
             callback(xobj.responseText);
-          } else {
+          } else if (xobj.status == "404"){
+            console.log(id + " not loaded.");
             callback("Error");
           }
     };
@@ -698,7 +699,8 @@ function loadAudio(id, callback) {
         //var audio = new Audio(URL.createObjectURL(this.response));
         //audio.load();
         //audio.play();
-      } else {
+      } else if (request.status == 404){
+        console.log(id + " audio not loaded.");
         callback("Error");
       }
     }
@@ -711,9 +713,13 @@ function chg_voice(){
         this.audio.pause();
     reloadVoiceJson($("#select_model").val());
     var q = thisRef.voiceData.story[$("#select_voice").val()];
+    $("#select_voice").prop("disabled", true);
     loadAudio(q[0].chara[0].voice, (response) => {
-        if (response == "Error") 
+        if (response == "Error"){ 
+            $("#select_voice").prop("disabled", false);
             return;
+        }        
+        $("#select_voice").prop("disabled", false);
         this.audio = new Audio(URL.createObjectURL(response));
         this.audio.load();
         this.audio.play();
