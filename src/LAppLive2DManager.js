@@ -167,3 +167,11 @@ LAppLive2DManager.prototype.changeMotion = function(no)
         this.models[i].startMotion(no, LAppDefine.PRIORITY_FORCE);
     }
 }
+
+LAppLive2DManager.prototype.setLipSync = function(value)
+{
+    for (var i = 0; i < this.models.length; i++)
+    {
+        this.models[i].setLipSync(value);
+    }
+}

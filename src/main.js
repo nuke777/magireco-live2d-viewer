@@ -36,12 +36,17 @@ function main()
 
     this.charData = CharData;
 
+    this.analyser = null;
+
+    this.lastTime = 0;
+
     //this.voiceData = {};
 
     this.test = "OwO";
     
     initModelSelection(this.charData[LAppDefine.CHAR_MODEL]);
-    initL2dCanvas("glcanvas");
+    initL2dCanvas("glcanvas");    
+    soundAnalyser();
     
     init();
 }
@@ -58,6 +63,9 @@ function initModelSelection(data)
 
 function chg_model()
 {
+    clearTimeout(this.motionTimeout);
+    if (typeof this.audio !== 'undefined')
+        this.audio.pause();
     changeModel();
 }
 
@@ -91,8 +99,16 @@ function initL2dCanvas(canvasId)
     document.getElementById("btnBg").addEventListener("click", function(e) {
         initBgSelector();
     }, false);
-    $("#btnCharacter").click(() => { loadCharList() });
+    $("#btnCharacter").click(() => { 
+        clearTimeout(this.motionTimeout);
+        if (typeof this.audio !== 'undefined')
+            this.audio.pause();
+        loadCharList() 
+    });
     $("#select_motion").change(() => {
+        clearTimeout(this.motionTimeout);
+        if (typeof this.audio !== 'undefined')
+            this.audio.pause();
         thisRef.live2DMgr.changeMotion($("#select_motion").val());
     });
     window.onresize = (event) => {
@@ -225,6 +241,9 @@ function draw()
 }
 
 function chg_expr() {
+    clearTimeout(this.motionTimeout);
+    if (typeof this.audio !== 'undefined')
+        this.audio.pause();
     this.live2DMgr.changeExpressionById(document.getElementById("select_expression").selectedIndex);
 }
 
@@ -621,6 +640,14 @@ function search (key) {
 
 function loadVoice(id){
     loadJSON(id, (response) => {
+        if (response == "Error"){
+            if (id%100 != 0){
+                loadVoice(id - id%100);
+                return;
+            } else {
+                return;
+            }
+        }
         var voiceJson = JSON.parse(response);
         var options = "";
         for (var x in voiceJson.story){
@@ -633,6 +660,13 @@ function loadVoice(id){
 
 function reloadVoiceJson(id){
     loadJSON(id, (response) => {
+        if (response == "Error"){
+            if (id%100 != 0){
+                loadVoice(id - id%100);
+                return;
+            }
+            return;
+        }
         var voiceJson = JSON.parse(response);
         thisRef.voiceData = voiceJson;
     });
@@ -647,6 +681,8 @@ function loadJSON(id, callback) {
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
             callback(xobj.responseText);
+          } else {
+            callback("Error");
           }
     };
     xobj.send(null);  
@@ -670,23 +706,51 @@ function loadAudio(id, callback) {
 }
 
 function chg_voice(){
+    clearTimeout(this.motionTimeout);
+    if (typeof this.audio !== 'undefined')
+        this.audio.pause();
     reloadVoiceJson($("#select_model").val());
     var q = thisRef.voiceData.story[$("#select_voice").val()];
     loadAudio(q[0].chara[0].voice, (response) => {
         if (response == "Error") 
             return;
-        var audio = new Audio(URL.createObjectURL(response));
-        audio.load();
-        audio.play();
+        this.audio = new Audio(URL.createObjectURL(response));
+        this.audio.load();
+        this.audio.play();
+        var context = new AudioContext();
+        this.analyser = context.createAnalyser();
+        var source = context.createMediaElementSource(this.audio);
+        source.connect(this.analyser);
+        this.analyser.connect(context.destination);
+        this.analyser.fftSize = 1024;
         motionSequence(q);
     });   
+}
+
+function soundAnalyser(){
+    window.requestAnimationFrame(soundAnalyser);
+    if (this.analyser == null)
+        return;
+    var freqArray = new Uint8Array(this.analyser.frequencyBinCount);
+    this.analyser.getByteFrequencyData(freqArray);
+    var rms = 0;
+    for (var i in freqArray){
+        if (i > 256 && i <= 384)
+            rms += freqArray[i] * freqArray[i];
+        
+    }
+    rms /= 128;
+    rms = Math.sqrt(rms);
+    //console.log(rms/70);
+    live2DMgr.setLipSync(rms / 70);
+
 }
 
 function motionSequence(q){
     var motion = this;
     motion.q = q;
     if (motion.q.length == 0){
-        console.log("end");
+        //console.log("end");
         return;
     }
     //console.log(q[0].autoTurnFirst);
@@ -694,7 +758,7 @@ function motionSequence(q){
     live2DMgr.changeMotion(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, motion.q[0].chara[0].motion));
     if (motion.q[0].chara[0].face != null)
         live2DMgr.changeExpression(motion.q[0].chara[0].face);
-    setTimeout(() => {
+    this.motionTimeout = setTimeout(() => {
         motion.q.shift();
         motionSequence(motion.q);
     }, motion.q[0].autoTurnFirst * 1000);

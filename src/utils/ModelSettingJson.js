@@ -157,7 +157,6 @@ ModelSettingJson.prototype.getMotionArrayId = function(name, id)
     if (this.json[this.MOTION_GROUPS] == null || 
         this.json[this.MOTION_GROUPS][name] == null)
         return null;
-    console.log(name+ " : " + id);
     for (var n in this.json[this.MOTION_GROUPS][name]){
         if (parseInt(this.json[this.MOTION_GROUPS][name][n][this.FILE].slice(11).slice(0, -4)) == id)
             return n;
