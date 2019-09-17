@@ -40,7 +40,7 @@
     HIT_AREA_HEAD : "head",
     HIT_AREA_BODY : "body",
 
-    CHAR_MODEL : 89,
+    CHAR_MODEL : 90,
     
     BG : [
         ["web_0011"]

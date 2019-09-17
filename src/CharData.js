@@ -782,6 +782,16 @@ var CharData = [
 		}
 	},
 	{
+		"NAME" : "Nanase Yukika",
+		"ID" : "3017",
+		"ICON" : "card_30174_d.png",
+		"SKIN" : {
+			"Nanase Yukika" : "00",
+			"Nanase Yukika (School)" : "01",
+			"Nanase Yukika (White Feather)" : "02"
+		}
+	},
+	{
 		"NAME" : "Narumi Arisa",
 		"ID" : "4033",
 		"ICON" : "card_40333_d.png",
@@ -1196,6 +1206,24 @@ var CharData = [
 			"Yusa Hazuki" : "00",
 			"Yusa Hazuki (School)" : "01",
 			"Yusa Hazuki (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Yuuki Hotori",
+		"ID" : "3041",
+		"ICON" : "card_30411_d.png",
+		"SKIN" : {
+			"Yuuki Hotori" : "00",
+			"Yuuki Hotori (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Yuuki Rion",
+		"ID" : "3045",
+		"ICON" : "card_30451_d.png",
+		"SKIN" : {
+			"Yuuki Rion" : "00",
+			"Yuuki Rion (School)" : "01"
 		}
 	},
 	{
