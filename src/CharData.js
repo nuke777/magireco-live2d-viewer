@@ -210,6 +210,7 @@ var CharData = [
 		"SKIN" : {
 			"Chun Meiyun" : "00",
 			"Chun Meiyun (School)" : "01",
+			"Chun Meiyun (Shadow)" : "02",
 			"Chun Meiyun (MagiRepo)" : "88"
 		}
 	},

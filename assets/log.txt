@@ -1,5 +1,5 @@
  
-100100 
+403100 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  model.json 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
@@ -11,21 +11,25 @@
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  pose.json 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
+ "exp/mtn_ex_000.exp.json" 
+{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  "exp/mtn_ex_010.exp.json" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
- "exp/mtn_ex_011.exp.json" 
-{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
- "exp/mtn_ex_021.exp.json" 
+ "exp/mtn_ex_020.exp.json" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  "exp/mtn_ex_030.exp.json" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
- "exp/mtn_ex_041.exp.json" 
-{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  "exp/mtn_ex_050.exp.json" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
- "exp/mtn_ex_060.exp.json" 
+ "model.1024/texture_00.png" 
+{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
+ "model.1024/texture_01.png" 
+{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
+ "model.1024/texture_02.png" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  "model.2048/texture_00.png" 
+{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
+ "model.2048/texture_01.png" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  "mtn/motion_000.mtn" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
@@ -37,8 +41,4 @@
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  "mtn/motion_300.mtn" 
 {"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
- "mtn/motion_301.mtn" 
-{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
  "mtn/motion_400.mtn" 
-{"result":{"id":"e8380c6ed46cfa203f021b224354780f"},"success":true,"errors":[],"messages":[]}
- "mtn/motion_401.mtn" 
