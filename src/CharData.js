@@ -1,5 +1,51 @@
 var CharData = [
 	{
+		"NAME" : "Kureha Yuuna",
+		"ID" : "1021",
+		"ICON" : "card_10211_d.png",
+		"SKIN" : {
+			"Kureha Yuuna" : "00",
+			"Kureha Yuuna (School)" : "01",
+			"Kureha Yuuna (Before Awakening)" : "02",
+			"Kureha Yuuna (School / Before Awakening)" : "03"
+		}
+	},
+	{
+		"NAME" : "Kirari Hikaru",
+		"ID" : "1022",
+		"ICON" : "card_10224_d.png",
+		"SKIN" : {
+			"Kirari Hikaru" : "00",
+			"Kirari Hikaru (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Kasane Ao",
+		"ID" : "1023",
+		"ICON" : "card_10231_d.png",
+		"SKIN" : {
+			"Kasane Ao" : "00",
+			"Kasane Ao (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Oba Juri",
+		"ID" : "1024",
+		"ICON" : "card_10241_d.png",
+		"SKIN" : {
+			"Oba Juri" : "00",
+			"Oba Juri (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Suzuka Sakuya",
+		"ID" : "3021",
+		"ICON" : "card_30211_d.png",
+		"SKIN" : {
+			"Suzuka Sakuya" : "00",
+		}
+	},
+	{
 		"NAME" : "Aino Mito",
 		"ID" : "3015",
 		"ICON" : "card_30154_d.png",
@@ -1264,6 +1310,38 @@ var CharData = [
 		"ICON" : "card_76011_d.png",
 		"SKIN" : {
 			"General Soldier 3" : "00"
+		}
+	},
+	{
+		"NAME" : "PBモブ_一般兵",
+		"ID" : "7700",
+		"ICON" : "card_99999_d.png",
+		"SKIN" : {
+			"PBモブ_一般兵(黄)A_圧縮" : "80",
+			"PBモブ_一般兵(黄)B_圧縮" : "81",
+			"PBモブ_一般兵(黄)C_圧縮" : "82",
+			"PBモブ_一般兵(緑)A_圧縮" : "83",
+			"PBモブ_一般兵(緑)B_圧縮" : "84",
+			"PBモブ_一般兵(緑)C_圧縮" : "85",
+			"PBモブ_一般兵(青)A_圧縮" : "86",
+			"PBモブ_一般兵(青)B_圧縮" : "87",
+			"PBモブ_一般兵(青)C_圧縮" : "88",
+		}
+	},
+	{
+		"NAME" : "PBモブ_幹部兵",
+		"ID" : "7701",
+		"ICON" : "card_99999_d.png",
+		"SKIN" : {
+			"PBモブ_幹部兵A(黄)_圧縮" : "80",
+			"PBモブ_幹部兵B(黄)_圧縮" : "81",
+			"PBモブ_幹部兵C(黄)_圧縮" : "82",
+			"PBモブ_幹部兵(緑)A_圧縮" : "83",
+			"PBモブ_幹部兵(緑)B_圧縮" : "84",
+			"PBモブ_幹部兵(緑)C_圧縮" : "85",
+			"PBモブ_幹部兵(青)A_圧縮" : "86",
+			"PBモブ_幹部兵(青)B_圧縮" : "87",
+			"PBモブ_幹部兵(青)C_圧縮" : "88",
 		}
 	},
 	{
