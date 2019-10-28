@@ -1,5 +1,21 @@
 var CharData = [
 	{
+		"NAME" : "Himuro Rabi",
+		"ID" : "1033",
+		"ICON" : "card_10330_d.png",
+		"SKIN" : {
+			"Himuro Rabi" : "00",
+		}
+	},
+	{
+		"NAME" : "Revere Mediros",
+		"ID" : "1041",
+		"ICON" : "card_10410_d.png",
+		"SKIN" : {
+			"Revere Mediros" : "00",
+		}
+	},
+	{
 		"NAME" : "Kureha Yuuna",
 		"ID" : "1021",
 		"ICON" : "card_10211_d.png",
@@ -1317,6 +1333,9 @@ var CharData = [
 		"ID" : "7700",
 		"ICON" : "card_99999_d.png",
 		"SKIN" : {
+			"PB_モブA_圧縮" : "00",
+			"PB_モブB_圧縮" : "01",
+			"PB_モブC_圧縮" : "02",
 			"PBモブ_一般兵(黄)A_圧縮" : "80",
 			"PBモブ_一般兵(黄)B_圧縮" : "81",
 			"PBモブ_一般兵(黄)C_圧縮" : "82",
@@ -1333,6 +1352,9 @@ var CharData = [
 		"ID" : "7701",
 		"ICON" : "card_99999_d.png",
 		"SKIN" : {
+			"PB_モブ_幹部兵A_圧縮" : "00",
+			"PB_モブ_幹部兵B_圧縮" : "01",
+			"PB_モブ_幹部兵C_圧縮" : "02",
 			"PBモブ_幹部兵A(黄)_圧縮" : "80",
 			"PBモブ_幹部兵B(黄)_圧縮" : "81",
 			"PBモブ_幹部兵C(黄)_圧縮" : "82",

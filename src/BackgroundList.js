@@ -113,6 +113,18 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_11095.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_11101.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_11102.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_12011.jpg",
 	},
 	{
@@ -217,6 +229,10 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_12101.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_13011.jpg",
 	},
 	{
@@ -318,6 +334,34 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_13091.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13111.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13131.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13132.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13133.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13141.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13142.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_13143.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
@@ -442,6 +486,34 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_14084.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14101.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14111.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14112.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14113.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14121.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14122.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_14123.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
@@ -585,6 +657,50 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16101.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16102.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16111.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16112.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16113.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16121.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16122.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16123.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16131.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16132.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_16133.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_17012.jpg",
 	},
 	{
@@ -705,6 +821,22 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_17191.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_17192.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_17193.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_17201.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_18012.jpg",
 	},
 	{
@@ -750,6 +882,10 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_18054.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_18081.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
@@ -954,6 +1090,10 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_19223.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_19231.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
@@ -1769,6 +1909,10 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_21341.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_21351.jpg",
 	},
 	{
@@ -1818,6 +1962,14 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_21393.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_21401.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_21411.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
@@ -1882,6 +2034,14 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_21483.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_21491.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_21492.jpg",
 	},
 	{
 		"TYPE" : "STATIC",
