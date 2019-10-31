@@ -171,6 +171,7 @@ var CharData = [
 		"SKIN" : {
 			"Amano Suzune" : "00",
 			"Amano Suzune (School)" : "01",
+			"Amano Suzune (Shadow)" : "02",
 			"Amano Suzune (MagiRepo)" : "88"
 		}
 	},
@@ -301,6 +302,7 @@ var CharData = [
 		"SKIN" : {
 			"Eri Aimi" : "00",
 			"Eri Aimi (School)" : "01",
+			"Eri Aimi (Shadow)" : "02",
 			"Eri Aimi (Winter)" : "50",
 			"Eri Aimi (MagiRepo)" : "88"
 		}
@@ -390,7 +392,7 @@ var CharData = [
 	{
 		"NAME" : "Hinata Matsuri",
 		"ID" : "4032",
-		"ICON" : "card_40321_d.png",
+		"ICON" : "card_40324_d.png",
 		"SKIN" : {
 			"Hinata Matsuri" : "00",
 			"Hinata Matsuri (School)" : "01"
@@ -450,6 +452,7 @@ var CharData = [
 			"Hozumi Shizuku (Black Feather)" : "02",
 			"Hozumi Shizuku (Silhouette)" : "03",
 			"Hozumi Shizuku (Shadow)" : "04",
+			"Hozumi Shizuku (Halloween)" : "50",
 			"Hozumi Shizuku (MagiRepo)" : "88"
 		}
 	},
@@ -512,7 +515,7 @@ var CharData = [
 	{
 		"NAME" : "Kanade Haruka",
 		"ID" : "4035",
-		"ICON" : "card_40351_d.png",
+		"ICON" : "card_40353_d.png",
 		"SKIN" : {
 			"Kanade Haruka" : "00",
 			"Kanade Haruka (School)" : "01"
@@ -682,6 +685,7 @@ var CharData = [
 		"SKIN" : {
 			"Mariko Ayaka" : "00",
 			"Mariko Ayaka (School)" : "01",
+			"Mariko Ayaka (Halloween)" : "50",
 			"Mariko Ayaka (MagiRepo)" : "88"
 		}
 	},
@@ -871,6 +875,7 @@ var CharData = [
 		"SKIN" : {
 			"Natsume Kako" : "00",
 			"Natsume Kako (School)" : "01",
+			"Natsume Kako (Shadow)" : "02",
 			"Natsume Kako (Halloween)" : "50",
 			"Natsume Kako (MagiRepo)" : "88"
 		}
@@ -984,6 +989,7 @@ var CharData = [
 		"SKIN" : {
 			"Shinobu Akira" : "00",
 			"Shinobu Akira (School)" : "01",
+			"Shinobu Akira (Shadow)" : "02",
 			"Shinobu Akira (MagiRepo)" : "88"
 		}
 	},
@@ -994,6 +1000,7 @@ var CharData = [
 		"SKIN" : {
 			"Shion Chisato" : "00",
 			"Shion Chisato (School)" : "01",
+			"Shion Chisato (Shadow)" : "02",
 			"Shion Chisato (MagiRepo)" : "88"
 		}
 	},
@@ -1221,6 +1228,7 @@ var CharData = [
 		"SKIN" : {
 			"Yayoi Kanoko" : "00",
 			"Yayoi Kanoko (School)" : "01",
+			"Yayoi Kanoko (Shadow)" : "02",
 			"Yayoi Kanoko (Mermyngii・Miracle Swimmer)" : "53",
 			"Yayoi Kanoko (MagiRepo)" : "88"
 		}
@@ -1639,7 +1647,8 @@ var CharData = [
 		"ICON" : "card_80011_d.png",
 		"SKIN" : {
 			"-830700" : "00",
-			"-830701" : "01"
+			"-830701" : "01",
+			"-830702" : "02"
 		}
 	},
 	{
