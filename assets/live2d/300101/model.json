@@ -23,7 +23,11 @@
         {
             "file": "exp/mtn_ex_050.exp.json", 
             "name": "mtn_ex_050.exp.json"
-        }
+        },
+        {
+            "file": "exp/mtn_ex_060.exp.json", 
+            "name": "mtn_ex_060.exp.json"
+        }		
     ], 
     "model": "model.moc", 
     "motions": {
@@ -57,7 +61,8 @@
     "physics": "physics.json", 
     "pose": "pose.json", 
     "textures": [
-        "model.2048/texture_00.png"
-    ], 
+        "model.1024/texture_00.png",
+		"model.1024/texture_01.png"
+		  ], 
     "version": "Sample 1.0.0"
 }

@@ -1103,7 +1103,7 @@ var CharData = [
 	{
 		"NAME" : "Toki Sunao",
 		"ID" : "1027",
-		"ICON" : "card_10271_d.png",
+		"ICON" : "card_10274_d.png",
 		"SKIN" : {
 			"Toki Sunao" : "00",
 			"Toki Sunao (School)" : "01"
@@ -1372,6 +1372,22 @@ var CharData = [
 			"PBモブ_幹部兵(青)A_圧縮" : "86",
 			"PBモブ_幹部兵(青)B_圧縮" : "87",
 			"PBモブ_幹部兵(青)C_圧縮" : "88",
+		}
+	},
+	{
+		"NAME" : "時女_一般兵",
+		"ID" : "7702",
+		"ICON" : "card_99999_d.png",
+		"SKIN" : {
+			"時女_一般兵_圧縮" : "00",
+		}
+	},
+	{
+		"NAME" : "Neo-Magius (Low)",
+		"ID" : "7704",
+		"ICON" : "card_77040_d.png",
+		"SKIN" : {
+			"Neo-Magius (Low)" : "00",
 		}
 	},
 	{

@@ -589,6 +589,10 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_15063.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_15071.jpg",
 	},
 	{
