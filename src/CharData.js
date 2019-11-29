@@ -1,5 +1,34 @@
 var CharData = [
 	{
+		"NAME" : "Komachi Mikura",
+		"ID" : "3038",
+		"ICON" : "card_30384_d.png",
+		"SKIN" : {
+			"Komachi Mikura" : "00",
+			"Komachi Mikura (School)" : "01",
+			"Komachi Mikura (Costume)" : "02",
+		}
+	},
+	{
+		"NAME" : "Mihono Seira",
+		"ID" : "3039",
+		"ICON" : "card_30393_d.png",
+		"SKIN" : {
+			"Mihono Seira" : "00",
+			"Mihono Seira (School)" : "01",
+			"Mihono Seira (Costume)" : "02",
+		}
+	},
+	{
+		"NAME" : "Kira Temari",
+		"ID" : "3040",
+		"ICON" : "card_30403_d.png",
+		"SKIN" : {
+			"Kira Temari" : "00",
+			"Kira Temari (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Himuro Rabi",
 		"ID" : "1033",
 		"ICON" : "card_10330_d.png",
