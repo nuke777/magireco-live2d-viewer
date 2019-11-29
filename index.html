@@ -128,6 +128,15 @@
                 padding:10px 20px 10px 20px;
                 font-size:12px;
             }
+            .subtitle {
+                color: #000000;
+                font-family: Helvetica;
+                font-size: 20px;
+                text-shadow: 1px 1px 0px #ffffff, 1px -1px 0px #ffffff, -1px 1px 0px #ffffff, -1px -1px 0px #ffffff;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
         </style>
 
     </head>
@@ -160,9 +169,10 @@
         <p>Hold Right-Click and Drag to move around. Hold Left-Click and Drag to follow mouse.
         </div>
         
-        <div align="center" style="width: 1024px; height: 768px; display: inline-block; background-image: url(../assets/bg/static/bg_stc_20012.jpg)" id="back_ground">
+        <div align="center" style="width: 1024px; height: 768px; display: inline-block; background-image: url(../assets/bg/static/bg_stc_20012.jpg); background-size: 100%; position: relative" id="back_ground">
             <canvas id="glcanvas" width="1024px" height="768px">
             </canvas>
+            <font class="subtitle"></font>
         </div>
         
         <div id="myconsole" style="color:#000;display:none">---- Log ----</div>
