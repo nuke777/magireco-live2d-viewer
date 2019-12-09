@@ -1,4 +1,0 @@
-exp
-model.1024
-model.2048
-mtn

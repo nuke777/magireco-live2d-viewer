@@ -23,6 +23,7 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
     this.enableLoop = true;
 
     this.modelHomeDir = modelSettingPath.substring(0, modelSettingPath.lastIndexOf("/") + 1); 
+    //console.log(this.modelHomeDir);
 
     this.modelSetting = new ModelSettingJson();
     

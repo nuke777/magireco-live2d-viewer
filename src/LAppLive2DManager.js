@@ -39,7 +39,7 @@ LAppLive2DManager.prototype.changeModel = function(gl, key)
         this.releaseModel(0, gl);
         
         this.createModel();
-        this.models[0].load(gl, "assets/live2d/"+key+"/model.json");
+        this.models[0].load(gl, "https://media.nuke.moe/magireco/assets/live2d/"+key+"/model.json");
     }
 };
 
@@ -144,34 +144,22 @@ LAppLive2DManager.prototype.tapEvent = function(x, y)
     return true;
 };
 
-LAppLive2DManager.prototype.changeExpressionById = function(id)
+LAppLive2DManager.prototype.changeExpressionById = function(model, id)
 {
-	for (var i = 0; i < this.models.length; i++)
-    {
-        this.models[i].setExpressionById(id);
-    }
+	this.models[model].setExpressionById(id);
 }
 
-LAppLive2DManager.prototype.changeExpression = function(name)
+LAppLive2DManager.prototype.changeExpression = function(model, name)
 {
-    for (var i = 0; i < this.models.length; i++)
-    {
-        this.models[i].setExpression(name);
-    }
+    this.models[model].setExpression(name);
 }
 
-LAppLive2DManager.prototype.changeMotion = function(no)
+LAppLive2DManager.prototype.changeMotion = function(model, no)
 {
-    for (var i = 0; i < this.models.length; i++)
-    {
-        this.models[i].startMotion(no, LAppDefine.PRIORITY_FORCE);
-    }
+    this.models[model].startMotion(no, LAppDefine.PRIORITY_FORCE);    
 }
 
-LAppLive2DManager.prototype.setLipSync = function(value)
+LAppLive2DManager.prototype.setLipSync = function(model, value)
 {
-    for (var i = 0; i < this.models.length; i++)
-    {
-        this.models[i].setLipSync(value);
-    }
+    this.models[model].setLipSync(value);
 }
