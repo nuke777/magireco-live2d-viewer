@@ -1,5 +1,25 @@
 var CharData = [
 	{
+		"NAME" : "Miyabi Shigure",
+		"ID" : "1029",
+		"ICON" : "card_10294_d.png",
+		"SKIN" : {
+			"Miyabi Shigure" : "00",
+			"Miyabi Shigure (School)" : "01",
+			"Miyabi Shigure (Black Feather)" : "02",
+		}
+	},
+	{
+		"NAME" : "Azumi Hagumu",
+		"ID" : "1030",
+		"ICON" : "card_10301_d.png",
+		"SKIN" : {
+			"Azumi Hagumu" : "00",
+			"Azumi Hagumu (School)" : "01",
+			"Azumi Hagumu (Black Feather)" : "02",
+		}
+	},
+	{
 		"NAME" : "Komachi Mikura",
 		"ID" : "3038",
 		"ICON" : "card_30384_d.png",
@@ -1412,11 +1432,22 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Neo-Magius (Low)",
+		"NAME" : "Black Feather - Neo-Magius",
 		"ID" : "7704",
 		"ICON" : "card_77040_d.png",
 		"SKIN" : {
-			"Neo-Magius (Low)" : "00",
+			"Black Feather (Low)" : "00",
+			"Black Feather (Middle)" : "01",
+			"Black Feather (High)" : "02",
+		}
+	},
+	{
+		"NAME" : "White Feather - Neo-Magius",
+		"ID" : "7705",
+		"ICON" : "card_77050_d.png",
+		"SKIN" : {
+			"White Feather (Middle)" : "00",
+			"White Feather (High)" : "01",
 		}
 	},
 	{
