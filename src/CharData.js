@@ -1,5 +1,15 @@
 var CharData = [
 	{
+		"NAME" : "Ayano Rika & Isuzu Ren Christmas Ver.",
+		"ID" : "3501",
+		"ICON" : "card_35014_d.png",
+		"SKIN" : {
+			"Ayano Rika & Isuzu Ren Christmas Ver. (Duo)" : "00,01",
+			"Ayano Rika & Isuzu Ren Christmas Ver. (Rika)" : "01",
+			"Ayano Rika & Isuzu Ren Christmas Ver. (Ren)" : "02",
+		}
+	},
+	{
 		"NAME" : "Miyabi Shigure",
 		"ID" : "1029",
 		"ICON" : "card_10294_d.png",
@@ -208,6 +218,7 @@ var CharData = [
 		"ID" : "1118",
 		"ICON" : "card_11184_d.png",
 		"SKIN" : {
+			"Amane Sisters Mizugi Ver. (Duo)" : "00,02",
 			"Amane Sisters Mizugi Ver." : "00",
 			"Amane Sisters Mizugi Ver. (Tsukuyo)" : "01",
 			"Amane Sisters Mizugi Ver. (Tsukasa)" : "02"
@@ -623,6 +634,7 @@ var CharData = [
 			"Kisaki Emiri" : "00",
 			"Kisaki Emiri (School)" : "01",
 			"Kisaki Emiri (Winter)" : "50",
+			"Kisaki Emiri (Christmas)" : "51",
 			"Kisaki Emiri (MagiRepo)" : "88",
 			"Kisaki Emiri (? [300690])" : "90",
 			"Kisaki Emiri (? [300699])" : "99"
@@ -1039,6 +1051,7 @@ var CharData = [
 			"Shinobu Akira" : "00",
 			"Shinobu Akira (School)" : "01",
 			"Shinobu Akira (Shadow)" : "02",
+			"Shinobu Akira (Christmas)" : "50",
 			"Shinobu Akira (MagiRepo)" : "88"
 		}
 	},
@@ -1233,6 +1246,7 @@ var CharData = [
 		"ID" : "1301",
 		"ICON" : "card_13014_d.png",
 		"SKIN" : {
+			"Yachiyo Nanami & Tamaki Iroha (Duo)" : "00,02",
 			"Yachiyo Nanami & Tamaki Iroha" : "00",
 			"Yachiyo Nanami & Tamaki Iroha (Iroha)" : "01",
 			"Yachiyo Nanami & Tamaki Iroha (Yachiyo)" : "02"
@@ -1257,6 +1271,7 @@ var CharData = [
 			"Yakumo Mitama (Casual)" : "01",
 			"Yakumo Mitama (School)" : "02",
 			"Yakumo Mitama (Swimsuit)" : "50",
+			"Yakumo Mitama (Mustache)" : "51",
 			"Yakumo Mitama (MagiRepo)" : "88",
 			"Yakumo Mitama (? [101799])" : "99"
 		}

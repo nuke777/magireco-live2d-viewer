@@ -11,46 +11,55 @@ function LAppModel()
     this.modelHomeDir = "";
     this.modelSetting = null;
     this.tmpMatrix = [];
+    this.matrixNumber = null;
+    this.expressionList = [];
+    this.motionList = [];
+    this.expressionCallback = function(){};
+    this.motionCallback = function(){};
 }
 
 LAppModel.prototype = new L2DBaseModel();
 
+LAppModel.prototype.setMatrixNumber = function(no)
+{
+    this.matrixNumber = no;
+}
 
-LAppModel.prototype.load = function(gl, modelSettingPath, callback)
+
+LAppModel.prototype.load = function(gl, id, callback, thisRef2)
 {
     this.setUpdating(true);
     this.setInitialized(false);
     this.enableLoop = true;
+    modelSettingPath = "https://media.nuke.moe/magireco/assets/live2d/"+id+"/model.json";
 
     this.modelHomeDir = modelSettingPath.substring(0, modelSettingPath.lastIndexOf("/") + 1); 
     //console.log(this.modelHomeDir);
 
     this.modelSetting = new ModelSettingJson();
+    this.modelSetting.ID = id;
     
     var thisRef = this;
-    
+
     this.modelSetting.loadModelSetting(modelSettingPath, function(){
-        
+
         var path = thisRef.modelHomeDir + thisRef.modelSetting.getModelFile();
         thisRef.loadModelData(path, function(model){
-            
+
             for (var i = 0; i < thisRef.modelSetting.getTextureNum(); i++)
             {
-                
+
                 var texPaths = thisRef.modelHomeDir + 
                     thisRef.modelSetting.getTextureFile(i);
                 
                 thisRef.loadTexture(i, texPaths, function() {
-                    
+                    //console.log(thisRef.isTexLoaded + id);
                     if( thisRef.isTexLoaded ) {
-                        
+
                         if (thisRef.modelSetting.getExpressionNum() > 0)
                         {
                             
-                            thisRef.expressions = {};
-                            while (document.getElementById("select_expression").firstChild) {
-                                document.getElementById("select_expression").removeChild(document.getElementById("select_expression").firstChild);
-                            }
+                            thisRef.expressions = {};                            
                             
                             for (var j = 0; j < thisRef.modelSetting.getExpressionNum(); j++)
                             {
@@ -59,13 +68,7 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
                                     thisRef.modelSetting.getExpressionFile(j);
                                 
                                 thisRef.loadExpression(expName, expFilePath);
-
-								
-								var opt = document.createElement("option");
-								opt.text = j;
-								opt.value = j;
-								document.getElementById("select_expression").appendChild(opt);
-								
+								thisRef.expressionList.push(j);
                             }
                         }
                         else
@@ -73,9 +76,7 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
                             thisRef.expressionManager = null;
                             thisRef.expressions = {};
                         }
-                        
-                        
-                        
+                                                
                         if (thisRef.eyeBlink == null)
                         {
                             thisRef.eyeBlink = new L2DEyeBlink();
@@ -158,18 +159,19 @@ LAppModel.prototype.load = function(gl, modelSettingPath, callback)
                         }
                         
                         
-                        
                         thisRef.live2DModel.saveParam();
                         // thisRef.live2DModel.setGL(gl);
-                        
-                        
+
                         thisRef.preloadMotionGroup(LAppDefine.MOTION_GROUP_IDLE);
                         thisRef.mainMotionManager.stopAllMotions();
 
                         thisRef.setUpdating(false); 
-                        thisRef.setInitialized(true); 
+                        thisRef.setInitialized(true);
 
-                        if (typeof callback == "function") callback();
+                        thisRef.expressionCallback(thisRef.expressionList);
+                        thisRef.motionCallback(thisRef.motionList);
+
+                        if (typeof callback == "function") callback(thisRef, thisRef2);
                         
                     }
                 });
@@ -193,10 +195,6 @@ LAppModel.prototype.release = function(gl)
 LAppModel.prototype.preloadMotionGroup = function(name)
 {
     var thisRef = this;
-
-    while (document.getElementById("select_motion").firstChild) {
-        document.getElementById("select_motion").removeChild(document.getElementById("select_motion").firstChild);
-    }
     
     for (var i = 0; i < this.modelSetting.getMotionNum(name); i++)
     {
@@ -206,11 +204,7 @@ LAppModel.prototype.preloadMotionGroup = function(name)
             motion.setFadeOut(thisRef.modelSetting.getMotionFadeOut(name, i));
         });
 		
-		var opt = document.createElement("option");
-		opt.text = i;
-		opt.value = i;
-		document.getElementById("select_motion").appendChild(opt);
-        
+        this.motionList.push(i);        
     }
 }
 
@@ -338,6 +332,11 @@ LAppModel.prototype.setExpressionById = function(no)
     this.setExpression(tmp[no]);
 }
 
+LAppModel.prototype.getExpressions = function (callback)
+{
+    this.expressionCallback = callback;
+}
+
 LAppModel.prototype.startRandomMotion = function(name, priority)
 {
     var max = this.modelSetting.getMotionNum(name);
@@ -400,6 +399,10 @@ LAppModel.prototype.startMotion = function(no, priority)
     }
 }
 
+LAppModel.prototype.getMotions = function (callback)
+{
+    this.motionCallback = callback;
+}
 
 LAppModel.prototype.setFadeInFadeOut = function(name, no, priority, motion)
 {
@@ -453,15 +456,15 @@ LAppModel.prototype.draw = function(gl)
     // if(this.live2DModel == null) return;
     
     
-    MatrixStack.push();
+    Util.MatrixStack[this.matrixNumber].push();
     
-    MatrixStack.multMatrix(this.modelMatrix.getArray());
+    Util.MatrixStack[this.matrixNumber].multMatrix(this.modelMatrix.getArray());
     
-    this.tmpMatrix = MatrixStack.getMatrix()
+    this.tmpMatrix = Util.MatrixStack[this.matrixNumber].getMatrix()
     this.live2DModel.setMatrix(this.tmpMatrix);
     this.live2DModel.draw();
     
-    MatrixStack.pop();
+    Util.MatrixStack[this.matrixNumber].pop();
     
 };
         

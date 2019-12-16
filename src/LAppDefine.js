@@ -27,7 +27,9 @@
     PRIORITY_FORCE : 3,
 
     MODEL_POSITION_X : 0,
-    MODEL_POSITION_Y : 0,   
+    MODEL_POSITION_Y : 0,
+
+    DUAL_MODEL_POSITION_X : [-0.75,0.75],   
     
     MOTION_GROUP_IDLE : "motion", 
     MOTION_GROUP_TAP_BODY : "tap_body", 
@@ -40,7 +42,7 @@
     HIT_AREA_HEAD : "head",
     HIT_AREA_BODY : "body",
 
-    CHAR_MODEL : 100,
+    CHAR_MODEL : 0,
     
     BG : [
         ["web_0011"]

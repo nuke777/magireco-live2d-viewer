@@ -39,10 +39,13 @@ function main()
     this.analyser = null;
 
     this.lastTime = 0;
+    this.isDuo = false;
 
     //this.voiceData = {};
 
     this.test = "OwO";
+
+    
     
     initModelSelection(this.charData[LAppDefine.CHAR_MODEL]);
     initL2dCanvas("glcanvas");    
@@ -53,12 +56,30 @@ function main()
 
 function initModelSelection(data)
 {
+    while (document.getElementById("select_expression").firstChild) {
+        document.getElementById("select_expression").removeChild(document.getElementById("select_expression").firstChild);
+    }
+    while (document.getElementById("select_motion").firstChild) {
+        document.getElementById("select_motion").removeChild(document.getElementById("select_motion").firstChild);
+    }
     for (var key in data.SKIN){
         var opt = document.createElement("option");
         opt.text = key;
-        opt.value = data.ID+""+data.SKIN[key];
+        var temp = "";
+        if (data.SKIN[key].split(",").length > 0) {
+            for (var k in data.SKIN[key].split(",")) {
+                if (k == 0)
+                    temp += data.ID+""+data.SKIN[key].split(",")[k];
+                else
+                    temp += "," + data.ID+""+data.SKIN[key].split(",")[k];
+            }
+            opt.value = temp;
+        } else 
+            opt.value = data.ID+""+data.SKIN[key];
         document.getElementById("select_model").appendChild(opt);
     }
+    document.getElementById("select_model").value.split(",").length > 1 ? this.isDuo = true : isDuo = false;
+    
 }
 
 function chg_model()
@@ -128,6 +149,7 @@ function initL2dCanvas(canvasId)
 
 function init()
 {    
+
     
     var width = this.canvas.width;
     var height = this.canvas.height;
@@ -158,9 +180,10 @@ function init()
     this.projMatrix = new L2DMatrix44();
     this.projMatrix.multScale(1, (width / height));
 
-    this.modelMatrix = new L2DModelMatrix();
-    this.modelMatrix.setPosition(LAppDefine.MODEL_POSITION_X, LAppDefine.MODEL_POSITION_Y);
-
+    this.modelMatrix = [];
+    this.modelMatrix.push(new L2DModelMatrix());
+    this.modelMatrix.push(new L2DModelMatrix()); 
+ 
     
     this.deviceToScreen = new L2DMatrix44();
     this.deviceToScreen.multTranslate(-width / 2.0, -height / 2.0);
@@ -208,40 +231,50 @@ function startDraw() {
 function draw()
 {
     // l2dLog("--> draw()");
+    //console.log(this.live2DMgr.models);
 
-    MatrixStack.reset();
-    MatrixStack.loadIdentity();
-    
-    this.dragMgr.update(); 
-    this.live2DMgr.setDrag(this.dragMgr.getX(), this.dragMgr.getY());
-    
-    
-    this.gl.clear(this.gl.COLOR_BUFFER_BIT);
-    
-    MatrixStack.multMatrix(projMatrix.getArray());
-    MatrixStack.multMatrix(viewMatrix.getArray());
-    MatrixStack.multMatrix(modelMatrix.getArray());
-    MatrixStack.push();
-    
     for (var i = 0; i < this.live2DMgr.numModels(); i++)
     {
+        //if (i == 1)
+            //continue;
+
         var model = this.live2DMgr.getModel(i);
 
-        if(model == null) return;
+        if (model.modelSetting == null) return;
+
+        var index = model.matrixNumber;
+
+        Util.MatrixStack[index].reset();
+        Util.MatrixStack[index].loadIdentity();
         
+        this.dragMgr.update(); 
+        this.live2DMgr.setDrag(i, this.dragMgr.getX(), this.dragMgr.getY());
+        
+        
+        //this.gl.clear(this.gl.COLOR_BUFFER_BIT);
+        Util.MatrixStack[index].multMatrix(projMatrix.getArray());
+        Util.MatrixStack[index].multMatrix(viewMatrix.getArray());
+        Util.MatrixStack[index].multMatrix(modelMatrix[index].getArray());
+        Util.MatrixStack[index].push();
+
+        if(model == null) return;
+
         if (model.initialized && !model.updating)
         {
             model.update();
             model.draw(this.gl);
-            
+
             if (!this.isModelShown && i == this.live2DMgr.numModels()-1) {
                 this.isModelShown = !this.isModelShown;
                 document.getElementById("select_model").removeAttribute("disabled");
             }
         }
+
+        Util.MatrixStack[index].pop();
+
     }
     
-    MatrixStack.pop();
+    
 }
 
 function chg_expr() {
@@ -253,15 +286,61 @@ function chg_expr() {
 
 function changeModel()
 {
+    while (document.getElementById("select_expression").firstChild) {
+        document.getElementById("select_expression").removeChild(document.getElementById("select_expression").firstChild);
+    }
+    while (document.getElementById("select_motion").firstChild) {
+        document.getElementById("select_motion").removeChild(document.getElementById("select_motion").firstChild);
+    }
+    document.getElementById("select_model").value.split(",").length > 1 ? this.isDuo = true : isDuo = false;
+    this.activeVoice = 0;
+    if (this.isDuo){
+        this.modelMatrix[0].setPosition(LAppDefine.DUAL_MODEL_POSITION_X[0], LAppDefine.MODEL_POSITION_Y); 
+        this.modelMatrix[1].setPosition(LAppDefine.DUAL_MODEL_POSITION_X[1], LAppDefine.MODEL_POSITION_Y);
+        document.getElementById("select_model").setAttribute("disabled","disabled");
+        $("#select_voice").prop("disabled", true);
+        this.isModelShown = false;
+        
+        this.live2DMgr.reloadFlg = true;
+        this.live2DMgr.count++;    
+
+        this.live2DMgr.changeModel(this.gl, document.getElementById("select_model").value.split(","));
+        this.live2DMgr.getExpressions(0, loadExpressionSelector);
+        this.live2DMgr.getMotions(0, loadMotionSelector);
+        loadVoice(document.getElementById("select_model").value.split(",")[0]);
+        return;
+    }
+
+    this.modelMatrix[0].setPosition(LAppDefine.MODEL_POSITION_X, LAppDefine.MODEL_POSITION_Y); 
     document.getElementById("select_model").setAttribute("disabled","disabled");
     $("#select_voice").prop("disabled", true);
     this.isModelShown = false;
     
     this.live2DMgr.reloadFlg = true;
-    this.live2DMgr.count++;
+    this.live2DMgr.count++;    
 
     this.live2DMgr.changeModel(this.gl, document.getElementById("select_model").value);
+    this.live2DMgr.getExpressions(0, loadExpressionSelector);
+    this.live2DMgr.getMotions(0, loadMotionSelector);
     loadVoice($("#select_model").val());
+}
+
+function loadExpressionSelector(expressions){
+    for (var j in expressions) {
+        var opt = document.createElement("option");
+        opt.text = j;
+        opt.value = j;
+        document.getElementById("select_expression").appendChild(opt);
+    }
+}
+
+function loadMotionSelector(motions){
+    for (var i in motions) {
+        var opt = document.createElement("option");
+        opt.text = i;
+        opt.value = i;
+        document.getElementById("select_motion").appendChild(opt);
+    }
 }
 
 
@@ -339,7 +418,8 @@ function dragPosition(event)
 
 
     if (thisRef.hold){
-        thisRef.modelMatrix.setPosition((sx - thisRef.lastMouseX) + thisRef.modelMatrix.tr[12], (sy - thisRef.lastMouseY) + thisRef.modelMatrix.tr[13]);
+        if (!this.isDuo)
+            thisRef.modelMatrix[0].setPosition((sx - thisRef.lastMouseX) + thisRef.modelMatrix[0].tr[12], (sy - thisRef.lastMouseY) + thisRef.modelMatrix[0].tr[13]);
 
         thisRef.lastMouseX = sx;
         thisRef.lastMouseY = sy;
@@ -643,7 +723,7 @@ function search (key) {
 }
 
 function loadVoice(id){
-    loadJSON(id, (response) => {
+    loadJSON(id, "https://media.nuke.moe/magireco/assets/json/"+id+".json", (response) => {
         if (response == "Error"){
             if (id%100 != 0){
                 loadVoice(id - id%100);
@@ -655,6 +735,7 @@ function loadVoice(id){
         var voiceJson = JSON.parse(response);
         var options = "";
         for (var x in voiceJson.story){
+            if (voiceJson.story[x][0].chara[0].voice == null) continue;
             var value = Util.classifyLines(voiceJson.story[x][0].chara[0].voice.slice(-2));
             //console.log(value);
             options += '<option value="'+x+'">'+value+'</option>';
@@ -665,7 +746,7 @@ function loadVoice(id){
 }
 
 function reloadVoiceJson(id){
-    loadJSON(id, (response) => {
+    loadJSON(id, "https://media.nuke.moe/magireco/assets/json/"+id+".json", (response) => {
         if (response == "Error"){
             if (id%100 != 0){
                 reloadVoiceJson(id - id%100);
@@ -678,8 +759,7 @@ function reloadVoiceJson(id){
     });
 }
 
-function loadJSON(id, callback) {   
-    var path = "https://media.nuke.moe/magireco/assets/json/"+id+".json";
+function loadJSON(id, path, callback) {
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
     xobj.open('GET', path, true); // Replace 'my_data' with the path to your file
@@ -717,7 +797,10 @@ function chg_voice(){
     clearTimeout(this.motionTimeout);
     if (typeof this.audio !== 'undefined')
         this.audio.pause();
-    reloadVoiceJson($("#select_model").val());
+    if ($("#select_model").val().split(",").length > 1)
+        reloadVoiceJson($("#select_model").val().split(",")[0]);
+    else
+        reloadVoiceJson($("#select_model").val());
     var q = thisRef.voiceData.story[$("#select_voice").val()];
     $("#select_voice").prop("disabled", true);
     loadAudio(q[0].chara[0].voice, (response) => {
@@ -735,7 +818,7 @@ function chg_voice(){
         source.connect(this.analyser);
         this.analyser.connect(context.destination);
         this.analyser.fftSize = 1024;
-        motionSequence(q);
+        motionSequence(q, this);
     });   
 }
 
@@ -754,11 +837,10 @@ function soundAnalyser(){
     rms /= 128;
     rms = Math.sqrt(rms);
     //console.log(rms/70);
-    live2DMgr.setLipSync(0, rms / 70);
-
+    live2DMgr.setLipSync(this.activeVoice, rms / 70);
 }
 
-function motionSequence(q){
+function motionSequence(q, thisRef){
     var motion = this;
     motion.q = q;
     if (motion.q.length == 0){
@@ -769,16 +851,27 @@ function motionSequence(q){
     }
     //console.log(q[0].autoTurnFirst);
     //console.log(live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, q[0].chara[0].motion));
-    live2DMgr.changeMotion(0, live2DMgr.getModel(0).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, motion.q[0].chara[0].motion));
-    if (motion.q[0].chara[0].face != null)
-        live2DMgr.changeExpression(0, motion.q[0].chara[0].face);
-    if (motion.q[0].chara[0].textHome != null){
-        $(".subtitle").html("<b>" + motion.q[0].chara[0].textHome.replace(/\n/g,'<br/>') + "</b>");
-        repositionSubtitles();
+    //thisRef.activeVoice = motion.q[0].chara[0].id;
+    for (var x in motion.q[0].chara){
+        if (motion.q[0].chara[x].lipSynch != null) {
+            if (motion.q[0].chara[x].lipSynch == 1)
+                thisRef.activeVoice = motion.q[0].chara[x].id;
+        }
+        var id = motion.q[0].chara[x].id;
+        if (live2DMgr.getModel(id) == null)
+            id = live2DMgr.getModel(0).modelSetting.ID;
+        live2DMgr.changeMotion(id, live2DMgr.getModel(id).modelSetting.getMotionArrayId(LAppDefine.MOTION_GROUP_IDLE, motion.q[0].chara[x].motion));
+        if (motion.q[0].chara[x].face != null)
+            live2DMgr.changeExpression(id, motion.q[0].chara[x].face);
+        if (motion.q[0].chara[x].textHome != null){
+            $(".subtitle").html("<b>" + motion.q[0].chara[x].textHome.replace(/\n/g,'<br/>') + "</b>");
+            repositionSubtitles();
+        }
     }
+    
     this.motionTimeout = setTimeout(() => {
         motion.q.shift();
-        motionSequence(motion.q);
+        motionSequence(motion.q, thisRef);
     }, motion.q[0].autoTurnFirst * 1000);
 }
 
@@ -806,4 +899,3 @@ function repositionSubtitles(){
     $(".subtitle").css("left", left + "px")
         .css("bottom", bottom + "px");
 }
-

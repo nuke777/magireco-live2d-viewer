@@ -4,6 +4,8 @@ function LAppLive2DManager()
     
     
     this.models = [];  
+    this.modelList = [];
+    this.preloadCallback = function(){};
     
     
     this.count = -1;
@@ -22,7 +24,7 @@ LAppLive2DManager.prototype.createModel = function()
     this.models.push(model);
     
     return model;
-}
+};
 
 
 LAppLive2DManager.prototype.changeModel = function(gl, key)
@@ -33,32 +35,88 @@ LAppLive2DManager.prototype.changeModel = function(gl, key)
     {
         
         this.reloadFlg = false;
+        this.modelNumeral = 0;
+
+        this.shiftL2D = function (model, thisRef) {
+            key.shift();
+            thisRef.modelNumeral++;
+            thisRef.models[thisRef.modelNumeral].load(gl, key[0], this, thisRef)            
+        };
+
+        var thisRef = this;
+        for (var x = this.models.length-1; x >= 0 ; --x)
+            this.releaseModel(x, gl);
+        
+        if (key.constructor === Array){
+            for (var i in key){
+                this.createModel();
+                this.models[i].setMatrixNumber(i);
+                if (Util.MatrixStack[i] == null)
+                    Util.MatrixStack.push(MatrixStack);
+            }
+            this.models[0].load(gl, key[0], this.shiftL2D, this);
+        } else {
+            this.createModel();
+            this.models[0].load(gl, key);
+            this.models[0].setMatrixNumber(0);
+            if (Util.MatrixStack[0] == null)
+                Util.MatrixStack.push(MatrixStack);
+        }
+
+    }
+};
+
+LAppLive2DManager.prototype.changeToPreloadedModel = function(model)
+{
+    if (this.reloadFlg)
+    {
+        
+        this.reloadFlg = false;
 
         var thisRef = this;
         this.releaseModel(1, gl);
         this.releaseModel(0, gl);
         
         this.createModel();
-        this.models[0].load(gl, "https://media.nuke.moe/magireco/assets/live2d/"+key+"/model.json");
+        this.models[0] = model;
     }
 };
+
+
+LAppLive2DManager.prototype.preloadModel = function (gl, key, callback, thisRef)
+{
+    var model = new LAppModel();
+    model.load(gl, key, callback, thisRef);
+    //return model;
+};
+
 
 
 LAppLive2DManager.prototype.getModel = function(no)
 {
     // console.log("--> LAppLive2DManager.getModel(" + no + ")");
     
-    if (no >= this.models.length) return null;
+    //if (no >= this.models.length) return null;
     
-    return this.models[no];
+    if (no / 100000 > 1) 
+        return this.getModelByID(no);
+    else
+        return this.models[no];
+    
 };
 
+LAppLive2DManager.prototype.getModelByID = function (ID)
+{
+    for (var x in this.models){
+        if (this.models[x].modelSetting.ID == ID)
+            return this.models[x];
+    }
+};
 
 
 LAppLive2DManager.prototype.releaseModel = function(no, gl)
 {
     // console.log("--> LAppLive2DManager.releaseModel(" + no + ")");
-    
     if (this.models.length <= no) return;
 
     this.models[no].release(gl);
@@ -76,12 +134,9 @@ LAppLive2DManager.prototype.numModels = function()
 
 
 
-LAppLive2DManager.prototype.setDrag = function(x, y)
+LAppLive2DManager.prototype.setDrag = function(model, x, y)
 {
-    for (var i = 0; i < this.models.length; i++)
-    {
-        this.models[i].setDrag(x, y);
-    }
+        this.models[model].setDrag(x, y);
 }
 
 
@@ -144,22 +199,49 @@ LAppLive2DManager.prototype.tapEvent = function(x, y)
     return true;
 };
 
+LAppLive2DManager.prototype.getExpressions = function (model, callback)
+{
+    if (model / 100000 > 1) 
+        this.getModelByID(model).getExpressions(callback);
+    else
+        return this.models[model].getExpressions(callback);
+}
+
 LAppLive2DManager.prototype.changeExpressionById = function(model, id)
 {
-	this.models[model].setExpressionById(id);
+    if (model / 100000 > 1) 
+        this.getModelByID(model).setExpressionById(id);
+    else
+        this.models[model].setExpressionById(id);
 }
 
 LAppLive2DManager.prototype.changeExpression = function(model, name)
 {
-    this.models[model].setExpression(name);
+    if (model / 100000 > 1) 
+        this.getModelByID(model).setExpression(name);
+    else
+        this.models[model].setExpression(name);
 }
 
 LAppLive2DManager.prototype.changeMotion = function(model, no)
 {
-    this.models[model].startMotion(no, LAppDefine.PRIORITY_FORCE);    
+    if (model / 100000 > 1) 
+        this.getModelByID(model).startMotion(no, LAppDefine.PRIORITY_FORCE);
+    else
+        this.models[model].startMotion(no, LAppDefine.PRIORITY_FORCE);        
+}
+
+LAppLive2DManager.prototype.getMotions = function (model, callback){
+    if (model / 100000 > 1) 
+        this.getModelByID(model).getMotions(callback);
+    else
+        return this.models[model].getMotions(callback);
 }
 
 LAppLive2DManager.prototype.setLipSync = function(model, value)
 {
-    this.models[model].setLipSync(value);
+    if (model / 100000 > 1) 
+        this.getModelByID(model).setLipSync(value);
+    else
+        this.models[model].setLipSync(value);
 }

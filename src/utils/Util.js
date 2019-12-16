@@ -1,4 +1,5 @@
 var Util = {
+    MatrixStack : [],
     classifyLines : function (text){
         switch (text){
             case "01":
@@ -228,5 +229,31 @@ var Util = {
                 break; 
         }
         return text;
+    },
+    classifyScenario : function(str) {
+        switch (str) {
+            case "prologue":
+                str = "scenario_0";
+                break;
+            case "main":
+                str = "scenario_1";
+                break;
+            case "another":
+                str = "scenario_2";
+                break;
+            case "mss":
+                str = "scenario_3";
+                break;
+            case "mirrors":
+                str = "scenario_4";
+                break;
+            case "event":
+                str = "scenario_5";
+                break;
+            case "special":
+                str = "scenario_6";
+                break;
+        }
+        return str;
     }
 };

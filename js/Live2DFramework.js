@@ -206,6 +206,7 @@ L2DBaseModel.prototype.loadTexture     = function(no/*int*/, path/*String*/, cal
     
     var thisRef = this;
     pm.loadTexture(this.live2DModel , no , path, function(){
+        
         texCounter--;
         if(texCounter == 0) thisRef.isTexLoaded = true;
         if (typeof callback == "function") callback();
