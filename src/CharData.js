@@ -1,5 +1,13 @@
 var CharData = [
 	{
+		"NAME" : "Miki Sayaka Haregi Ver.",
+		"ID" : "2400",
+		"ICON" : "card_24004_d.png",
+		"SKIN" : {
+			"Miki Sayaka Haregi Ver." : "00",
+		}
+	},
+	{
 		"NAME" : "Ayano Rika & Isuzu Ren Christmas Ver.",
 		"ID" : "3501",
 		"ICON" : "card_35014_d.png",
@@ -404,6 +412,7 @@ var CharData = [
 			"Futaba Sana (Black Feather)" : "03",
 			"Futaba Sana (Winter)" : "50",
 			"Futaba Sana (Swimsuit)" : "51",
+			"Futaba Sana (Haregi)" : "52",
 			"Futaba Sana (MagiRepo)" : "88",
 			"Futaba Sana (MagiRepo 2)" : "89"
 		}
@@ -881,6 +890,7 @@ var CharData = [
 			"Mitsuki Felicia (Shadow)" : "05",
 			"Mitsuki Felicia (Swimsuit)" : "50",
 			"Mitsuki Felicia (Winter)" : "51",
+			"Mitsuki Felicia (Haregi)" : "52",
 			"Mitsuki Felicia (MagiRepo)" : "88",
 			"Mitsuki Felicia (MagiRepo 2)" : "89"
 		}

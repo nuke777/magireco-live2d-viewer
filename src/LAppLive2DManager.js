@@ -22,10 +22,44 @@ LAppLive2DManager.prototype.createModel = function()
     
     var model = new LAppModel();
     this.models.push(model);
-    
     return model;
 };
 
+LAppLive2DManager.prototype.AddFixedPreload = function(model, pos, gl, callback, thisRef2)
+{
+    if (this.reloadFlg)
+    {
+        
+        this.reloadFlg = false;
+
+        var shiftL2D = function (model, thisRef) {
+            pos.pop();
+            if (pos.length == 0){
+                callback(thisRef2);
+                return;
+            }
+            thisRef.models[pos[pos.length-1]].load(gl, model[pos.length-1].modelSetting.ID, this, thisRef);            
+        };
+
+        //this.models[pos] = model;
+        if (pos.constructor === Array){
+            var key = [];
+            for (var i in pos){
+                key.push(model[i].modelSetting.ID);
+                this.models[pos[i]].setMatrixNumber(pos[i]);
+                    if (Util.MatrixStack[pos[i]] == null)
+                        Util.MatrixStack.push(MatrixStack);
+            }
+            this.models[pos[pos.length-1]].load(gl, key[pos.length-1], shiftL2D, this);
+        } else {
+            this.models[pos].load(gl, model.modelSetting.ID);
+            this.models[pos].setMatrixNumber(pos);
+                if (Util.MatrixStack[pos] == null)
+                    Util.MatrixStack.push(MatrixStack);
+        }
+
+    }
+}
 
 LAppLive2DManager.prototype.changeModel = function(gl, key)
 {
@@ -37,7 +71,7 @@ LAppLive2DManager.prototype.changeModel = function(gl, key)
         this.reloadFlg = false;
         this.modelNumeral = 0;
 
-        this.shiftL2D = function (model, thisRef) {
+        var shiftL2D = function (model, thisRef) {
             key.shift();
             thisRef.modelNumeral++;
             thisRef.models[thisRef.modelNumeral].load(gl, key[0], this, thisRef)            
@@ -54,7 +88,7 @@ LAppLive2DManager.prototype.changeModel = function(gl, key)
                 if (Util.MatrixStack[i] == null)
                     Util.MatrixStack.push(MatrixStack);
             }
-            this.models[0].load(gl, key[0], this.shiftL2D, this);
+            this.models[0].load(gl, key[0], shiftL2D, this);
         } else {
             this.createModel();
             this.models[0].load(gl, key);
@@ -108,7 +142,7 @@ LAppLive2DManager.prototype.getModel = function(no)
 LAppLive2DManager.prototype.getModelByID = function (ID)
 {
     for (var x in this.models){
-        if (this.models[x].modelSetting.ID == ID)
+        if (this.models[x].modelSetting != null && this.models[x].modelSetting.ID == ID)
             return this.models[x];
     }
 };
