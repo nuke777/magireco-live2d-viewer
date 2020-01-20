@@ -109,14 +109,14 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Kureha Yuuna",
+		"NAME" : "Kureha Yuna",
 		"ID" : "1021",
 		"ICON" : "card_10211_d.png",
 		"SKIN" : {
-			"Kureha Yuuna" : "00",
-			"Kureha Yuuna (School)" : "01",
-			"Kureha Yuuna (Before Awakening)" : "02",
-			"Kureha Yuuna (School / Before Awakening)" : "03"
+			"Kureha Yuna" : "00",
+			"Kureha Yuna (School)" : "01",
+			"Kureha Yuna (Before Awakening)" : "02",
+			"Kureha Yuna (School / Before Awakening)" : "03"
 		}
 	},
 	{
