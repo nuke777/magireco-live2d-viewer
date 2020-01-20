@@ -1,5 +1,39 @@
 var CharData = [
 	{
+		"NAME" : "Livia Mediros",
+		"ID" : "1041",
+		"ICON" : "card_10414_d.png",
+		"SKIN" : {
+			"Livia Mediros" : "00",
+			"Livia Mediros (Casual)" : "01",
+		}
+	},
+	{
+		"NAME" : "Chitama Ranka",
+		"ID" : "3044",
+		"ICON" : "card_30443_d.png",
+		"SKIN" : {
+			"Chitama Ranka" : "00",
+			"Chitama Ranka (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Sawa Sudachi",
+		"ID" : "1039",
+		"ICON" : "card_10391_d.png",
+		"SKIN" : {
+			"Sawa Sudachi" : "00"
+		}
+	},
+	{
+		"NAME" : "Sasame Yozuru",
+		"ID" : "1040",
+		"ICON" : "card_10401_d.png",
+		"SKIN" : {
+			"Sasame Yozuru" : "00"
+		}
+	},
+	{
 		"NAME" : "Miki Sayaka Haregi Ver.",
 		"ID" : "2400",
 		"ICON" : "card_24004_d.png",
@@ -72,14 +106,6 @@ var CharData = [
 		"ICON" : "card_10330_d.png",
 		"SKIN" : {
 			"Himuro Rabi" : "00",
-		}
-	},
-	{
-		"NAME" : "Revere Mediros",
-		"ID" : "1041",
-		"ICON" : "card_10410_d.png",
-		"SKIN" : {
-			"Revere Mediros" : "00",
 		}
 	},
 	{
@@ -316,15 +342,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Chitama Ranka",
-		"ID" : "3044",
-		"ICON" : "card_30441_d.png",
-		"SKIN" : {
-			"Chitama Ranka" : "00",
-			"Chitama Ranka (School)" : "01"
-		}
-	},
-	{
 		"NAME" : "Chitose Yuma",
 		"ID" : "4003",
 		"ICON" : "card_40033_d.png",
@@ -414,7 +431,8 @@ var CharData = [
 			"Futaba Sana (Swimsuit)" : "51",
 			"Futaba Sana (Haregi)" : "52",
 			"Futaba Sana (MagiRepo)" : "88",
-			"Futaba Sana (MagiRepo 2)" : "89"
+			"Futaba Sana (MagiRepo 2)" : "89",
+			"snaa" : "99"
 		}
 	},
 	{
@@ -642,6 +660,7 @@ var CharData = [
 		"SKIN" : {
 			"Kisaki Emiri" : "00",
 			"Kisaki Emiri (School)" : "01",
+			"Kisaki Emiri (Shadow)" : "02",
 			"Kisaki Emiri (Winter)" : "50",
 			"Kisaki Emiri (Christmas)" : "51",
 			"Kisaki Emiri (MagiRepo)" : "88",
@@ -1635,7 +1654,8 @@ var CharData = [
 		"ICON" : "card_80011_d.png",
 		"SKIN" : {
 			"-810000" : "00",
-			"-810001" : "01"
+			"-810001" : "01",
+			"-810002" : "02"
 		}
 	},
 	{
