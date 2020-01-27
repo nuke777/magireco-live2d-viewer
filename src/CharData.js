@@ -1,5 +1,31 @@
 var CharData = [
 	{
+		"NAME" : "Minamitsu Ryouko",
+		"ID" : "3058",
+		"ICON" : "card_30584_d.png",
+		"SKIN" : {
+			"Minamitsu Ryouko" : "00",
+			"Minamitsu Ryouko (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Suzuka Sakuya",
+		"ID" : "3021",
+		"ICON" : "card_30212_d.png",
+		"SKIN" : {
+			"Suzuka Sakuya" : "00",
+			"Suzuka Sakuya (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Megumi Moka",
+		"ID" : "3034",
+		"ICON" : "card_30341_d.png",
+		"SKIN" : {
+			"Megumi Moka (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Livia Mediros",
 		"ID" : "1041",
 		"ICON" : "card_10414_d.png",
@@ -149,9 +175,10 @@ var CharData = [
 	{
 		"NAME" : "Suzuka Sakuya",
 		"ID" : "3021",
-		"ICON" : "card_30211_d.png",
+		"ICON" : "card_30212_d.png",
 		"SKIN" : {
 			"Suzuka Sakuya" : "00",
+			"Suzuka Sakuya (School)" : "01",
 		}
 	},
 	{
@@ -1473,6 +1500,8 @@ var CharData = [
 		"ICON" : "card_99999_d.png",
 		"SKIN" : {
 			"時女_一般兵_圧縮" : "00",
+			"時女_一般兵B_圧縮" : "01",
+			"時女_一般兵C_圧縮" : "02",
 		}
 	},
 	{
@@ -1613,6 +1642,15 @@ var CharData = [
 		"ICON" : "card_80011_d.png",
 		"SKIN" : {
 			"-801400" : "00"
+		}
+	},
+	{
+		"NAME" : "-801500",
+		"ID" : "8015",
+		"ICON" : "card_80011_d.png",
+		"SKIN" : {
+			"-801500" : "00",
+			"-801501" : "01"
 		}
 	},
 	{
