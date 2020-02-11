@@ -909,7 +909,6 @@ function onChangeLog(){
             $('#selector').remove();
             $('#darken').remove();
             $(document.body).css("overflow", "auto");
-            viewer.searchResults = charData;
         }))
     .append($("<div></div>")
         .attr("id","selector")
@@ -944,7 +943,6 @@ function onChangeLog(){
             var date = response[i].commit.committer.date;
             date = date.replace("T", " ");
             date = date.replace("Z", " UTC");
-            console.log(message, date);
 
             $("#chglog").append($("<p></p>")
                 .css("line-height", "0.8")

@@ -326,6 +326,7 @@ var CharData = [
 			"Awane Kokoro (School)" : "01",
 			"Awane Kokoro (Casual)" : "02",
 			"Awane Kokoro (Swimsuit)" : "50",
+			"Awane Kokoro (Winter)" : "51",
 			"Awane Kokoro (MagiRepo)" : "88"
 		}
 	},
@@ -487,6 +488,7 @@ var CharData = [
 		"SKIN" : {
 			"Haruna Konomi" : "00",
 			"Haruna Konomi (School)" : "01",
+			"Haruna Konomi (Winter)" : "50",
 			"Haruna Konomi (MagiRepo)" : "88"
 		}
 	},
@@ -623,6 +625,7 @@ var CharData = [
 			"Kagami Masara (School)" : "01",
 			"Kagami Masara (Casual)" : "02",
 			"Kagami Masara (Swimsuit)" : "50",
+			"Kagami Masara (Winter)" : "51",
 			"Kagami Masara (MagiRepo)" : "88"
 		}
 	},
@@ -868,6 +871,7 @@ var CharData = [
 		"SKIN" : {
 			"Minagi Sasara" : "00",
 			"Minagi Sasara (School)" : "01",
+			"Minagi Sasara (Winter)" : "50",
 			"Minagi Sasara (MagiRepo)" : "88"
 		}
 	},
@@ -1202,6 +1206,7 @@ var CharData = [
 			"Tatsuki Asuka" : "00",
 			"Tatsuki Asuka (School)" : "01",
 			"Tatsuki Asuka (Shadow)" : "02",
+			"Tatsuki Asuka (Winter)" : "50",
 			"Tatsuki Asuka (MagiRepo)" : "88"
 		}
 	},
