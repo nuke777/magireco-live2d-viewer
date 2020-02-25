@@ -1,5 +1,40 @@
 var CharData = [
 	{
+		"NAME" : "Azumi Hagumu",
+		"ID" : "1030",
+		"ICON" : "card_10304_d.png",
+		"SKIN" : {
+			"Azumi Hagumu" : "00",
+			"Azumi Hagumu (School)" : "01",
+			"Azumi Hagumu (Black Feather)" : "02",
+		}
+	},
+	{
+		"NAME" : "Megumi Moka",
+		"ID" : "3034",
+		"ICON" : "card_30343_d.png",
+		"SKIN" : {
+			"Megumi Moka" : "00",
+			"Megumi Moka (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Yuuki Maria",
+		"ID" : "3036",
+		"ICON" : "card_30361_d.png",
+		"SKIN" : {
+			"Yuuki Mari (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Nagisa Momoe Valentines Ver.",
+		"ID" : "2700",
+		"ICON" : "card_27004_d.png",
+		"SKIN" : {
+			"Nagisa Momoe Valentines Ver." : "00",
+		}
+	},
+	{
 		"NAME" : "Minamitsu Ryouko",
 		"ID" : "3058",
 		"ICON" : "card_30584_d.png",
@@ -15,14 +50,6 @@ var CharData = [
 		"SKIN" : {
 			"Suzuka Sakuya" : "00",
 			"Suzuka Sakuya (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Megumi Moka",
-		"ID" : "3034",
-		"ICON" : "card_30341_d.png",
-		"SKIN" : {
-			"Megumi Moka (School)" : "01",
 		}
 	},
 	{
@@ -85,16 +112,6 @@ var CharData = [
 			"Miyabi Shigure" : "00",
 			"Miyabi Shigure (School)" : "01",
 			"Miyabi Shigure (Black Feather)" : "02",
-		}
-	},
-	{
-		"NAME" : "Azumi Hagumu",
-		"ID" : "1030",
-		"ICON" : "card_10301_d.png",
-		"SKIN" : {
-			"Azumi Hagumu" : "00",
-			"Azumi Hagumu (School)" : "01",
-			"Azumi Hagumu (Black Feather)" : "02",
 		}
 	},
 	{
@@ -271,6 +288,7 @@ var CharData = [
 			"Amane Tsukuyo" : "00",
 			"Amane Tsukuyo (Casual)" : "01",
 			"Amane Tsukuyo (Christmas)" : "50",
+			"Amane Tsukuyo (Winter)" : "51",
 			"Amane Tsukuyo (MagiRepo)" : "88"
 		}
 	},
@@ -884,6 +902,7 @@ var CharData = [
 			"Minami Rena (School)" : "01",
 			"Minami Rena (Christmas)" : "50",
 			"Minami Rena (Swimsuit)" : "51",
+			"Minami Rena (Winter)" : "52",
 			"Minami Rena (MagiRepo)" : "88",
 			"Minami Rena (? [100990])" : "90"
 		}

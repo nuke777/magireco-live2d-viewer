@@ -2225,6 +2225,14 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_23081.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_23091.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_24011.jpg",
 	},
 	{
@@ -2305,6 +2313,10 @@ var BackgroundList = [
 	},
 	{
 		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_46215.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_46400.jpg",
 	},
 	{
@@ -2318,6 +2330,10 @@ var BackgroundList = [
 	{
 		"TYPE" : "STATIC",
 		"FILE" : "bg_stc_46404.jpg",
+	},
+	{
+		"TYPE" : "STATIC",
+		"FILE" : "bg_stc_46406.jpg",
 	},
 	{
 		"TYPE" : "STATIC",

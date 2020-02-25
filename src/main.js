@@ -43,7 +43,6 @@ function main()
 
     //this.voiceData = {};
 
-    this.test = "OwO";
 
     
     
