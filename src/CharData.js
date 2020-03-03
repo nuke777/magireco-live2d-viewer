@@ -1,5 +1,13 @@
 var CharData = [
 	{
+		"NAME" : "Bibigi Meguru",
+		"ID" : "3042",
+		"ICON" : "card_30421_d.png",
+		"SKIN" : {
+			"Bibigi Meguru (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Azumi Hagumu",
 		"ID" : "1030",
 		"ICON" : "card_10304_d.png",
