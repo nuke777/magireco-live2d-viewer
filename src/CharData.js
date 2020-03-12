@@ -1,9 +1,19 @@
 var CharData = [
 	{
+		"NAME" : "Sasame Yozuru",
+		"ID" : "1040",
+		"ICON" : "card_10404_d.png",
+		"SKIN" : {
+			"Sasame Yozuru" : "00",
+			"Sasame Yozuru (Casual)" : "01",
+		}
+	},
+	{
 		"NAME" : "Hibiki Meguru",
 		"ID" : "3042",
-		"ICON" : "card_30421_d.png",
+		"ICON" : "card_30423_d.png",
 		"SKIN" : {
+			"Hibiki Meguru" : "00",
 			"Hibiki Meguru (School)" : "01",
 		}
 	},
@@ -84,14 +94,6 @@ var CharData = [
 		"ICON" : "card_10391_d.png",
 		"SKIN" : {
 			"Sawa Sudachi" : "00"
-		}
-	},
-	{
-		"NAME" : "Sasame Yozuru",
-		"ID" : "1040",
-		"ICON" : "card_10401_d.png",
-		"SKIN" : {
-			"Sasame Yozuru" : "00"
 		}
 	},
 	{
