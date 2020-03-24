@@ -1,5 +1,14 @@
 var CharData = [
 	{
+		"NAME" : "Ashley Taylor",
+		"ID" : "3052",
+		"ICON" : "card_30521_d.png",
+		"SKIN" : {
+			"Ashley Taylor" : "00",
+			"Ashley Taylor (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Sasame Yozuru",
 		"ID" : "1040",
 		"ICON" : "card_10404_d.png",
@@ -197,15 +206,6 @@ var CharData = [
 		"SKIN" : {
 			"Oba Juri" : "00",
 			"Oba Juri (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Suzuka Sakuya",
-		"ID" : "3021",
-		"ICON" : "card_30212_d.png",
-		"SKIN" : {
-			"Suzuka Sakuya" : "00",
-			"Suzuka Sakuya (School)" : "01",
 		}
 	},
 	{
@@ -915,15 +915,6 @@ var CharData = [
 			"Minami Rena (Winter)" : "52",
 			"Minami Rena (MagiRepo)" : "88",
 			"Minami Rena (? [100990])" : "90"
-		}
-	},
-	{
-		"NAME" : "Minamitsu Ryouko",
-		"ID" : "3058",
-		"ICON" : "card_30581_d.png",
-		"SKIN" : {
-			"Minamitsu Ryouko" : "00",
-			"Minamitsu Ryouko (School)" : "01"
 		}
 	},
 	{
