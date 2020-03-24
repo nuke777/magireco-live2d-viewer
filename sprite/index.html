@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cocos2d-html5 Hello World test</title>
+    <link rel="icon" type="image/GIF" href="../favicon.ico"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        body, canvas, div {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        p {
+            color: white;
+        }
+        button {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #ffffff;
+            padding: 10px 20px;
+            -moz-border-radius: 30px;
+            -webkit-border-radius: 30px;
+            border-radius: 30px;
+            -moz-box-shadow:
+                0px 1px 3px rgba(0,0,0,0.5),
+                inset 0px 0px 1px rgba(255,255,255,0.7);
+            -webkit-box-shadow:
+                0px 1px 3px rgba(0,0,0,0.5),
+                inset 0px 0px 1px rgba(255,255,255,0.7);
+            box-shadow:
+                0px 1px 3px rgba(0,0,0,0.5),
+                inset 0px 0px 1px rgba(255,255,255,0.7);
+            text-shadow:
+                0px -1px 0px rgba(0,0,0,0.4),
+                0px 1px 0px rgba(255,255,255,0.3);
+        }
+
+        button.active {
+            background: linear-gradient(
+                to bottom, 
+                #3498db, 
+                #2980b9);
+            background: -moz-linear-gradient(
+                top,
+                #3498db 0%,
+                #2980b9);
+            background: -webkit-gradient(
+                linear, left top, left bottom,
+                from(#3498db),
+                to(#2980b9));
+            border: 1px solid #2980b9;
+        }
+        
+        button.inactive {
+            background: linear-gradient(
+                to bottom, 
+                #e74c3c, 
+                #c0392b);
+            background: -moz-linear-gradient(
+                top,
+                #e74c3c 0%,
+                #c0392b);
+            background: -webkit-gradient(
+                linear, left top, left bottom,
+                from(#e74c3c),
+                to(#c0392b));
+            border: 1px solid #c0392b;
+        }
+        .darken {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;                
+            left: 0px;
+        }
+
+        .selector {
+            width: 80%;
+            height: 90%;
+            position: absolute;
+            left: 10%;
+            background-color: gray;
+            overflow-y: auto;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        .megucaIcon {
+            cursor: pointer;
+            height: 144px;
+            width: 130px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 20px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body style="padding:0; margin: 0; background: #000;">
+    <div align="center">
+        <p style="display:inline-block;padding-right: 10px;">
+            <button id="btnCharacter" class="active" style="cursor:pointer" onclick="OnChangeCharacter()">Change Character</button>
+        </p>
+        <p style="display:inline-block;padding-right: 10px;">
+            <button id="btnBg" class="active" style="cursor:pointer">Change Background</button>
+        </p>
+    </div>
+    <div align="center">
+        <p  style="display:inline-block"> Sprite: </p>
+        <select style="display:inline-block" id="select_sprite"> </select>
+        <p  style="display:inline-block"> Animation: </p>
+        <select style="display:inline-block" id="select_animation"> </select>
+        <p id="display_name"></p>
+    </div>
+    <div align="center">
+        <canvas id="gameCanvas" width="800" height="450"></canvas>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/frameworks/cocos2d-html5/CCBoot.js"></script>
+    <script cocos src="main.js"></script>
+    <script cocos src="src/resource.js"></script>
+</body>
+</html>
