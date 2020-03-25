@@ -24,12 +24,15 @@ var SpriteLayer = cc.Layer.extend({
 
         var stringAnimations = "";
         for (var i in armature.getAnimation()._animationData.movementNames){
-            stringAnimations += "<option value=\"" + i + "\">" + armature.getAnimation()._animationData.movementNames[i] + "</option>";
+            if (armature.getAnimation()._animationData.movementNames[i] == "wait")
+                stringAnimations += "<option value=\"" + i + "\" selected>" + armature.getAnimation()._animationData.movementNames[i] + "</option>";
+            else
+                stringAnimations += "<option value=\"" + i + "\">" + armature.getAnimation()._animationData.movementNames[i] + "</option>";
         }
         $("#select_animation").html(stringAnimations);
         $("#select_animation").change(function(){
             armature.getAnimation().playWithIndex($("#select_animation").val());
-        });
+        }).trigger("change");
 
         return true;
     }

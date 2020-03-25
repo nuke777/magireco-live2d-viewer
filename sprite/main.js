@@ -72,9 +72,13 @@ function LoadResults (data){
 function LoadSpriteSelection (data){
     var stringSprites = "";
     for (var key in data.SKIN){
-        stringSprites += "<option value=\"" + data.SKIN[key] + "\">" + key + "</option>";
+        if (key == "Regular")
+            stringSprites += "<option value=\"" + data.SKIN[key] + "\" selected>" + key + "</option>";
+        else
+            stringSprites += "<option value=\"" + data.SKIN[key] + "\">" + key + "</option>";
     }
     $("#select_sprite").html(stringSprites);
+    //$("#select_Sprite").val($("#select_sprite option").filter(function () { return $(this).html() == "Regular"; }).val()).change();
     $("#select_sprite").change(function(){
         ChangeSprite();
     });

@@ -154,13 +154,27 @@
                 border-color: black;
                 border-collapse: collapse;
             }
+            .neon {
+              color: #fff;
+              text-shadow:
+                0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #0ff,
+                0 0 80px #0ff,
+                0 0 90px #0ff,
+                0 0 100px #0ff,
+                0 0 150px #0ff;
+            }
         </style>
 
     </head>
 
     <body onload="main()" align="center">
         <a href='https://ko-fi.com/K3K71DGPS' target='_blank'><img height='36' style='border:0px;height:36px; position: absolute; top: 1%; right: 1%' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-        <button type="button" class="btn btn-secondary" style="position: absolute; top: 1%; left: 1%; color: black;" onclick="onChangeLog()">Changelog</button>
+        <button type="button" class="btn btn-secondary" style="position: absolute; top: 1%; left: 1%; color: black; cursor: pointer" onclick="onChangeLog()">Changelog</button>
+        <a href="https://magireco.nuke.moe/sprite/"><button type="button" style="position: absolute; top: 7%; left: 1%; color: black; background-color: #d0fbd0; cursor: pointer">Sprite Viewer</button></a>
+        <a href="https://magireco.nuke.moe/sprite/"><p style="color: red;position: absolute; top: 5%; left: 1%; cursor: pointer" class="neon"><b>NEW!<b></p></a>
         <div id="background">
         </div>
         <div align="center">
