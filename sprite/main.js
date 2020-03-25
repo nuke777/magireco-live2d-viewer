@@ -79,7 +79,7 @@ function LoadSpriteSelection (data){
     }
     $("#select_sprite").html(stringSprites);
     //$("#select_Sprite").val($("#select_sprite option").filter(function () { return $(this).html() == "Regular"; }).val()).change();
-    $("#select_sprite").change(function(){
+    $("#select_sprite").off("change").on("change", function(){
         ChangeSprite();
     });
 }
@@ -94,7 +94,7 @@ function ChangeSprite(){
         // Adjust viewport meta
         cc.view.adjustViewPort(true);
         // Setup the resolution policy and design resolution size
-        cc.view.setDesignResolutionSize(800, 450);
+        cc.view.setDesignResolutionSize(800, 800);
         // The game will be resized when browser size change
         //cc.view.resizeWithBrowserSize(true);
         //load resources

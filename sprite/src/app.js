@@ -14,27 +14,39 @@ var SpriteLayer = cc.Layer.extend({
 
         ccs.armatureDataManager.addArmatureFileInfo(resource);
 
-        name = resource.replace(base_url, "").replace(".ExportJson","");
+        var name = resource.replace(base_url, "").replace(".ExportJson","");
+        var scale = 1;
+        var offset = 150;
+
+        if (name.slice(-4) == "_m_r" || name.slice(-4) == "_d_r"){
+            scale = 0.5;
+            offset = 0;
+        }
+
         var armature = new ccs.Armature(name);
         armature.getAnimation().playWithIndex(0);
-        armature.scale = 1;
+        armature.scale = scale;
         armature.x = size.width / 2;
-        armature.y = (size.height / 2) - 150;
+        armature.y = (size.height / 2) - offset;
         this.addChild(armature);
 
         var stringAnimations = "";
         for (var i in armature.getAnimation()._animationData.movementNames){
-            if (armature.getAnimation()._animationData.movementNames[i] == "wait")
+            if (armature.getAnimation()._animationData.movementNames[i] == "wait" ||
+                armature.getAnimation()._animationData.movementNames[i] == "action_in")
                 stringAnimations += "<option value=\"" + i + "\" selected>" + armature.getAnimation()._animationData.movementNames[i] + "</option>";
             else
                 stringAnimations += "<option value=\"" + i + "\">" + armature.getAnimation()._animationData.movementNames[i] + "</option>";
         }
         $("#select_animation").html(stringAnimations);
-        $("#select_animation").change(function(){
+        $("#select_animation").off("change").on("change", function(){
             armature.getAnimation().playWithIndex($("#select_animation").val());
-        }).trigger("change");
+        });
 
         return true;
+    },
+    onEnter: function(){
+        $("#select_animation").trigger("change");
     }
 });
 
