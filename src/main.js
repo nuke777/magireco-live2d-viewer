@@ -640,7 +640,7 @@ function initBgSelector()
             document.body.removeChild(document.getElementById("selector"));
             document.body.removeChild(document.getElementById("darken"));
             document.body.style.overflow = "auto";
-    }, false);
+        }, false);
         document.getElementById("selector").appendChild(img);
     }
 }

@@ -1,5 +1,22 @@
 var base_url = "https://media.nuke.moe/magireco/assets/sprites/";
 //var base_url = "../assets/sprites/";
+var bg_color = cc.color(0, 255, 0, 255);
+var BgData = [{
+	"COLOR": cc.color(0, 255, 0, 255),
+	"HEX": "#00FF00"
+}, {
+	"COLOR": cc.color(0, 0, 255, 255),
+	"HEX": "#0000FF"
+}, {
+	"COLOR": cc.color(255, 0, 0, 255),
+	"HEX": "#FF0000"
+}, {
+	"COLOR": cc.color(255, 255, 255, 255),
+	"HEX": "#FFFFFF"
+}, {
+	"COLOR": cc.color(0, 0, 0, 255),
+	"HEX": "#000000"
+}];
 var CharData = [{
 	"NAME": "Ashley Taylor",
 	"ID": "3052",

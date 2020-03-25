@@ -1,15 +1,14 @@
-
+var active;
 
 var SpriteLayer = cc.Layer.extend({
     sprite:null,
     ctor:function (resource) {
-        //////////////////////////////
-        // 1. super init first
         this._super();
 
+        active = this;
         var size = cc.winSize;
      
-        var bgLayer = new cc.LayerColor(cc.color(0, 255, 0, 255));
+        var bgLayer = new cc.LayerColor(bg_color);
         this.addChild(bgLayer, 0);
 
         ccs.armatureDataManager.addArmatureFileInfo(resource);
@@ -57,4 +56,28 @@ var SpriteScene = cc.Scene.extend({
         this.addChild(layer);
     }
 });
+
+var BackgroundLayer = cc.Layer.extend({
+    sprite: null,
+    ctor: function(){
+        this._super();
+        active = this;
+        var bgLayer = new cc.LayerColor(bg_color);
+        this.addChild(bgLayer, 0);
+    }
+});
+
+var BackgroundScene = cc.Scene.extend({
+    onEnter: function()  {
+        this._super();
+        var layer = new BackgroundLayer();
+        this.addChild(layer);
+    }
+});
+
+var app = {};
+
+app.ChangeBackground = function(){
+    active.children[0].color = bg_color;
+}
 

@@ -100,6 +100,15 @@
             margin-left: 20px;
             border-radius: 3px;
         }
+        .thumbbutton {
+            cursor: pointer;
+            height: 90px;
+            width: 120px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 20px;
+            border-radius: 3px;
+        }
     </style>
 </head>
 <body style="padding:0; margin: 0; background: #000;">
@@ -108,7 +117,7 @@
             <button id="btnCharacter" class="active" style="cursor:pointer" onclick="OnChangeCharacter()">Change Character</button>
         </p>
         <p style="display:inline-block;padding-right: 10px;">
-            <button id="btnBg" class="active" style="cursor:pointer">Change Background</button>
+            <button id="btnBg" class="active" style="cursor:pointer" onclick="OnChangeBackground()">Change Background</button>
         </p>
     </div>
     <div align="center">
@@ -124,6 +133,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../js/frameworks/cocos2d-html5/CCBoot.js"></script>
     <script cocos src="main.js"></script>
-    <script cocos src="src/resource.js"></script>
 </body>
 </html>
