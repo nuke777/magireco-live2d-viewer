@@ -187,3 +187,70 @@ function OnChangeBackground(){
         selector.append(img);
     }
 }
+
+function OnChangeLog(){
+    $(document.body).append($("<div></div>")
+        .attr("id","darken")
+        .addClass("darken")
+        .css("top", window.pageYOffset + "px")
+        .click(function(){
+            $('#selector').remove();
+            $('#darken').remove();
+            $(document.body).css("overflow", "auto");
+        }))
+    .append($("<div></div>")
+        .attr("id","selector")
+        .addClass("selector")
+        .css("top", (window.pageYOffset + (window.innerHeight * 0.05)) + "px")
+        .css("padding", "2%"))
+    .css("overflow", "hidden");
+    $("#selector").append($("<table></table>")
+        .addClass("wikitable")
+        .append($("<tr></tr>")
+            .append($("<td></td>")
+                .css("background-color", "#d8d8d8")
+                .css("height", "30px")
+                .css("padding-left", "8px")
+                .attr("align", "left")
+                .html("<b>Changelog</b>")
+            )
+        )
+        .append($("<tr></tr>")
+            .append($("<td></td>")
+                .attr("id", "chglog")
+                .css("padding", "15px")
+                .css("vertical-align","text-top")
+                .attr("align", "left")
+            )
+        )
+    )
+
+    var cb = function (response){
+        for (i in response){
+            var message = response[i].commit.message;
+            var date = response[i].commit.committer.date;
+            date = date.replace("T", " ");
+            date = date.replace("Z", " UTC");
+
+            $("#chglog").append($("<p></p>")
+                .css("line-height", "0.8")
+                .html(message+"<br>")
+                .append($("<font></font>")
+                    .css("font-size", "10px")
+                    .css("color", "gray")
+                    .html(date)
+                )
+            );
+        }
+    }
+
+    var xobj = new XMLHttpRequest();
+    xobj.open("GET", "https://api.github.com/repos/alg-wiki/magireco-live2d-viewer/commits?sha=gh-pages", true);
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            cb(JSON.parse(xobj.response));
+          }
+    };
+    xobj.send(null); 
+}

@@ -1,8 +1,17 @@
 var CharData = [
 	{
+		"NAME" : "Wakana Tsumugi",
+		"ID" : "3024",
+		"ICON" : "card_30241_d.png",
+		"SKIN" : {
+			"Wakana Tsumugi" : "00",
+			"Wakana Tsumugi (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Ashley Taylor",
 		"ID" : "3052",
-		"ICON" : "card_30521_d.png",
+		"ICON" : "card_30524_d.png",
 		"SKIN" : {
 			"Ashley Taylor" : "00",
 			"Ashley Taylor (School)" : "01",
@@ -274,6 +283,7 @@ var CharData = [
 		"SKIN" : {
 			"Alina Gray" : "00",
 			"Alina Gray (Uniform)" : "01",
+			"Alina Gray (Hospital Gown)" : "02",
 			"Alina Gray (Swimsuit)" : "50",
 			"Alina Gray (MagiRepo)" : "88"
 		}
@@ -943,6 +953,7 @@ var CharData = [
 		"SKIN" : {
 			"Misono Karin" : "00",
 			"Misono Karin (School)" : "01",
+			"Misono Karin (Hospital Gown)" : "02",
 			"Misono Karin (Swimsuit)" : "50",
 			"Misono Karin (MagiRepo)" : "88"
 		}

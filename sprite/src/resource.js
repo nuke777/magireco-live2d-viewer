@@ -20,9 +20,10 @@ var BgData = [{
 var CharData = [{
 	"NAME": "Ashley Taylor",
 	"ID": "3052",
-	"ICON": "card_30521_d.png",
+	"ICON": "card_30524_d.png",
 	"SKIN": {
-		"Regular": "305200_r"
+		"Regular": "305200_r",		
+		"Magia": "305200_m_r"
 	}
 }, {
 	"NAME": "Sasame Yozuru",
