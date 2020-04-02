@@ -18,6 +18,26 @@ var BgData = [{
 	"HEX": "#000000"
 }];
 var CharData = [{
+	"NAME": "Rena-chan",
+	"ID": "1109",
+	"ICON": "card_11094_d.png",
+	"SKIN": {
+		"Doppel": "110900_d_r",
+		"Magia": "110900_m_r",
+		"Regular": "110900_r",
+		"Regular_09": "110909_r"
+	}
+}, {
+	"NAME": "Felicia-chan",
+	"ID": "1105",
+	"ICON": "card_11053_d.png",
+	"SKIN": {
+		"Doppel": "110500_d_r",
+		"Magia": "110500_m_r",
+		"Regular": "110500_r",
+		"Regular_09": "110509_r"
+	}
+}, {
 	"NAME": "Ashley Taylor",
 	"ID": "3052",
 	"ICON": "card_30524_d.png",
@@ -415,14 +435,6 @@ var CharData = [{
 		"Magia": "405200_m_r",
 		"Regular": "405200_r",
 		"Regular_09": "405209_r"
-	}
-}, {
-	"NAME": "Felicia-chan",
-	"ID": "1105",
-	"ICON": "card_11053_d.png",
-	"SKIN": {
-		"Magia": "110500_m_r",
-		"Regular": "110500_r"
 	}
 }, {
 	"NAME": "Fumino Sayuki",

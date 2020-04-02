@@ -1,5 +1,39 @@
 var CharData = [
 	{
+		"NAME" : "Rena-chan",
+		"ID" : "1109",
+		"ICON" : "card_11094_d.png",
+		"SKIN" : {
+			"Rena-chan" : "00"
+		}
+	},
+	{
+		"NAME" : "Iroha-chan",
+		"ID" : "1201",
+		"ICON" : "card_12014_d.png",
+		"SKIN" : {
+			"Iroha-chan" : "00",
+			"Iroha-chan (Idol)" : "50",
+		}
+	},
+	{
+		"NAME" : "Madoka-senpai",
+		"ID" : "2102",
+		"ICON" : "card_21023_d.png",
+		"SKIN" : {
+			"Madoka-senpai" : "00",
+			"Madoka-senpai (Producer)" : "50"
+		}
+	},
+	{
+		"NAME" : "Felicia-chan",
+		"ID" : "1105",
+		"ICON" : "card_11053_d.png",
+		"SKIN" : {
+			"Felicia-chan" : "00"
+		}
+	},
+	{
 		"NAME" : "Wakana Tsumugi",
 		"ID" : "3024",
 		"ICON" : "card_30241_d.png",
@@ -468,14 +502,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Felicia-chan",
-		"ID" : "1105",
-		"ICON" : "card_11053_d.png",
-		"SKIN" : {
-			"Felicia-chan" : "00"
-		}
-	},
-	{
 		"NAME" : "Fumino Sayuki",
 		"ID" : "3033",
 		"ICON" : "card_30334_d.png",
@@ -618,14 +644,6 @@ var CharData = [
 			"Ibuki Reira" : "00",
 			"Ibuki Reira (School)" : "01",
 			"Ibuki Reira (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Iroha-chan",
-		"ID" : "1201",
-		"ICON" : "card_12014_d.png",
-		"SKIN" : {
-			"Iroha-chan" : "00"
 		}
 	},
 	{
@@ -793,14 +811,6 @@ var CharData = [
 		"SKIN" : {
 			"Lapine" : "00",
 			"Lapine (Maskless)" : "01"
-		}
-	},
-	{
-		"NAME" : "Madoka-senpai",
-		"ID" : "2102",
-		"ICON" : "card_21023_d.png",
-		"SKIN" : {
-			"Madoka-senpai" : "00"
 		}
 	},
 	{
