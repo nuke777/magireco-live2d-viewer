@@ -1,5 +1,32 @@
 var CharData = [
 	{
+		"NAME" : "Kasane Ao",
+		"ID" : "1023",
+		"ICON" : "card_10234_d.png",
+		"SKIN" : {
+			"Kasane Ao" : "00",
+			"Kasane Ao (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Miura Asahi",
+		"ID" : "1034",
+		"ICON" : "card_10341_d.png",
+		"SKIN" : {
+			"Miura Asahi" : "00",
+			"Miura Asahi (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Yuuki Maria",
+		"ID" : "3036",
+		"ICON" : "card_30363_d.png",
+		"SKIN" : {
+			"Yuuki Maria" : "00",
+			"Yuuki Maria (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Rena-chan",
 		"ID" : "1109",
 		"ICON" : "card_11094_d.png",
@@ -86,14 +113,6 @@ var CharData = [
 		"SKIN" : {
 			"Megumi Moka" : "00",
 			"Megumi Moka (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Yuuki Maria",
-		"ID" : "3036",
-		"ICON" : "card_30361_d.png",
-		"SKIN" : {
-			"Yuuki Mari (School)" : "01",
 		}
 	},
 	{
@@ -231,15 +250,6 @@ var CharData = [
 		"SKIN" : {
 			"Kirari Hikaru" : "00",
 			"Kirari Hikaru (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Kasane Ao",
-		"ID" : "1023",
-		"ICON" : "card_10231_d.png",
-		"SKIN" : {
-			"Kasane Ao" : "00",
-			"Kasane Ao (School)" : "01",
 		}
 	},
 	{

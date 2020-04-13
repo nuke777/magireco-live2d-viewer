@@ -18,6 +18,24 @@ var BgData = [{
 	"HEX": "#000000"
 }];
 var CharData = [{
+	"NAME": "Kasane Ao",
+	"ID": "1023",
+	"ICON": "card_10234_d.png",
+	"SKIN": {
+		"Doppel": "102300_d_r",
+		"Magia": "102300_m_r",
+		"Regular": "102300_r",
+		"Regular_09": "102309_r"
+	}
+}, {
+	"NAME": "Yuuki Maria",
+	"ID": "3036",
+	"ICON": "card_30363_d.png",
+	"SKIN": {
+		"Magia": "303600_m_r",
+		"Regular": "303600_r"
+	}
+}, {
 	"NAME": "Rena-chan",
 	"ID": "1109",
 	"ICON": "card_11094_d.png",
