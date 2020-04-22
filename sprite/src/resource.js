@@ -18,6 +18,16 @@ var BgData = [{
 	"HEX": "#000000"
 }];
 var CharData = [{
+	"NAME": "Yagami Hayate",
+	"ID": "4053",
+	"ICON": "card_40533_d.png",
+	"SKIN": {
+		"Doppel": "405300_d_r",
+		"Magia": "405300_m_r",
+		"Regular": "405300_r",
+		"Regular_09": "405309_r"
+	}
+}, {
 	"NAME": "Kasane Ao",
 	"ID": "1023",
 	"ICON": "card_10234_d.png",
@@ -1219,14 +1229,6 @@ var CharData = [{
 		"Magia": "130100_m_r",
 		"Regular": "130100_r",
 		"Regular_09": "130109_r"
-	}
-}, {
-	"NAME": "Yagami Hayate",
-	"ID": "4053",
-	"ICON": "card_40533_d.png",
-	"SKIN": {
-		"Magia": "405300_m_r",
-		"Regular": "405300_r"
 	}
 }, {
 	"NAME": "Yakumo Mitama",
