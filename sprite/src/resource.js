@@ -18,6 +18,16 @@ var BgData = [{
 	"HEX": "#000000"
 }];
 var CharData = [{
+	"NAME": "Mizuki Rui",
+	"ID": "3056",
+	"ICON": "card_30564_d.png",
+	"SKIN": {
+		"Doppel": "305600_d_r",
+		"Magia": "305600_m_r",
+		"Regular": "305600_r",
+		"Regular_09": "305609_r"
+	}
+}, {
 	"NAME": "Yagami Hayate",
 	"ID": "4053",
 	"ICON": "card_40533_d.png",
