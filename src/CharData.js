@@ -1,5 +1,15 @@
 var CharData = [
 	{
+		"NAME" : "Fumino Sayuki",
+		"ID" : "3033",
+		"ICON" : "card_30334_d.png",
+		"SKIN" : {
+			"Fumino Sayuki" : "00",
+			"Fumino Sayuki (School)" : "01",
+			"Fumino Sayuki (Swimsuit)" : "50"
+		}
+	},
+	{
 		"NAME" : "Mizuki Rui",
 		"ID" : "3056",
 		"ICON" : "card_30564_d.png",
@@ -518,15 +528,6 @@ var CharData = [
 		"SKIN" : {
 			"Fate T. Harlaown" : "00",
 			"Fate T. Harlaown (Casual)" : "01"
-		}
-	},
-	{
-		"NAME" : "Fumino Sayuki",
-		"ID" : "3033",
-		"ICON" : "card_30334_d.png",
-		"SKIN" : {
-			"Fumino Sayuki" : "00",
-			"Fumino Sayuki (School)" : "01"
 		}
 	},
 	{
