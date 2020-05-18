@@ -1,5 +1,23 @@
 var CharData = [
 	{
+		"NAME" : "Wakana Tsumugi",
+		"ID" : "3024",
+		"ICON" : "card_30244_d.png",
+		"SKIN" : {
+			"Wakana Tsumugi" : "00",
+			"Wakana Tsumugi (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Oba Juri",
+		"ID" : "1024",
+		"ICON" : "card_10241_d.png",
+		"SKIN" : {
+			"Oba Juri" : "00",
+			"Oba Juri (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Fumino Sayuki",
 		"ID" : "3033",
 		"ICON" : "card_30334_d.png",
@@ -77,15 +95,6 @@ var CharData = [
 		"ICON" : "card_11053_d.png",
 		"SKIN" : {
 			"Felicia-chan" : "00"
-		}
-	},
-	{
-		"NAME" : "Wakana Tsumugi",
-		"ID" : "3024",
-		"ICON" : "card_30241_d.png",
-		"SKIN" : {
-			"Wakana Tsumugi" : "00",
-			"Wakana Tsumugi (School)" : "01",
 		}
 	},
 	{
@@ -269,15 +278,6 @@ var CharData = [
 		"SKIN" : {
 			"Kirari Hikaru" : "00",
 			"Kirari Hikaru (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Oba Juri",
-		"ID" : "1024",
-		"ICON" : "card_10241_d.png",
-		"SKIN" : {
-			"Oba Juri" : "00",
-			"Oba Juri (School)" : "01",
 		}
 	},
 	{
@@ -1587,6 +1587,16 @@ var CharData = [
 		"SKIN" : {
 			"White Feather (Middle)" : "00",
 			"White Feather (High)" : "01",
+		}
+	},
+	{
+		"NAME" : "諸勢力モブ_一般",
+		"ID" : "7706",
+		"ICON" : "card_99999_d.png",
+		"SKIN" : {
+			"諸勢力モブ_一般A_圧縮" : "00",
+			"諸勢力モブ_一般B_圧縮" : "01",
+			"諸勢力モブ_一般C_圧縮" : "02",
 		}
 	},
 	{

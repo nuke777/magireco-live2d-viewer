@@ -17,7 +17,29 @@ var BgData = [{
 	"COLOR": cc.color(0, 0, 0, 255),
 	"HEX": "#000000"
 }];
-var CharData = [{
+var CharData = [
+{
+	"NAME": "Wakana Tsumugi",
+	"ID": "3024",
+	"ICON": "card_30244_d.png",
+	"SKIN": {
+		"Doppel": "302400_d_r",
+		"Magia": "302400_m_r",
+		"Regular": "302400_r",
+		"Regular_09": "302409_r"
+	}
+}, {
+	"NAME": "Kurumi Manaka",
+	"ID": "3009",
+	"ICON": "card_30092_d.png",
+	"SKIN": {
+		"Doppel": "300900_d_r",
+		"Magia": "300900_m_r",
+		"Regular": "300900_r",
+		"Regular_01": "300901_r",
+		"Regular_09": "300909_r"
+	}
+}, {
 	"NAME": "Mizuki Rui",
 	"ID": "3056",
 	"ICON": "card_30564_d.png",
@@ -45,7 +67,8 @@ var CharData = [{
 		"Doppel": "102300_d_r",
 		"Magia": "102300_m_r",
 		"Regular": "102300_r",
-		"Regular_09": "102309_r"
+		"Regular_09": "102309_r",
+		"Magia_50": "102350_m_r"
 	}
 }, {
 	"NAME": "Yuuki Maria",
@@ -747,15 +770,6 @@ var CharData = [{
 	"SKIN": {
 		"Magia": "390000_m_r",
 		"Regular": "390000_r"
-	}
-}, {
-	"NAME": "Kurumi Manaka",
-	"ID": "3009",
-	"ICON": "card_30092_d.png",
-	"SKIN": {
-		"Magia": "300900_m_r",
-		"Regular": "300900_r",
-		"Regular_09": "300909_r"
 	}
 }, {
 	"NAME": "Lapine",
