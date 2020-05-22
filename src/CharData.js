@@ -1,5 +1,15 @@
 var CharData = [
 	{
+		"NAME" : "Fumino Sayuki",
+		"ID" : "3033",
+		"ICON" : "card_30334_d.png",
+		"SKIN" : {
+			"Fumino Sayuki" : "00",
+			"Fumino Sayuki (School)" : "01",
+			"Fumino Sayuki (Swimsuit)" : "50"
+		}
+	},
+	{
 		"NAME" : "Wakana Tsumugi",
 		"ID" : "3024",
 		"ICON" : "card_30244_d.png",
@@ -15,16 +25,6 @@ var CharData = [
 		"SKIN" : {
 			"Oba Juri" : "00",
 			"Oba Juri (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Fumino Sayuki",
-		"ID" : "3033",
-		"ICON" : "card_30334_d.png",
-		"SKIN" : {
-			"Fumino Sayuki" : "00",
-			"Fumino Sayuki (School)" : "01",
-			"Fumino Sayuki (Swimsuit)" : "50"
 		}
 	},
 	{
