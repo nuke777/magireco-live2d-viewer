@@ -29,7 +29,7 @@ var CharData = [
 		"Regular_09": "305009_r"
 	}
 }, {
-	"NAME": "Yuuki Hotori",
+	"NAME": "Yuzuki Hotori",
 	"ID": "3041",
 	"ICON": "card_30413_d.png",
 	"SKIN": {
@@ -37,7 +37,7 @@ var CharData = [
 		"Regular": "304100_r"
 	}
 }, {
-	"NAME": "Yuuki Rion",
+	"NAME": "Yuzuki Rion",
 	"ID": "3045",
 	"ICON": "card_30453_d.png",
 	"SKIN": {

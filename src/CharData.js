@@ -9,7 +9,7 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Yuuki Hotori",
+		"NAME" : "Yuzuki Hotori",
 		"ID" : "3041",
 		"ICON" : "card_30413_d.png",
 		"SKIN" : {
@@ -18,7 +18,7 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Yuuki Rion",
+		"NAME" : "Yuzuki Rion",
 		"ID" : "3045",
 		"ICON" : "card_30453_d.png",
 		"SKIN" : {
