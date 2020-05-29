@@ -1,5 +1,66 @@
 var CharData = [
 	{
+		"NAME" : "Kaharu Yuuna",
+		"ID" : "3050",
+		"ICON" : "card_30504_d.png",
+		"SKIN" : {
+			"Kaharu Yuuna" : "00",
+			"Kaharu Yuuna (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Yuuki Hotori",
+		"ID" : "3041",
+		"ICON" : "card_30413_d.png",
+		"SKIN" : {
+			"Yuuki Hotori" : "00",
+			"Yuuki Hotori (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Yuuki Rion",
+		"ID" : "3045",
+		"ICON" : "card_30453_d.png",
+		"SKIN" : {
+			"Yuuki Rion" : "00",
+			"Yuuki Rion (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Aoba Chika",
+		"ID" : "3047",
+		"ICON" : "card_30471_d.png",
+		"SKIN" : {
+			"Aoba Chika" : "00",
+			"Aoba Chika (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "有愛 Urara",
+		"ID" : "1036",
+		"ICON" : "card_10361_d.png",
+		"SKIN" : {
+			"有愛 Urara" : "00",
+		}
+	},
+	{
+		"NAME" : "Aika Himena",
+		"ID" : "1028",
+		"ICON" : "card_10281_d.png",
+		"SKIN" : {
+			"Aika Himena" : "00",
+		}
+	},
+	{
+		"NAME" : "Satomi Kagome",
+		"ID" : "1020",
+		"ICON" : "card_10201_d.png",
+		"SKIN" : {
+			"Satomi Kagome (School)" : "01",
+			"Satomi Kagome (Sleepwear)" : "03"
+		}
+	},
+	{
 		"NAME" : "Fumino Sayuki",
 		"ID" : "3033",
 		"ICON" : "card_30334_d.png",
@@ -1125,14 +1186,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Satomi Kagome",
-		"ID" : "1020",
-		"ICON" : "card_10201_d.png",
-		"SKIN" : {
-			"Satomi Kagome (School)" : "01"
-		}
-	},
-	{
 		"NAME" : "Satomi Touka",
 		"ID" : "1007",
 		"ICON" : "card_10074_d.png",
@@ -1466,24 +1519,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Yuuki Hotori",
-		"ID" : "3041",
-		"ICON" : "card_30411_d.png",
-		"SKIN" : {
-			"Yuuki Hotori" : "00",
-			"Yuuki Hotori (School)" : "01"
-		}
-	},
-	{
-		"NAME" : "Yuuki Rion",
-		"ID" : "3045",
-		"ICON" : "card_30451_d.png",
-		"SKIN" : {
-			"Yuuki Rion" : "00",
-			"Yuuki Rion (School)" : "01"
-		}
-	},
-	{
 		"NAME" : "Black Feather (Low)",
 		"ID" : "7150",
 		"ICON" : "card_71501_d.png",
@@ -1571,6 +1606,15 @@ var CharData = [
 		}
 	},
 	{
+		"NAME" : "時女_幹部兵A_圧縮",
+		"ID" : "7703",
+		"ICON" : "card_99999_d.png",
+		"SKIN" : {
+			"時女_幹部兵A_圧縮" : "00",
+			"時女_幹部兵B_圧縮" : "01",
+		}
+	},
+	{
 		"NAME" : "Black Feather - Neo-Magius",
 		"ID" : "7704",
 		"ICON" : "card_77040_d.png",
@@ -1597,6 +1641,15 @@ var CharData = [
 			"諸勢力モブ_一般A_圧縮" : "00",
 			"諸勢力モブ_一般B_圧縮" : "01",
 			"諸勢力モブ_一般C_圧縮" : "02",
+		}
+	},
+	{
+		"NAME" : "諸勢力モブ_幹部A_圧縮",
+		"ID" : "7707",
+		"ICON" : "card_99999_d.png",
+		"SKIN" : {
+			"諸勢力モブ_幹部A_圧縮" : "00",
+			"諸勢力モブ_幹部B_圧縮" : "01",
 		}
 	},
 	{

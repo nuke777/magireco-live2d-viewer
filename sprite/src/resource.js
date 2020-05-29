@@ -19,6 +19,32 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Kaharu Yuuna",
+	"ID": "3050",
+	"ICON": "card_30504_d.png",
+	"SKIN": {
+		"Doppel": "305000_d_r",
+		"Magia": "305000_m_r",
+		"Regular": "305000_r",
+		"Regular_09": "305009_r"
+	}
+}, {
+	"NAME": "Yuuki Hotori",
+	"ID": "3041",
+	"ICON": "card_30413_d.png",
+	"SKIN": {
+		"Magia": "304100_m_r",
+		"Regular": "304100_r"
+	}
+}, {
+	"NAME": "Yuuki Rion",
+	"ID": "3045",
+	"ICON": "card_30453_d.png",
+	"SKIN": {
+		"Magia": "304500_m_r",
+		"Regular": "304500_r"
+	}
+}, {
 	"NAME": "Wakana Tsumugi",
 	"ID": "3024",
 	"ICON": "card_30244_d.png",
@@ -68,7 +94,8 @@ var CharData = [
 		"Magia": "102300_m_r",
 		"Regular": "102300_r",
 		"Regular_09": "102309_r",
-		"Magia_50": "102350_m_r"
+		"Magia_50": "102350_m_r",
+		"Regular_50": "102350_r"
 	}
 }, {
 	"NAME": "Yuuki Maria",
@@ -260,7 +287,9 @@ var CharData = [
 		"Regular": "102200_r",
 		"Regular_09": "102209_r",
 		"Magia_50": "102250_m_r",
-		"Regular_50": "102250_r"
+		"Regular_50": "102250_r",
+		"Magia_51": "102251_m_r",
+		"Regular_51": "102251_r"
 	}
 }, {
 	"NAME": "Aino Mito",
