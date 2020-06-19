@@ -1,5 +1,46 @@
 var CharData = [
 	{
+		"NAME" : "Tart Final ver.",
+		"ID" : "4028",
+		"ICON" : "card_40284_d.png",
+		"SKIN" : {
+			"Tart Final ver." : "00",
+		}
+	},
+	{
+		"NAME" : "Lapine",
+		"ID" : "4027",
+		"ICON" : "card_40273_d.png",
+		"SKIN" : {
+			"Lapine" : "00",
+			"Lapine (Maskless)" : "01"
+		}
+	},
+	{
+		"NAME" : "Pernelle Flamel",
+		"ID" : "4029",
+		"ICON" : "card_40291_d.png",
+		"SKIN" : {
+			"Pernelle Flamel" : "00",
+		}
+	},	
+	{
+		"NAME" : "Young Tart",
+		"ID" : "8313",
+		"ICON" : "card_83131_d.png",
+		"SKIN" : {
+			"Young Tart" : "02",
+		}
+	},
+	{
+		"NAME" : "Isabeau",
+		"ID" : "8314",
+		"ICON" : "card_83141_d.png",
+		"SKIN" : {
+			"Isabeau" : "00",
+		}
+	},
+	{
 		"NAME" : "Kaharu Yuuna",
 		"ID" : "3050",
 		"ICON" : "card_30504_d.png",
@@ -52,12 +93,12 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Satomi Kagome",
+		"NAME" : "Satori Kagome",
 		"ID" : "1020",
 		"ICON" : "card_10201_d.png",
 		"SKIN" : {
-			"Satomi Kagome (School)" : "01",
-			"Satomi Kagome (Sleepwear)" : "03"
+			"Satori Kagome (School)" : "01",
+			"Satori Kagome (Sleepwear)" : "03"
 		}
 	},
 	{
@@ -886,15 +927,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Lapine",
-		"ID" : "4027",
-		"ICON" : "card_40271_d.png",
-		"SKIN" : {
-			"Lapine" : "00",
-			"Lapine (Maskless)" : "01"
-		}
-	},
-	{
 		"NAME" : "Maki Kaoru",
 		"ID" : "4013",
 		"ICON" : "card_40133_d.png",
@@ -1412,6 +1444,7 @@ var CharData = [
 			"Yachiyo Nanami (School)" : "04",
 			"Yachiyo Nanami (Casual 2)" : "05",
 			"Yachiyo Nanami (Haregi)" : "50",
+			"Yachiyo Nanami (Swimsuit)" : "51",
 			"Yachiyo Nanami (MagiRepo)" : "88",
 			"Yachiyo Nanami (MagiRepo 2)" : "89"
 		}

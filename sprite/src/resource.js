@@ -19,6 +19,26 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Tart Final ver.",
+	"ID": "4028",
+	"ICON": "card_40284_d.png",
+	"SKIN": {
+		"Doppel": "402800_d_r",
+		"Magia": "402800_m_r",
+		"Regular": "402800_r",
+		"Regular_09": "402809_r"
+	}
+}, {
+	"NAME": "Lapine",
+	"ID": "4027",
+	"ICON": "card_40273_d.png",
+	"SKIN": {
+		"Magia": "402700_m_r",
+		"Regular": "402700_r",
+		"Magia": "402750_m_r",
+		"Regular": "402750_r"
+	}
+}, {
 	"NAME": "Kaharu Yuuna",
 	"ID": "3050",
 	"ICON": "card_30504_d.png",
@@ -799,14 +819,6 @@ var CharData = [
 	"SKIN": {
 		"Magia": "390000_m_r",
 		"Regular": "390000_r"
-	}
-}, {
-	"NAME": "Lapine",
-	"ID": "4027",
-	"ICON": "card_40271_d.png",
-	"SKIN": {
-		"Magia": "402750_m_r",
-		"Regular": "402750_r"
 	}
 }, {
 	"NAME": "Madoka-senpai",
