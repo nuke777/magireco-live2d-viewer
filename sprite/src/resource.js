@@ -19,6 +19,16 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Ashley Taylor",
+	"ID": "3052",
+	"ICON": "card_30524_d.png",
+	"SKIN": {	
+		"Doppel": "305200_d_r",
+		"Magia": "305200_m_r",
+		"Regular": "305200_r",	
+		"Regular_09": "305209_r"	
+	}
+}, {
 	"NAME": "Tart Final ver.",
 	"ID": "4028",
 	"ICON": "card_40284_d.png",
@@ -144,14 +154,6 @@ var CharData = [
 		"Magia": "110500_m_r",
 		"Regular": "110500_r",
 		"Regular_09": "110509_r"
-	}
-}, {
-	"NAME": "Ashley Taylor",
-	"ID": "3052",
-	"ICON": "card_30524_d.png",
-	"SKIN": {
-		"Regular": "305200_r",		
-		"Magia": "305200_m_r"
 	}
 }, {
 	"NAME": "Sasame Yozuru",

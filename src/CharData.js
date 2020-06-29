@@ -1,5 +1,67 @@
 var CharData = [
 	{
+		"NAME" : "Yakumo Mikage",
+		"ID" : "1038",
+		"ICON" : "card_10381_d.png",
+		"SKIN" : {
+			"Yakumo Mikage" : "00",
+			"Yakumo Mikage (School)" : "01",
+		}
+	},	
+	{
+		"NAME" : "Satomi Nayuka",
+		"ID" : "1037",
+		"ICON" : "card_10371_d.png",
+		"SKIN" : {
+			"Satomi Nayuka" : "00",
+			"Satomi Nayuka (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Himuro Rabi",
+		"ID" : "1033",
+		"ICON" : "card_10330_d.png",
+		"SKIN" : {
+			"Himuro Rabi" : "00",
+			"Himuro Rabi (School)" : "01",
+			"Himuro Rabi (Housemaid)" : "02",
+		}
+	},
+	{
+		"NAME" : "Sawa Sudachi",
+		"ID" : "1039",
+		"ICON" : "card_10391_d.png",
+		"SKIN" : {
+			"Sawa Sudachi" : "00",
+			"Sawa Sudachi (School)" : "01",
+			"Sawa Sudachi (Copy)" : "02"
+		}
+	},
+	{
+		"NAME" : "Rumor of the 10,000-Year Sakura",
+		"ID" : "3043",
+		"ICON" : "card_30434_d.png",
+		"SKIN" : {
+			"Rumor of the 10,000-Year Sakura" : "00",
+			"Rumor of the 10,000-Year Sakura (School)" : "01",
+			"Rumor of the 10,000-Year Sakura (Casual)" : "02",
+			"Rumor of the 10,000-Year Sakura (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Hiiragi Nemu",
+		"ID" : "1014",
+		"ICON" : "card_10144_d.png",
+		"SKIN" : {
+			"Hiiragi Nemu" : "00",
+			"Hiiragi Nemu (School)" : "01",
+			"Hiiragi Nemu (Casual)" : "02",
+			"Hiiragi Nemu (School 2)" : "03",
+			"Hiiragi Nemu (Swimsuit)" : "50",
+			"Hiiragi Nemu (MagiRepo)" : "88"
+		}
+	},
+	{
 		"NAME" : "Tart Final ver.",
 		"ID" : "4028",
 		"ICON" : "card_40284_d.png",
@@ -290,14 +352,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Sawa Sudachi",
-		"ID" : "1039",
-		"ICON" : "card_10391_d.png",
-		"SKIN" : {
-			"Sawa Sudachi" : "00"
-		}
-	},
-	{
 		"NAME" : "Miki Sayaka Haregi Ver.",
 		"ID" : "2400",
 		"ICON" : "card_24004_d.png",
@@ -352,14 +406,6 @@ var CharData = [
 		"SKIN" : {
 			"Kira Temari" : "00",
 			"Kira Temari (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Himuro Rabi",
-		"ID" : "1033",
-		"ICON" : "card_10330_d.png",
-		"SKIN" : {
-			"Himuro Rabi" : "00",
 		}
 	},
 	{
@@ -676,19 +722,6 @@ var CharData = [
 			"Haruna Konomi (School)" : "01",
 			"Haruna Konomi (Winter)" : "50",
 			"Haruna Konomi (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Hiiragi Nemu",
-		"ID" : "1014",
-		"ICON" : "card_10144_d.png",
-		"SKIN" : {
-			"Hiiragi Nemu" : "00",
-			"Hiiragi Nemu (School)" : "01",
-			"Hiiragi Nemu (Casual)" : "02",
-			"Hiiragi Nemu (School 2)" : "03",
-			"Hiiragi Nemu (Swimsuit)" : "50",
-			"Hiiragi Nemu (MagiRepo)" : "88"
 		}
 	},
 	{
@@ -1172,17 +1205,6 @@ var CharData = [
 			"Riz Hawkwood" : "00",
 			"Riz Hawkwood (Casual)" : "01",
 			"Riz Hawkwood (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Rumor of the 10,000-Year Sakura",
-		"ID" : "3043",
-		"ICON" : "card_30434_d.png",
-		"SKIN" : {
-			"Rumor of the 10,000-Year Sakura" : "00",
-			"Rumor of the 10,000-Year Sakura (School)" : "01",
-			"Rumor of the 10,000-Year Sakura (Casual)" : "02",
-			"Rumor of the 10,000-Year Sakura (MagiRepo)" : "88"
 		}
 	},
 	{
