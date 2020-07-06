@@ -1,5 +1,24 @@
 var CharData = [
 	{
+		"NAME" : "Sawa Sudachi",
+		"ID" : "1039",
+		"ICON" : "card_10394_d.png",
+		"SKIN" : {
+			"Sawa Sudachi" : "00",
+			"Sawa Sudachi (School)" : "01",
+			"Sawa Sudachi (Copy)" : "02"
+		}
+	},
+	{
+		"NAME" : "Aoba Chika",
+		"ID" : "3047",
+		"ICON" : "card_30473_d.png",
+		"SKIN" : {
+			"Aoba Chika" : "00",
+			"Aoba Chika (School)" : "01",
+		}
+	},
+	{
 		"NAME" : "Yakumo Mikage",
 		"ID" : "1038",
 		"ICON" : "card_10381_d.png",
@@ -25,16 +44,6 @@ var CharData = [
 			"Himuro Rabi" : "00",
 			"Himuro Rabi (School)" : "01",
 			"Himuro Rabi (Housemaid)" : "02",
-		}
-	},
-	{
-		"NAME" : "Sawa Sudachi",
-		"ID" : "1039",
-		"ICON" : "card_10391_d.png",
-		"SKIN" : {
-			"Sawa Sudachi" : "00",
-			"Sawa Sudachi (School)" : "01",
-			"Sawa Sudachi (Copy)" : "02"
 		}
 	},
 	{
@@ -127,15 +136,6 @@ var CharData = [
 		"SKIN" : {
 			"Yuuki Rion" : "00",
 			"Yuuki Rion (School)" : "01"
-		}
-	},
-	{
-		"NAME" : "Aoba Chika",
-		"ID" : "3047",
-		"ICON" : "card_30471_d.png",
-		"SKIN" : {
-			"Aoba Chika" : "00",
-			"Aoba Chika (School)" : "01",
 		}
 	},
 	{
@@ -1455,31 +1455,31 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Yachiyo Nanami",
+		"NAME" : "Nanami Yachiyo",
 		"ID" : "1002",
 		"ICON" : "card_10022_d.png",
 		"SKIN" : {
-			"Yachiyo Nanami" : "00",
-			"Yachiyo Nanami (Casual)" : "01",
-			"Yachiyo Nanami (Loungewear)" : "02",
-			"Yachiyo Nanami (Shadow)" : "03",
-			"Yachiyo Nanami (School)" : "04",
-			"Yachiyo Nanami (Casual 2)" : "05",
-			"Yachiyo Nanami (Haregi)" : "50",
-			"Yachiyo Nanami (Swimsuit)" : "51",
-			"Yachiyo Nanami (MagiRepo)" : "88",
-			"Yachiyo Nanami (MagiRepo 2)" : "89"
+			"Nanami Yachiyo" : "00",
+			"Nanami Yachiyo (Casual)" : "01",
+			"Nanami Yachiyo (Loungewear)" : "02",
+			"Nanami Yachiyo (Shadow)" : "03",
+			"Nanami Yachiyo (School)" : "04",
+			"Nanami Yachiyo (Casual 2)" : "05",
+			"Nanami Yachiyo (Haregi)" : "50",
+			"Nanami Yachiyo (Swimsuit)" : "51",
+			"Nanami Yachiyo (MagiRepo)" : "88",
+			"Nanami Yachiyo (MagiRepo 2)" : "89"
 		}
 	},
 	{
-		"NAME" : "Yachiyo Nanami & Tamaki Iroha",
+		"NAME" : "Nanami Yachiyo & Tamaki Iroha",
 		"ID" : "1301",
 		"ICON" : "card_13014_d.png",
 		"SKIN" : {
-			"Yachiyo Nanami & Tamaki Iroha (Duo)" : "00,02",
-			"Yachiyo Nanami & Tamaki Iroha" : "00",
-			"Yachiyo Nanami & Tamaki Iroha (Iroha)" : "01",
-			"Yachiyo Nanami & Tamaki Iroha (Yachiyo)" : "02"
+			"Nanami Yachiyo & Tamaki Iroha (Duo)" : "00,02",
+			"Nanami Yachiyo & Tamaki Iroha" : "00",
+			"Nanami Yachiyo & Tamaki Iroha (Iroha)" : "01",
+			"Nanami Yachiyo & Tamaki Iroha (Yachiyo)" : "02"
 		}
 	},
 	{

@@ -19,6 +19,24 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Sawa Sudachi",
+	"ID": "1039",
+	"ICON": "card_10394_d.png",
+	"SKIN": {	
+		"Doppel": "103900_d_r",
+		"Magia": "103900_m_r",
+		"Regular": "103900_r",	
+		"Regular_09": "103909_r"	
+	}
+}, {
+	"NAME": "Aoba Chika",
+	"ID": "3047",
+	"ICON": "card_30473_d.png",
+	"SKIN": {
+		"Magia": "304700_m_r",
+		"Regular": "304700_r"
+	}
+}, {
 	"NAME": "Ashley Taylor",
 	"ID": "3052",
 	"ICON": "card_30524_d.png",
