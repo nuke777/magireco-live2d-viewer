@@ -1,12 +1,55 @@
 var CharData = [
 	{
+		"NAME" : "Rena Kaede Swimsuit ver.",
+		"ID" : "1209",
+		"ICON" : "card_12094_d.png",
+		"SKIN" : {
+			"Rena Kaede Swimsuit Ver. (Duo)" : "00,02",
+			"Rena Kaede Swimsuit ver." : "00",
+			"Rena Kaede Swimsuit ver. (Rena)" : "01",
+			"Rena Kaede Swimsuit ver. (Kaede)" : "02",
+		}
+	},
+	{
+		"NAME" : "Sasame Yozuru",
+		"ID" : "1040",
+		"ICON" : "card_10404_d.png",
+		"SKIN" : {
+			"Sasame Yozuru" : "00",
+			"Sasame Yozuru (Casual)" : "01",
+			"Sasame Yozuru (Swimsuit)" : "50",
+		}
+	},
+	{
+		"NAME" : "Kasane Ao",
+		"ID" : "1023",
+		"ICON" : "card_10234_d.png",
+		"SKIN" : {
+			"Kasane Ao" : "00",
+			"Kasane Ao (School)" : "01",
+			"Kasane Ao (Swimsuit)" : "50",
+
+		}
+	},
+	{
+		"NAME" : "Kirari Hikaru",
+		"ID" : "1022",
+		"ICON" : "card_10224_d.png",
+		"SKIN" : {
+			"Kirari Hikaru" : "00",
+			"Kirari Hikaru (School)" : "01",
+			"Kirari Hikaru (Swimsuit)" : "50",
+		}
+	},
+	{
 		"NAME" : "Sawa Sudachi",
 		"ID" : "1039",
 		"ICON" : "card_10394_d.png",
 		"SKIN" : {
 			"Sawa Sudachi" : "00",
 			"Sawa Sudachi (School)" : "01",
-			"Sawa Sudachi (Copy)" : "02"
+			"Sawa Sudachi (Copy)" : "02",
+			"Sawa Sudachi (Copy Casual)" : "03",
 		}
 	},
 	{
@@ -201,15 +244,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Kasane Ao",
-		"ID" : "1023",
-		"ICON" : "card_10234_d.png",
-		"SKIN" : {
-			"Kasane Ao" : "00",
-			"Kasane Ao (School)" : "01",
-		}
-	},
-	{
 		"NAME" : "Miura Asahi",
 		"ID" : "1034",
 		"ICON" : "card_10341_d.png",
@@ -268,15 +302,6 @@ var CharData = [
 		"SKIN" : {
 			"Ashley Taylor" : "00",
 			"Ashley Taylor (School)" : "01",
-		}
-	},
-	{
-		"NAME" : "Sasame Yozuru",
-		"ID" : "1040",
-		"ICON" : "card_10404_d.png",
-		"SKIN" : {
-			"Sasame Yozuru" : "00",
-			"Sasame Yozuru (Casual)" : "01",
 		}
 	},
 	{
@@ -417,15 +442,6 @@ var CharData = [
 			"Kureha Yuna (School)" : "01",
 			"Kureha Yuna (Before Awakening)" : "02",
 			"Kureha Yuna (School / Before Awakening)" : "03"
-		}
-	},
-	{
-		"NAME" : "Kirari Hikaru",
-		"ID" : "1022",
-		"ICON" : "card_10224_d.png",
-		"SKIN" : {
-			"Kirari Hikaru" : "00",
-			"Kirari Hikaru (School)" : "01",
 		}
 	},
 	{
