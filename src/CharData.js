@@ -40,6 +40,99 @@ var CharData = [
 			"Kirari Hikaru (School)" : "01",
 			"Kirari Hikaru (Swimsuit)" : "50",
 		}
+	},	
+	{
+		"NAME" : "Elisa Celjska",
+		"ID" : "4026",
+		"ICON" : "card_40264_d.png",
+		"SKIN" : {
+			"Elisa Celjska" : "00",
+			"Elisa Celjska (Casual)" : "01"
+		}
+	},
+	{
+		"NAME" : "Corbeau",
+		"ID" : "4025",
+		"ICON" : "card_40253_d.png",
+		"SKIN" : {
+			"Corbeau" : "00",
+			"Corbeau (Casual)" : "01"
+		}
+	},
+	{
+		"NAME" : "Amane Sisters Mizugi Ver.",
+		"ID" : "1118",
+		"ICON" : "card_11184_d.png",
+		"SKIN" : {
+			"Amane Sisters Mizugi Ver. (Duo)" : "00,02",
+			"Amane Sisters Mizugi Ver." : "00",
+			"Amane Sisters Mizugi Ver. (Tsukuyo)" : "01",
+			"Amane Sisters Mizugi Ver. (Tsukasa)" : "02"
+		}
+	},
+	{
+		"NAME" : "Satomi Touka",
+		"ID" : "1007",
+		"ICON" : "card_10074_d.png",
+		"SKIN" : {
+			"Satomi Touka" : "00",
+			"Satomi Touka (School)" : "01",
+			"Satomi Touka (Casual)" : "02",
+			"Satomi Touka (Swimsuit)" : "50",
+			"Satomi Touka (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Hiiragi Nemu",
+		"ID" : "1014",
+		"ICON" : "card_10144_d.png",
+		"SKIN" : {
+			"Hiiragi Nemu" : "00",
+			"Hiiragi Nemu (School)" : "01",
+			"Hiiragi Nemu (Casual)" : "02",
+			"Hiiragi Nemu (School 2)" : "03",
+			"Hiiragi Nemu (Swimsuit)" : "50",
+			"Hiiragi Nemu (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Alina Gray",
+		"ID" : "1008",
+		"ICON" : "card_10084_d.png",
+		"SKIN" : {
+			"Alina Gray" : "00",
+			"Alina Gray (Uniform)" : "01",
+			"Alina Gray (Hospital Gown)" : "02",
+			"Alina Gray (Swimsuit)" : "50",
+			"Alina Gray (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Azusa Mifuyu",
+		"ID" : "1006",
+		"ICON" : "card_10064_d.png",
+		"SKIN" : {
+			"Azusa Mifuyu" : "00",
+			"Azusa Mifuyu (Casual)" : "01",
+			"Azusa Mifuyu (School)" : "02",
+			"Azusa Mifuyu (Swimsuit)" : "50",
+			"Azusa Mifuyu (MagiRepo)" : "88",
+			"Azusa Mifuyu (? [100690])" : "90"
+		}
+	},
+	{
+		"NAME" : "Tamaki Ui",
+		"ID" : "1015",
+		"ICON" : "card_10154_d.png",
+		"SKIN" : {
+			"Tamaki Ui" : "00",
+			"Tamaki Ui (School)" : "01",
+			"Tamaki Ui (Casual)" : "02",
+			"Tamaki Ui (Loungewear)" : "03",
+			"Tamaki Ui (Shadow)" : "04",
+			"Tamaki Ui (Swimsuit)" : "50",
+			"Tamaki Ui (MagiRepo)" : "88"
+		}
 	},
 	{
 		"NAME" : "Sawa Sudachi",
@@ -98,19 +191,6 @@ var CharData = [
 			"Rumor of the 10,000-Year Sakura (School)" : "01",
 			"Rumor of the 10,000-Year Sakura (Casual)" : "02",
 			"Rumor of the 10,000-Year Sakura (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Hiiragi Nemu",
-		"ID" : "1014",
-		"ICON" : "card_10144_d.png",
-		"SKIN" : {
-			"Hiiragi Nemu" : "00",
-			"Hiiragi Nemu (School)" : "01",
-			"Hiiragi Nemu (Casual)" : "02",
-			"Hiiragi Nemu (School 2)" : "03",
-			"Hiiragi Nemu (Swimsuit)" : "50",
-			"Hiiragi Nemu (MagiRepo)" : "88"
 		}
 	},
 	{
@@ -504,18 +584,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Alina Gray",
-		"ID" : "1008",
-		"ICON" : "card_10084_d.png",
-		"SKIN" : {
-			"Alina Gray" : "00",
-			"Alina Gray (Uniform)" : "01",
-			"Alina Gray (Hospital Gown)" : "02",
-			"Alina Gray (Swimsuit)" : "50",
-			"Alina Gray (MagiRepo)" : "88"
-		}
-	},
-	{
 		"NAME" : "Amane Tsukasa",
 		"ID" : "1019",
 		"ICON" : "card_10193_d.png",
@@ -537,17 +605,6 @@ var CharData = [
 			"Amane Tsukuyo (Christmas)" : "50",
 			"Amane Tsukuyo (Winter)" : "51",
 			"Amane Tsukuyo (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Amane Sisters Mizugi Ver.",
-		"ID" : "1118",
-		"ICON" : "card_11184_d.png",
-		"SKIN" : {
-			"Amane Sisters Mizugi Ver. (Duo)" : "00,02",
-			"Amane Sisters Mizugi Ver." : "00",
-			"Amane Sisters Mizugi Ver. (Tsukuyo)" : "01",
-			"Amane Sisters Mizugi Ver. (Tsukasa)" : "02"
 		}
 	},
 	{
@@ -609,19 +666,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Azusa Mifuyu",
-		"ID" : "1006",
-		"ICON" : "card_10064_d.png",
-		"SKIN" : {
-			"Azusa Mifuyu" : "00",
-			"Azusa Mifuyu (Casual)" : "01",
-			"Azusa Mifuyu (School)" : "02",
-			"Azusa Mifuyu (Swimsuit)" : "50",
-			"Azusa Mifuyu (MagiRepo)" : "88",
-			"Azusa Mifuyu (? [100690])" : "90"
-		}
-	},
-	{
 		"NAME" : "Chiaki Riko",
 		"ID" : "3035",
 		"ICON" : "card_30354_d.png",
@@ -653,24 +697,6 @@ var CharData = [
 			"Chun Meiyun (School)" : "01",
 			"Chun Meiyun (Shadow)" : "02",
 			"Chun Meiyun (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Corbeau",
-		"ID" : "4025",
-		"ICON" : "card_40253_d.png",
-		"SKIN" : {
-			"Corbeau" : "00",
-			"Corbeau (Casual)" : "01"
-		}
-	},
-	{
-		"NAME" : "Elisa Celjska",
-		"ID" : "4026",
-		"ICON" : "card_40264_d.png",
-		"SKIN" : {
-			"Elisa Celjska" : "00",
-			"Elisa Celjska (Casual)" : "01"
 		}
 	},
 	{
@@ -1256,18 +1282,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Satomi Touka",
-		"ID" : "1007",
-		"ICON" : "card_10074_d.png",
-		"SKIN" : {
-			"Satomi Touka" : "00",
-			"Satomi Touka (School)" : "01",
-			"Satomi Touka (Casual)" : "02",
-			"Satomi Touka (Swimsuit)" : "50",
-			"Satomi Touka (MagiRepo)" : "88"
-		}
-	},
-	{
 		"NAME" : "Sengoku Nadeko",
 		"ID" : "4044",
 		"ICON" : "card_40444_d.png",
@@ -1356,20 +1370,6 @@ var CharData = [
 		"SKIN" : {
 			"Tamaki Iroha Swimsuit Ver." : "00",
 			"Tamaki Iroha Swimsuit Ver. (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Tamaki Ui",
-		"ID" : "1015",
-		"ICON" : "card_10154_d.png",
-		"SKIN" : {
-			"Tamaki Ui" : "00",
-			"Tamaki Ui (School)" : "01",
-			"Tamaki Ui (Casual)" : "02",
-			"Tamaki Ui (Loungewear)" : "03",
-			"Tamaki Ui (Shadow)" : "04",
-			"Tamaki Ui (Swimsuit)" : "50",
-			"Tamaki Ui (MagiRepo)" : "88"
 		}
 	},
 	{
