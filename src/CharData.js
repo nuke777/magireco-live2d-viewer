@@ -1,5 +1,25 @@
 var CharData = [
 	{
+		"NAME" : "Tomoe Mami Swimsuit ver.",
+		"ID" : "2501",
+		"ICON" : "card_25014_d.png",
+		"SKIN" : {
+			"Tomoe Mami Swimsuit ver.." : "00",
+		}
+	},
+	{
+		"NAME" : "Momoe Nagisa",
+		"ID" : "2007",
+		"ICON" : "card_20074_d.png",
+		"SKIN" : {
+			"Momoe Nagisa" : "00",
+			"Momoe Nagisa (School)" : "01",
+			"Momoe Nagisa (Swimsuit)" : "50",
+			"Momoe Nagisa (MagiRepo)" : "88",
+			"Momoe Nagisa (MagiRepo 2)" : "89"
+		}
+	},
+	{
 		"NAME" : "Rena Kaede Swimsuit ver.",
 		"ID" : "1209",
 		"ICON" : "card_12094_d.png",
@@ -1185,17 +1205,6 @@ var CharData = [
 			"Miyako Hinano (Winter)" : "50",
 			"Miyako Hinano (Swimsuit)" : "51",
 			"Miyako Hinano (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Momoe Nagisa",
-		"ID" : "2007",
-		"ICON" : "card_20074_d.png",
-		"SKIN" : {
-			"Momoe Nagisa" : "00",
-			"Momoe Nagisa (School)" : "01",
-			"Momoe Nagisa (MagiRepo)" : "88",
-			"Momoe Nagisa (MagiRepo 2)" : "89"
 		}
 	},
 	{

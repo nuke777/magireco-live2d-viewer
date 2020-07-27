@@ -32,6 +32,7 @@ LAppModel.prototype.load = function(gl, id, callback, thisRef2)
     this.setInitialized(false);
     this.enableLoop = true;
     modelSettingPath = "https://media.nuke.moe/magireco/assets/live2d/"+id+"/model.json";
+    //modelSettingPath = "../assets/live2d/"+id+"/model.json";
 
     this.modelHomeDir = modelSettingPath.substring(0, modelSettingPath.lastIndexOf("/") + 1); 
     //console.log(this.modelHomeDir);

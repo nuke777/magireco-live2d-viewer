@@ -19,6 +19,17 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Tomoe Mami Swimsuit ver.",
+	"ID": "2501",
+	"ICON": "card_25014_d.png",
+	"SKIN": {	
+		"Doppel": "250100_d_r",
+		"Magia": "250100_m_r",
+		"Regular": "250100_r",	
+		"Regular_09": "250109_r"	
+	}
+}, 
+{
 	"NAME": "Rena Kaede Swimsuit ver.",
 	"ID": "1209",
 	"ICON": "card_12094_d.png",
