@@ -19,6 +19,19 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Eternal Sakura Swimsuit ver.",
+	"ID": "3502",
+	"ICON": "card_35024_d.png",
+	"SKIN": {	
+		"Doppel": "350200_d_r",
+		"Magia": "350200_m_r",
+		"Regular": "350200_r",	
+		"Regular_09": "350209_r",
+		"Magia_50": "350250_m_r",
+		"Regular_50": "350250_r"	
+	}
+}, 
+{
 	"NAME": "Tomoe Mami Swimsuit ver.",
 	"ID": "2501",
 	"ICON": "card_25014_d.png",
@@ -1088,7 +1101,7 @@ var CharData = [
 		"Regular_50": "402250_r"
 	}
 }, {
-	"NAME": "Rumor of the 10,000-Year Sakura",
+	"NAME": "Eternal Sakura",
 	"ID": "3043",
 	"ICON": "card_30434_d.png",
 	"SKIN": {

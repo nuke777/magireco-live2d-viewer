@@ -1,10 +1,103 @@
 var CharData = [
 	{
+		"NAME" : "Eternal Sakura Swimsuit ver.",
+		"ID" : "3502",
+		"ICON" : "card_35024_d.png",
+		"SKIN" : {
+			"Eternal Sakura Swimsuit ver." : "00",
+		}
+	},
+	{
+		"NAME" : "Makino Ikumi",
+		"ID" : "3053",
+		"ICON" : "card_30534_d.png",
+		"SKIN" : {
+			"Makino Ikumi" : "00",
+			"Makino Ikumi (School)" : "01",
+			"Makino Ikumi (Maid)" : "02",
+			"Makino Ikumi (Black Feather)" : "03",
+			"Makino Ikumi (Swimsuit)" : "50",
+			"Makino Ikumi (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Midori Ryou",
+		"ID" : "3046",
+		"ICON" : "card_30463_d.png",
+		"SKIN" : {
+			"Midori Ryou" : "00",
+			"Midori Ryou (School)" : "01",
+			"Midori Ryou (Swimsuit)" : "50",
+			"Midori Ryou (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Sakura Kyouko Swimsuit Ver.",
+		"ID" : "2600",
+		"ICON" : "card_26004_d.png",
+		"SKIN" : {
+			"Sakura Kyouko Swimsuit Ver." : "00"
+		}
+	},
+	{
+		"NAME" : "Yakumo Mitama",
+		"ID" : "1017",
+		"ICON" : "card_10174_d.png",
+		"SKIN" : {
+			"Yakumo Mitama" : "00",
+			"Yakumo Mitama (Casual)" : "01",
+			"Yakumo Mitama (School)" : "02",
+			"Yakumo Mitama (Swimsuit)" : "50",
+			"Yakumo Mitama (Mustache)" : "51",
+			"Yakumo Mitama (MagiRepo)" : "88",
+			"Yakumo Mitama (? [101799])" : "99"
+		}
+	},
+	{
+		"NAME" : "Izumi Kanagi",
+		"ID" : "1016",
+		"ICON" : "card_10164_d.png",
+		"SKIN" : {
+			"Izumi Kanagi" : "00",
+			"Izumi Kanagi (School)" : "01",
+			"Izumi Kanagi (Maid)" : "02",
+			"Izumi Kanagi (Winter)" : "50",
+			"Izumi Kanagi (Swimsuit)" : "51",
+			"Izumi Kanagi (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Tamaki Ui",
+		"ID" : "1015",
+		"ICON" : "card_10154_d.png",
+		"SKIN" : {
+			"Tamaki Ui" : "00",
+			"Tamaki Ui (School)" : "01",
+			"Tamaki Ui (Casual)" : "02",
+			"Tamaki Ui (Loungewear)" : "03",
+			"Tamaki Ui (Shadow)" : "04",
+			"Tamaki Ui (Swimsuit)" : "50",
+			"Tamaki Ui (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Misono Karin",
+		"ID" : "1012",
+		"ICON" : "card_10124_d.png",
+		"SKIN" : {
+			"Misono Karin" : "00",
+			"Misono Karin (School)" : "01",
+			"Misono Karin (Hospital Gown)" : "02",
+			"Misono Karin (Swimsuit)" : "50",
+			"Misono Karin (MagiRepo)" : "88"
+		}
+	},
+	{
 		"NAME" : "Tomoe Mami Swimsuit ver.",
 		"ID" : "2501",
 		"ICON" : "card_25014_d.png",
 		"SKIN" : {
-			"Tomoe Mami Swimsuit ver.." : "00",
+			"Tomoe Mami Swimsuit ver." : "00",
 		}
 	},
 	{
@@ -141,20 +234,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Tamaki Ui",
-		"ID" : "1015",
-		"ICON" : "card_10154_d.png",
-		"SKIN" : {
-			"Tamaki Ui" : "00",
-			"Tamaki Ui (School)" : "01",
-			"Tamaki Ui (Casual)" : "02",
-			"Tamaki Ui (Loungewear)" : "03",
-			"Tamaki Ui (Shadow)" : "04",
-			"Tamaki Ui (Swimsuit)" : "50",
-			"Tamaki Ui (MagiRepo)" : "88"
-		}
-	},
-	{
 		"NAME" : "Sawa Sudachi",
 		"ID" : "1039",
 		"ICON" : "card_10394_d.png",
@@ -203,14 +282,14 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Rumor of the 10,000-Year Sakura",
+		"NAME" : "Eternal Sakura",
 		"ID" : "3043",
 		"ICON" : "card_30434_d.png",
 		"SKIN" : {
-			"Rumor of the 10,000-Year Sakura" : "00",
-			"Rumor of the 10,000-Year Sakura (School)" : "01",
-			"Rumor of the 10,000-Year Sakura (Casual)" : "02",
-			"Rumor of the 10,000-Year Sakura (MagiRepo)" : "88"
+			"Eternal Sakura" : "00",
+			"Eternal Sakura (School)" : "01",
+			"Eternal Sakura (Casual)" : "02",
+			"Eternal Sakura (MagiRepo)" : "88"
 		}
 	},
 	{
@@ -877,19 +956,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Izumi Kanagi",
-		"ID" : "1016",
-		"ICON" : "card_10164_d.png",
-		"SKIN" : {
-			"Izumi Kanagi" : "00",
-			"Izumi Kanagi (School)" : "01",
-			"Izumi Kanagi (Maid)" : "02",
-			"Izumi Kanagi (Winter)" : "50",
-			"Izumi Kanagi (Swimsuit)" : "51",
-			"Izumi Kanagi (MagiRepo)" : "88"
-		}
-	},
-	{
 		"NAME" : "Kagami Masara",
 		"ID" : "3029",
 		"ICON" : "card_30293_d.png",
@@ -1032,18 +1098,6 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Makino Ikumi",
-		"ID" : "3053",
-		"ICON" : "card_30534_d.png",
-		"SKIN" : {
-			"Makino Ikumi" : "00",
-			"Makino Ikumi (School)" : "01",
-			"Makino Ikumi (Maid)" : "02",
-			"Makino Ikumi (Black Feather)" : "03",
-			"Makino Ikumi (MagiRepo)" : "88"
-		}
-	},
-	{
 		"NAME" : "Mao Himika",
 		"ID" : "3020",
 		"ICON" : "card_30204_d.png",
@@ -1072,16 +1126,6 @@ var CharData = [
 			"Melissa de Vignolles" : "00",
 			"Melissa de Vignolles (Casual)" : "01",
 			"Melissa de Vignolles (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Midori Ryou",
-		"ID" : "3046",
-		"ICON" : "card_30463_d.png",
-		"SKIN" : {
-			"Midori Ryou" : "00",
-			"Midori Ryou (School)" : "01",
-			"Midori Ryou (MagiRepo)" : "88"
 		}
 	},
 	{
@@ -1162,18 +1206,6 @@ var CharData = [
 			"Misaki Umika" : "00",
 			"Misaki Umika (School)" : "01",
 			"Misaki Umika (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Misono Karin",
-		"ID" : "1012",
-		"ICON" : "card_10124_d.png",
-		"SKIN" : {
-			"Misono Karin" : "00",
-			"Misono Karin (School)" : "01",
-			"Misono Karin (Hospital Gown)" : "02",
-			"Misono Karin (Swimsuit)" : "50",
-			"Misono Karin (MagiRepo)" : "88"
 		}
 	},
 	{
@@ -1271,14 +1303,6 @@ var CharData = [
 			"Sakura Kyouko (Winter)" : "52",
 			"Sakura Kyouko (MagiRepo)" : "88",
 			"Sakura Kyouko (MagiRepo 2)" : "89"
-		}
-	},
-	{
-		"NAME" : "Sakura Kyouko Swimsuit Ver.",
-		"ID" : "2600",
-		"ICON" : "card_26004_d.png",
-		"SKIN" : {
-			"Sakura Kyouko Swimsuit Ver." : "00"
 		}
 	},
 	{
@@ -1515,20 +1539,6 @@ var CharData = [
 			"Yagami Hayate" : "00",
 			"Yagami Hayate (Casual)" : "01",
 			"Yagami Hayate ()" : "02"
-		}
-	},
-	{
-		"NAME" : "Yakumo Mitama",
-		"ID" : "1017",
-		"ICON" : "card_10174_d.png",
-		"SKIN" : {
-			"Yakumo Mitama" : "00",
-			"Yakumo Mitama (Casual)" : "01",
-			"Yakumo Mitama (School)" : "02",
-			"Yakumo Mitama (Swimsuit)" : "50",
-			"Yakumo Mitama (Mustache)" : "51",
-			"Yakumo Mitama (MagiRepo)" : "88",
-			"Yakumo Mitama (? [101799])" : "99"
 		}
 	},
 	{
