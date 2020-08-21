@@ -12,12 +12,12 @@
 		}
 	},
 	{
-		"NAME" : "栗栖 Alexandra",
+		"NAME" : "Kurusu Alexandra",
 		"ID" : "1035",
 		"ICON" : "card_10352_d.png",
 		"SKIN" : {
-			"栗栖 Alexandra" : "00",
-			"栗栖 Alexandra (School)" : "01",
+			"Kurusu Alexandra" : "00",
+			"Kurusu Alexandra (School)" : "01",
 		}
 	},
 	{
@@ -36,6 +36,26 @@
 		"SKIN" : {
 			"Aika Himena" : "00",
 			"Aika Himena (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Sasara Hanna",
+		"ID" : "3018",
+		"ICON" : "card_30184_d.png",
+		"SKIN" : {
+			"Sasara Hanna" : "00",
+			"Sasara Hanna (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Nanami Yachiyo & Tamaki Iroha",
+		"ID" : "1301",
+		"ICON" : "card_13014_d.png",
+		"SKIN" : {
+			"Nanami Yachiyo & Tamaki Iroha (Duo)" : "00,02",
+			"Nanami Yachiyo & Tamaki Iroha" : "00",
+			"Nanami Yachiyo & Tamaki Iroha (Iroha)" : "01",
+			"Nanami Yachiyo & Tamaki Iroha (Yachiyo)" : "02"
 		}
 	},
 	{
@@ -1329,15 +1349,6 @@
 		}
 	},
 	{
-		"NAME" : "Sasara Hanna",
-		"ID" : "3018",
-		"ICON" : "card_30184_d.png",
-		"SKIN" : {
-			"Sasara Hanna" : "00",
-			"Sasara Hanna (School)" : "01"
-		}
-	},
-	{
 		"NAME" : "Sengoku Nadeko",
 		"ID" : "4044",
 		"ICON" : "card_40444_d.png",
@@ -1541,17 +1552,6 @@
 			"Nanami Yachiyo (Swimsuit)" : "51",
 			"Nanami Yachiyo (MagiRepo)" : "88",
 			"Nanami Yachiyo (MagiRepo 2)" : "89"
-		}
-	},
-	{
-		"NAME" : "Nanami Yachiyo & Tamaki Iroha",
-		"ID" : "1301",
-		"ICON" : "card_13014_d.png",
-		"SKIN" : {
-			"Nanami Yachiyo & Tamaki Iroha (Duo)" : "00,02",
-			"Nanami Yachiyo & Tamaki Iroha" : "00",
-			"Nanami Yachiyo & Tamaki Iroha (Iroha)" : "01",
-			"Nanami Yachiyo & Tamaki Iroha (Yachiyo)" : "02"
 		}
 	},
 	{
