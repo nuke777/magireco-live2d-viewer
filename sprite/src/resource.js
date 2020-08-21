@@ -19,6 +19,17 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Little Kyubey",
+	"ID": "1042",
+	"ICON": "card_10424_d.png",
+	"SKIN": {	
+		"Doppel": "104200_d_r",
+		"Magia": "104200_m_r",
+		"Regular": "104200_r",	
+		"Regular_09": "104209_r",
+	}
+},
+{
 	"NAME": "Eternal Sakura Swimsuit ver.",
 	"ID": "3502",
 	"ICON": "card_35024_d.png",

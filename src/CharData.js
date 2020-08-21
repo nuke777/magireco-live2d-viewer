@@ -1,4 +1,43 @@
-var CharData = [
+	var CharData = [
+	{
+		"NAME" : "Little Kyubey",
+		"ID" : "1042",
+		"ICON" : "card_10424_d.png",
+		"SKIN" : {
+			"Little Kyubey (Iroha)" : "00",
+			"Little Kyubey (Yachiyo)" : "01",
+			"Little Kyubey (Tsuruno)" : "02",
+			"Little Kyubey (Felicia)" : "03",
+			"Little Kyubey (Sana)" : "04",
+		}
+	},
+	{
+		"NAME" : "栗栖 Alexandra",
+		"ID" : "1035",
+		"ICON" : "card_10352_d.png",
+		"SKIN" : {
+			"栗栖 Alexandra" : "00",
+			"栗栖 Alexandra (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Yui Urara",
+		"ID" : "1036",
+		"ICON" : "card_10361_d.png",
+		"SKIN" : {
+			"Yui Urara" : "00",
+			"Yui Urara (School)" : "01",
+		}
+	},
+	{
+		"NAME" : "Aika Himena",
+		"ID" : "1028",
+		"ICON" : "card_10281_d.png",
+		"SKIN" : {
+			"Aika Himena" : "00",
+			"Aika Himena (School)" : "01",
+		}
+	},
 	{
 		"NAME" : "Eternal Sakura Swimsuit ver.",
 		"ID" : "3502",
@@ -358,22 +397,6 @@ var CharData = [
 		"SKIN" : {
 			"Yuuki Rion" : "00",
 			"Yuuki Rion (School)" : "01"
-		}
-	},
-	{
-		"NAME" : "有愛 Urara",
-		"ID" : "1036",
-		"ICON" : "card_10361_d.png",
-		"SKIN" : {
-			"有愛 Urara" : "00",
-		}
-	},
-	{
-		"NAME" : "Aika Himena",
-		"ID" : "1028",
-		"ICON" : "card_10281_d.png",
-		"SKIN" : {
-			"Aika Himena" : "00",
 		}
 	},
 	{
