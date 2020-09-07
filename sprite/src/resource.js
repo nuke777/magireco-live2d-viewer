@@ -19,6 +19,17 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Misaki Umika",
+	"ID": "4012",
+	"ICON": "card_40123_d.png",
+	"SKIN": {
+		"Doppel": "401200_d_r",
+		"Magia": "401200_m_r",
+		"Regular": "401200_r",
+		"Regular_01": "401201_r",
+		"Regular_09": "401209_r"
+	}
+}, {
 	"NAME": "Little Kyubey",
 	"ID": "1042",
 	"ICON": "card_10424_d.png",
@@ -1006,14 +1017,6 @@ var CharData = [
 	"SKIN": {
 		"Regular": "402450_r",
 		"Regular_51": "402451_r"
-	}
-}, {
-	"NAME": "Misaki Umika",
-	"ID": "4012",
-	"ICON": "card_40123_d.png",
-	"SKIN": {
-		"Magia": "401200_m_r",
-		"Regular": "401200_r"
 	}
 }, {
 	"NAME": "Misono Karin",

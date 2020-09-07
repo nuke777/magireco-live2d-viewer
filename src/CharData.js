@@ -1,4 +1,4 @@
-	var CharData = [
+var CharData = [
 	{
 		"NAME" : "Little Kyubey",
 		"ID" : "1042",
