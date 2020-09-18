@@ -1,5 +1,14 @@
 var CharData = [
 	{
+		"NAME" : "Tokime Shizuka",
+		"ID" : "1025",
+		"ICON" : "card_10254_d.png",
+		"SKIN" : {
+			"Tokime Shizuka" : "00",
+			"Tokime Shizuka (School)" : "01"
+		}
+	},
+	{
 		"NAME" : "Little Kyubey",
 		"ID" : "1042",
 		"ICON" : "card_10424_d.png",
@@ -1481,15 +1490,6 @@ var CharData = [
 		"SKIN" : {
 			"Toki Sunao" : "00",
 			"Toki Sunao (School)" : "01"
-		}
-	},
-	{
-		"NAME" : "Tokime Shizuka",
-		"ID" : "1025",
-		"ICON" : "card_10251_d.png",
-		"SKIN" : {
-			"Tokime Shizuka" : "00",
-			"Tokime Shizuka (School)" : "01"
 		}
 	},
 	{
