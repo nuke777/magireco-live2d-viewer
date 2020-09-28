@@ -19,6 +19,16 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Kazari Jun",
+	"ID": "3051",
+	"ICON": "card_30514_d.png",
+	"SKIN": {	
+		"Doppel": "305100_d_r",
+		"Magia": "305100_m_r",
+		"Regular": "305100_r",	
+		"Regular_09": "305109_r",
+	}
+}, {
 	"NAME": "Tokime Shizuka",
 	"ID": "1025",
 	"ICON": "card_10254_d.png",

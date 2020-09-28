@@ -1,5 +1,38 @@
 var CharData = [
 	{
+		"NAME" : "Kazari Jun",
+		"ID" : "3051",
+		"ICON" : "card_30514_d.png",
+		"SKIN" : {
+			"Kazari Jun" : "00",
+			"Kazari Jun (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Miwa Mitsune",
+		"ID" : "3054",
+		"ICON" : "card_30541_d.png",
+		"SKIN" : {
+			"Miwa Mitsune (School)" : "01"
+		}
+	},
+	{
+		"NAME" : "Azusa Mifuyu (Young)",
+		"ID" : "1102",
+		"ICON" : "card_11022_d.png",
+		"SKIN" : {
+			"Azusa Mifuyu (Young)" : "04"
+		}
+	},
+	{
+		"NAME" : "Nanami Yachiyo (Young)",
+		"ID" : "1102",
+		"ICON" : "card_11021_d.png",
+		"SKIN" : {
+			"Nanami Yachiyo (Young)" : "03"
+		}
+	},
+	{
 		"NAME" : "Tokime Shizuka",
 		"ID" : "1025",
 		"ICON" : "card_10254_d.png",
