@@ -1,5 +1,16 @@
 var CharData = [
 	{
+		"NAME" : "Nanami Yachiyo & Asuza Mifuyu",
+		"ID" : "1102",
+		"ICON" : "card_11024_d.png",
+		"SKIN" : {
+			"Nanami Yachiyo & Asuza Mifuyu (Duo)" : "00,02",
+			"Nanami Yachiyo & Asuza Mifuyu" : "00",
+			"Nanami Yachiyo & Asuza Mifuyu (Yachiyo)" : "01",
+			"Nanami Yachiyo & Asuza Mifuyu (Mifuyu)" : "02"
+		}
+	},
+	{
 		"NAME" : "Kazari Jun",
 		"ID" : "3051",
 		"ICON" : "card_30514_d.png",

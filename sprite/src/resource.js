@@ -19,6 +19,16 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Nanami Yachiyo & Asuza Mifuyu",
+	"ID": "1102",
+	"ICON": "card_11024_d.png",
+	"SKIN": {	
+		"Doppel": "110200_d_r",
+		"Magia": "110200_m_r",
+		"Regular": "110200_r",	
+		"Regular_09": "110209_r",
+	}
+}, {
 	"NAME": "Kazari Jun",
 	"ID": "3051",
 	"ICON": "card_30514_d.png",
