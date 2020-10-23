@@ -19,6 +19,61 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Izumi Kanagi Vampire ver.",
+	"ID": "1116",
+	"ICON": "card_11164_d.png",
+	"SKIN": {	
+		"Doppel": "111600_d_r",
+		"Magia": "111600_m_r",
+		"Regular": "111600_r",	
+		"Regular_09": "111609_r",
+		"Regular_50": "111650_r",
+	}
+}, {
+	"NAME": "Togame Momoko Sister ver.",
+	"ID": "1110",
+	"ICON": "card_11104_d.png",
+	"SKIN": {	
+		"Doppel": "111000_d_r",
+		"Magia": "111000_m_r",
+		"Regular": "111000_r",	
+	}
+}, {
+	"NAME": "Anna Meru",
+	"ID": "3037",
+	"ICON": "card_30373_d.png",
+	"SKIN": {
+		"Doppel": "303700_d_r",
+		"Magia": "303700_m_r",
+		"Regular": "303700_r",
+		"Regular_01": "303701_r",
+		"Regular_09": "303709_r",
+		"Magia_51": "303751_m_r",
+		"Regular_51": "303751_r",
+	}
+}, {
+	"NAME": "Midori Ryou",
+	"ID": "3046",
+	"ICON": "card_30463_d.png",
+	"SKIN": {
+		"Magia": "304600_m_r",
+		"Regular": "304600_r",
+		"Magia_51": "304651_m_r",
+		"Regular_51": "304651_r"
+	}
+}, {
+	"NAME": "Yukino Kanae",
+	"ID": "3049",
+	"ICON": "card_30494_d.png",
+	"SKIN": {
+		"Doppel": "304900_d_r",
+		"Magia": "304900_m_r",
+		"Regular": "304900_r",
+		"Regular_09": "304909_r",
+		"Magia_51": "304951_m_r",
+		"Regular_51": "304951_r",
+	}
+}, {
 	"NAME": "Nanami Yachiyo & Asuza Mifuyu",
 	"ID": "1102",
 	"ICON": "card_11024_d.png",
@@ -544,17 +599,6 @@ var CharData = [
 		"Regular": "301000_r"
 	}
 }, {
-	"NAME": "Anna Meru",
-	"ID": "3037",
-	"ICON": "card_30373_d.png",
-	"SKIN": {
-		"Doppel": "303700_d_r",
-		"Magia": "303700_m_r",
-		"Regular": "303700_r",
-		"Regular_01": "303701_r",
-		"Regular_09": "303709_r"
-	}
-}, {
 	"NAME": "Awane Kokoro",
 	"ID": "3016",
 	"ICON": "card_30164_d.png",
@@ -982,14 +1026,6 @@ var CharData = [
 		"Magia": "402300_m_r",
 		"Regular": "402300_r",
 		"Regular_09": "402309_r"
-	}
-}, {
-	"NAME": "Midori Ryou",
-	"ID": "3046",
-	"ICON": "card_30463_d.png",
-	"SKIN": {
-		"Magia": "304600_m_r",
-		"Regular": "304600_r"
 	}
 }, {
 	"NAME": "Miki Sayaka",
@@ -1446,16 +1482,6 @@ var CharData = [
 		"Regular_09": "110309_r",
 		"Magia_50": "110350_m_r",
 		"Regular_50": "110350_r"
-	}
-}, {
-	"NAME": "Yukino Kanae",
-	"ID": "3049",
-	"ICON": "card_30494_d.png",
-	"SKIN": {
-		"Doppel": "304900_d_r",
-		"Magia": "304900_m_r",
-		"Regular": "304900_r",
-		"Regular_09": "304909_r"
 	}
 }, {
 	"NAME": "Yusa Hazuki",

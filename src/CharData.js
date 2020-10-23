@@ -1,5 +1,56 @@
 var CharData = [
 	{
+		"NAME" : "Izumi Kanagi Vampire ver.",
+		"ID" : "1116",
+		"ICON" : "card_11164_d.png",
+		"SKIN" : {
+			"Izumi Kanagi Vampire ver." : "00"
+		}
+	},
+	{
+		"NAME" : "Togame Momoko Sister ver.",
+		"ID" : "1110",
+		"ICON" : "card_11104_d.png",
+		"SKIN" : {
+			"Togame Momoko Sister ver." : "00"
+		}
+	},
+	{
+		"NAME" : "Anna Meru",
+		"ID" : "3037",
+		"ICON" : "card_30373_d.png",
+		"SKIN" : {
+			"Anna Meru" : "00",
+			"Anna Meru (School)" : "01",
+			"Anna Meru (Winter)" : "50",
+			"Anna Meru (Halloween)" : "51",
+			"Anna Meru (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Midori Ryou",
+		"ID" : "3046",
+		"ICON" : "card_30463_d.png",
+		"SKIN" : {
+			"Midori Ryou" : "00",
+			"Midori Ryou (School)" : "01",
+			"Midori Ryou (Swimsuit)" : "50",
+			"Midori Ryou (Halloween)" : "51",
+			"Midori Ryou (MagiRepo)" : "88"
+		}
+	},
+	{
+		"NAME" : "Yukino Kanae",
+		"ID" : "3049",
+		"ICON" : "card_30494_d.png",
+		"SKIN" : {
+			"Yukino Kanae" : "00",
+			"Yukino Kanae (School)" : "01",
+			"Yukino Kanae (Halloween)" : "50",
+			"Yukino Kanae (MagiRepo)" : "88"
+		}
+	},
+	{
 		"NAME" : "Nanami Yachiyo & Asuza Mifuyu",
 		"ID" : "1102",
 		"ICON" : "card_11024_d.png",
@@ -130,17 +181,6 @@ var CharData = [
 			"Makino Ikumi (Black Feather)" : "03",
 			"Makino Ikumi (Swimsuit)" : "50",
 			"Makino Ikumi (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Midori Ryou",
-		"ID" : "3046",
-		"ICON" : "card_30463_d.png",
-		"SKIN" : {
-			"Midori Ryou" : "00",
-			"Midori Ryou (School)" : "01",
-			"Midori Ryou (Swimsuit)" : "50",
-			"Midori Ryou (MagiRepo)" : "88"
 		}
 	},
 	{
@@ -821,17 +861,6 @@ var CharData = [
 			"Ami Ria" : "00",
 			"Ami Ria (School)" : "01",
 			"Ami Ria (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Anna Meru",
-		"ID" : "3037",
-		"ICON" : "card_30373_d.png",
-		"SKIN" : {
-			"Anna Meru" : "00",
-			"Anna Meru (School)" : "01",
-			"Anna Meru (Winter)" : "50",
-			"Anna Meru (MagiRepo)" : "88"
 		}
 	},
 	{
@@ -1653,16 +1682,6 @@ var CharData = [
 		"SKIN" : {
 			"Yui Tsuruno Rumor Ver." : "00",
 			"Yui Tsuruno Rumor Ver. (MagiRepo)" : "88"
-		}
-	},
-	{
-		"NAME" : "Yukino Kanae",
-		"ID" : "3049",
-		"ICON" : "card_30494_d.png",
-		"SKIN" : {
-			"Yukino Kanae" : "00",
-			"Yukino Kanae (School)" : "01",
-			"Yukino Kanae (MagiRepo)" : "88"
 		}
 	},
 	{
