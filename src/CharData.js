@@ -1,5 +1,14 @@
 var CharData = [
 	{
+		"NAME" : "Yakumo Mikage",
+		"ID" : "1038",
+		"ICON" : "card_10384_d.png",
+		"SKIN" : {
+			"Yakumo Mikage" : "00",
+			"Yakumo Mikage (School)" : "01",
+		}
+	},	
+	{
 		"NAME" : "Izumi Kanagi Vampire ver.",
 		"ID" : "1116",
 		"ICON" : "card_11164_d.png",
@@ -8,7 +17,7 @@ var CharData = [
 		}
 	},
 	{
-		"NAME" : "Togame Momoko Sister ver.",
+		"NAME" : "Togame Momoko Sister ver.", 
 		"ID" : "1110",
 		"ICON" : "card_11104_d.png",
 		"SKIN" : {
@@ -405,15 +414,6 @@ var CharData = [
 			"Aoba Chika (School)" : "01",
 		}
 	},
-	{
-		"NAME" : "Yakumo Mikage",
-		"ID" : "1038",
-		"ICON" : "card_10381_d.png",
-		"SKIN" : {
-			"Yakumo Mikage" : "00",
-			"Yakumo Mikage (School)" : "01",
-		}
-	},	
 	{
 		"NAME" : "Satomi Nayuka",
 		"ID" : "1037",

@@ -19,6 +19,16 @@ var BgData = [{
 }];
 var CharData = [
 {
+	"NAME": "Yakumo Mikage",
+	"ID": "1038",
+	"ICON": "card_10384_d.png",
+	"SKIN": {	
+		"Doppel": "103800_d_r",
+		"Magia": "103800_m_r",
+		"Regular": "103800_r",	
+		"Regular_09": "103809_r",
+	}
+}, {
 	"NAME": "Izumi Kanagi Vampire ver.",
 	"ID": "1116",
 	"ICON": "card_11164_d.png",
@@ -36,7 +46,8 @@ var CharData = [
 	"SKIN": {	
 		"Doppel": "111000_d_r",
 		"Magia": "111000_m_r",
-		"Regular": "111000_r",	
+		"Regular": "111000_r",
+		"Regular_09": "111009_r",	
 	}
 }, {
 	"NAME": "Anna Meru",
